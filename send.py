@@ -7,18 +7,12 @@ from os import listdir, walk, replace
 from os.path import join,splitext, exists
 from time import sleep
 
-
+inputPath = r"\\127.0.0.1\c$\LAB_SHARED_FOLDER"
 
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
 
 channel.queue_declare(queue='hello')
-
-# Todo: Watch Folder for changes
-
-# def listFiles(dir):
-#     files = [join(dirpath,f) for (dirpath, dirnames, filenames) in walk(dir) for f in filenames if "empty_test\\done" not in dirpath] 
-#     return files 
 
 def getFiles(dir):
     files = []
@@ -66,6 +60,7 @@ def main(dir):
                 encodedFile = encodeFiles(f)
                 fileName, extension = getFileExtension(f)
                 dataDict = createMesseage(encodedFile,fileName,extension)
+                
                 channel.basic_publish(exchange='',
                                     routing_key='hello',
                                     body=dataDict)
@@ -73,19 +68,11 @@ def main(dir):
         else:
             continue
     
-            
-
-# file_exists = exists('empty_test\\done\\MARM.csv')
-# print(file_exists)
-
-
-
-
 
 if __name__ == '__main__':
 
     try:
-        main('empty_test')
+        main(inputPath)
         # main()
     except KeyboardInterrupt:
         print('Interrupted')
