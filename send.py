@@ -1,6 +1,5 @@
-from distutils import extension
+
 import sys
-from numpy import source
 import pika
 import base64
 import os
@@ -8,7 +7,9 @@ from os import listdir, walk, replace
 from os.path import join,splitext, exists
 from time import sleep
 import shutil
+import ssl
 
+sleepTime = 5
 inputPath = r"\\127.0.0.1\c$\LAB_SHARED_FOLDER"
 longTermStorageLocation = r"\\127.0.0.1\c$\long_term"
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
@@ -29,6 +30,7 @@ def checkForFiles(dir):
     if len(files) > 0:
         return files
     else:
+        print(f"No new files will check in {sleepTime} seconds")
         return None
 
 def getFileExtension(file):
@@ -61,7 +63,7 @@ def moveFile(dir):
         os.makedirs(target)
     # target = longTermStorageLocation + fileName
     shutil.move(dir,target)
-    pass
+    print("Moved " + fileName + " to long term storage")
 
 
 def main(dir):
@@ -75,10 +77,10 @@ def main(dir):
                 fileName, extension = getFileExtension(f)
                 dataDict = createMesseage(encodedFile,fileName,extension)
                 moveFile(f)
-                # channel.basic_publish(exchange='',
-                #                     routing_key='hello',
-                #                     body=dataDict)
-                # print("[X] Sent ", dataDict)
+                channel.basic_publish(exchange='',
+                                    routing_key='hello',
+                                    body=dataDict)
+                print("[X] Sent ", dataDict)
                 
         else:
             continue

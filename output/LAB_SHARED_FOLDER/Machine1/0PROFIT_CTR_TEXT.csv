@@ -1,0 +1,501 @@
+DI_SEQUENCE_NUMBER,DI_OPERATION_TYPE,LANGU,KOKRS,PRCTR,DATETO,DATEFROM,TXTSH,TXTMD,ODQ_CHANGEMODE,ODQ_ENTITYCNTR
+689,U,E,1000,PC3901,8/25/2001,8/26/2000,FHG PC PM GRP B GENL, ,U,1
+69,U,E,1000,0000001000,12/31/9999,3/31/2019,MicroE Group Genl,Microelectronics Group Genl,U,1
+1326,U,E,1000,0000001000,12/31/2000,9/1/1966,MicroE Group Genl,Microelectronics Group Genl,U,1
+70,U,E,1000,0000001000,3/30/2019,1/1/2001,MicroE Group Genl,Microelectronics Group Genl,U,1
+75,U,E,1000,0000001040,12/31/9999,10/4/2005,Obs Services General,Obsolete Services General (5000),U,1
+76,U,E,1000,0000001040,10/3/2005,9/1/1966,Obs Services General,Obsolete Services General (5000),U,1
+813,U,E,1000,0000001110,12/31/9999,9/3/2017,Transport & Storage,Transport & Storage,U,1
+1212,U,E,1000,0000001110,11/14/2006,9/1/1966,Transport & Storage,Transport & Storage,U,1
+1211,U,E,1000,0000001110,9/8/2013,11/15/2006,Transport & Storage,Transport & Storage,U,1
+1209,U,E,1000,0000001110,9/2/2017,10/1/2013,Transport & Storage,Transport & Storage,U,1
+1210,U,E,1000,0000001110,9/30/2013,9/9/2013,Transport & Storage,Transport & Storage,U,1
+200,U,E,1000,0000001160,3/31/2007,9/3/2006,200mm&Below Proc,200mm & Below Process & Miscellaneous,U,1
+188,U,E,1000,0000001160,3/31/2008,4/1/2007,200mm&Below Proc,200mm & Below Process & Miscellaneous,U,1
+203,U,E,1000,0000001160,9/2/2006,9/1/1966,200mm&Below Proc,200mm & Below Process & Miscellaneous,U,1
+178,U,E,1000,0000001160,9/5/2012,3/1/2009,200mm&Below Proc,200mm & Below Process & Miscellaneous,U,1
+174,U,E,1000,0000001160,12/31/9999,9/6/2012,200mm&Below Proc,200mm & Below Process & Miscellaneous,U,1
+180,U,E,1000,0000001160,2/28/2009,4/1/2008,200mm&Below Proc,200mm & Below Process & Miscellaneous,U,1
+1081,U,E,1000,0000001170,12/31/9999,2/17/2016,Mask Carriers/Shippe,Mask Carriers / Shippers,U,1
+1083,U,E,1000,0000001170,2/28/2015,10/4/2005,Mask Carriers/Shippe,Mask Carriers / Shippers,U,1
+1082,U,E,1000,0000001170,2/16/2016,3/1/2015,Mask Carriers/Shippe,Mask Carriers / Shippers,U,1
+1084,U,E,1000,0000001170,10/3/2005,9/1/1966,Mask Carriers/Shippe,Mask Carriers / Shippers,U,1
+94,U,E,1000,0000001171,12/31/9999,9/1/1966,Obs (1170),Obs Mask Carriers/Shippers Aff (1170),U,1
+96,U,E,1000,0000001180,12/31/9999,9/1/1966,Obs (1170),Obs - Single Mask Pack (1170),U,1
+1222,U,E,1000,0000001181,12/31/9999,9/13/2017,Obs (1170),Obs Single Mask Packs Aff (1170),U,1
+1242,U,E,1000,0000001181,9/2/2017,9/1/1966,Obs (1170),Obs Single Mask Packs Aff (1170),U,1
+1223,U,E,1000,0000001181,9/12/2017,9/3/2017,Obs (1170),Obs Single Mask Packs Aff (1170),U,1
+107,U,E,1000,0000001221,12/31/9999,9/1/1966,Obs (1220),Obs 200MM Transport Modules Aff (1220),U,1
+1077,U,E,1000,0000001250,12/31/9999,2/16/2016,Reticle Pods,Reticle Pods,U,1
+1080,U,E,1000,0000001250,10/3/2005,9/1/1966,Reticle Pods,Reticle Pods,U,1
+1079,U,E,1000,0000001250,2/28/2015,10/4/2005,Reticle Pods,Reticle Pods,U,1
+1078,U,E,1000,0000001250,2/15/2016,3/1/2015,Reticle Pods,Reticle Pods,U,1
+1087,U,E,1000,0000001255,2/28/2015,1/5/2013,EUV Reticle Pod,EUV Reticle Pod,U,1
+1086,U,E,1000,0000001255,2/15/2016,3/1/2015,EUV Reticle Pod,EUV Reticle Pod,U,1
+1088,U,E,1000,0000001255,1/4/2013,4/21/2011,EUV Reticle Pod,EUV Reticle Pod,U,1
+1089,U,E,1000,0000001255,4/20/2011,2/3/2011,EUV Reticle Pod,EUV Reticle Pod,U,1
+1085,U,E,1000,0000001255,12/31/9999,2/16/2016,EUV Reticle Pod,EUV Reticle Pod,U,1
+397,U,E,1000,0000001330,3/28/2020,10/1/2017,450mm Wafer Carriers,450mm Process Wafer Carriers,U,1
+372,U,E,1000,0000001330,12/31/9999,3/29/2020,450mm Wafer Carriers,450mm Process Wafer Carriers,U,1
+566,U,E,1000,0000001330,9/30/2017,9/9/2007,450mm Wafer Carriers,450mm Process Wafer Carriers,U,1
+325,U,E,1000,0000001410,9/28/2019,10/15/2015,Single Wafer Shipper,Single Wafer Shippers (<=300mm),U,1
+393,U,E,1000,0000001410,10/14/2015,8/30/1997,Single Wafer Shipper,Single Wafer Shippers (<=300mm),U,1
+307,U,E,1000,0000001410,12/31/9999,9/29/2019,Single Wafer Shipper,Single Wafer Shippers (<=300mm),U,1
+885,U,E,1000,0000001411,12/31/9999,8/28/1998,Obs (1410),Obs Single Wafer Shippers Aff (1410),U,1
+133,U,E,1000,0000001700,12/31/2004,9/1/1966,Obs (1710),Obs GS Equipment - Genl (1710),U,1
+119,U,E,1000,0000001700,12/31/9999,1/1/2005,Obs (1710),Obs GS Equipment - Genl (1710),U,1
+143,U,E,1000,0000001710,12/31/9999,9/1/1966,Cleaning Equip,Cleaning Equipment,U,1
+141,U,E,1000,0000001720,12/31/9999,9/1/1966,Obs (1710),Obs - Field Service (1710),U,1
+145,U,E,1000,0000001805,12/31/9999,1/1/2005,Obs (1810),Obs MG Reuse/Recycle General (1810),U,1
+146,U,E,1000,0000001805,12/31/2004,8/26/2001,Obs (1810),Obs MG Reuse/Recycle General (1810),U,1
+147,U,E,1000,0000001820,12/31/9999,9/1/1966,Obs (9430),Obs - Environmental Service (9430),U,1
+161,U,E,1000,0000001830,12/31/9999,9/1/1966,Obs (1831),Obs (1831-1835),U,1
+175,U,E,1000,0000001831,3/31/2008,9/1/1966,Obsolete (5110),Obs DSS Off-Site Service (5110),U,1
+165,U,E,1000,0000001831,12/17/2009,4/1/2008,Obsolete (5110),Obs DSS Off-Site Service (5110),U,1
+162,U,E,1000,0000001831,12/31/9999,5/9/2013,Obsolete (5110),Obs DSS Off-Site Service (5110),U,1
+163,U,E,1000,0000001831,5/8/2013,12/18/2009,Obsolete (5110),Obs DSS Off-Site Service (5110),U,1
+181,U,E,1000,0000001835,12/31/9999,9/1/1966,Obs (1831),Miscellaneous Off-Site Service (1831),U,1
+182,U,E,1000,0000001837,12/31/9999,10/4/2005,Obs Fluid Hdlng Srvc,Obs - Fluid Handling Service (1910),U,1
+185,U,E,1000,0000001837,10/3/2005,8/6/2005,Obs Fluid Hdlng Srvc,Obs - Fluid Handling Service (1910),U,1
+1044,U,E,1000,0000001838,1/19/2022,2/1/2016,Obsolete ECP,Obsolete ECP - Entegris Cleaning Process,U,1
+1069,U,E,1000,0000001838,1/31/2016,11/4/2015,Obsolete ECP,Obsolete ECP - Entegris Cleaning Process,U,1
+1518,U,E,1000,0000001838,11/3/2015,1/1/2012,Obsolete ECP,Obsolete ECP - Entegris Cleaning Process,U,1
+1022,U,E,1000,0000001838,12/31/9999,1/20/2022,Obsolete ECP,Obsolete ECP - Entegris Cleaning Process,U,1
+187,U,E,1000,0000001840,12/31/9999,10/4/2005,Obs Eur Offsite 1833,Obs Europe Off-Site (1833 & 1834),U,1
+196,U,E,1000,0000001840,10/3/2005,9/1/1966,Obs Eur Offsite 1833,Obs Europe Off-Site (1833 & 1834),U,1
+192,U,E,1000,0000001844,10/3/2005,8/6/2005,Flow Service,Flow Service,U,1
+193,U,E,1000,0000001844,12/31/9999,10/4/2005,Flow Service,Flow Service,U,1
+625,U,E,1000,0000001901,12/31/9999,3/29/2020,Shippers Segment Gen,Shippers Segment General,U,1
+747,U,E,1000,0000001901,3/31/2007,8/28/2005,Shippers Segment Gen,Shippers Segment General,U,1
+633,U,E,1000,0000001901,3/25/2010,4/1/2007,Shippers Segment Gen,Shippers Segment General,U,1
+630,U,E,1000,0000001901,3/28/2020,3/26/2010,Shippers Segment Gen,Shippers Segment General,U,1
+770,U,E,1000,0000001902,10/1/2016,8/3/2014,200mm Segment Genl,200mm Segment  General,U,1
+771,U,E,1000,0000001902,8/2/2014,4/1/2008,200mm Segment Genl,200mm Segment  General,U,1
+780,U,E,1000,0000001902,4/30/2007,8/28/2005,200mm Segment Genl,200mm Segment  General,U,1
+769,U,E,1000,0000001902,3/28/2020,10/2/2016,200mm Segment Genl,200mm Segment  General,U,1
+779,U,E,1000,0000001902,3/31/2008,5/1/2007,200mm Segment Genl,200mm Segment  General,U,1
+761,U,E,1000,0000001902,12/31/9999,3/29/2020,200mm Segment Genl,200mm Segment  General,U,1
+199,U,E,1000,0000001903,12/31/9999,8/28/2005,Obs - (1901),Obs - Back End Semiconductor General,U,1
+781,U,E,1000,0000001904,12/31/9999,3/29/2020,Data Storage Seg Gen,Data Storage Segment General,U,1
+821,U,E,1000,0000001904,3/28/2020,10/2/2016,Data Storage Seg Gen,Data Storage Segment General,U,1
+822,U,E,1000,0000001904,10/1/2016,2/21/2012,Data Storage Seg Gen,Data Storage Segment General,U,1
+828,U,E,1000,0000001904,1/8/2009,8/28/2005,Data Storage Seg Gen,Data Storage Segment General,U,1
+823,U,E,1000,0000001904,2/20/2012,1/9/2009,Data Storage Seg Gen,Data Storage Segment General,U,1
+1027,U,E,1000,0000001905,4/20/2010,1/9/2009,300mm Segment Gen'l,300mm Segment General,U,1
+981,U,E,1000,0000001905,3/28/2020,10/2/2016,300mm Segment Gen'l,300mm Segment General,U,1
+980,U,E,1000,0000001905,12/31/9999,3/29/2020,300mm Segment Gen'l,300mm Segment General,U,1
+1028,U,E,1000,0000001905,1/8/2009,8/28/2005,300mm Segment Gen'l,300mm Segment General,U,1
+982,U,E,1000,0000001905,10/1/2016,4/21/2010,300mm Segment Gen'l,300mm Segment General,U,1
+218,U,E,1000,0000001906,12/31/9999,8/28/2005,Obs - (1901),Obs-Components General(1901),U,1
+1017,U,E,1000,0000001907,3/3/2012,9/11/2008,Filters General,Filters General,U,1
+1018,U,E,1000,0000001907,9/10/2008,9/10/2008,Filters General,Filters General,U,1
+979,U,E,1000,0000001907,12/31/9999,3/4/2012,Filters General,Filters General,U,1
+1019,U,E,1000,0000001907,9/9/2008,8/28/2005,Filters General,Filters General,U,1
+219,U,E,1000,0000001909,12/31/9999,5/4/2010,Obs (1910),Obs Subsystem & Flow Products Gen(1910),U,1
+220,U,E,1000,0000001909,5/3/2010,10/4/2005,Obs (1910),Obs Subsystem & Flow Products Gen(1910),U,1
+224,U,E,1000,0000001909,10/3/2005,8/28/2005,Obs (1910),Obs Subsystem & Flow Products Gen(1910),U,1
+868,U,E,1000,0000001910,9/9/2008,8/28/2005,FH General,Fluid Handling General,U,1
+854,U,E,1000,0000001910,10/1/2016,9/10/2008,FH General,Fluid Handling General,U,1
+853,U,E,1000,0000001910,12/31/9999,10/2/2016,FH General,Fluid Handling General,U,1
+329,U,E,1000,0000001999,8/2/2014,4/1/2007,Semiconductor CM,Semiconductor Cross Market (OBS),U,1
+150,U,E,1000,0000001999,12/31/9999,8/3/2014,Semiconductor CM,Semiconductor Cross Market (OBS),U,1
+442,U,E,1000,0000001999,3/31/2007,8/29/2004,Semiconductor CM,Semiconductor Cross Market (OBS),U,1
+129,U,E,1000,0000002110,11/14/2006,10/4/2005,Chip Trays,Chip Trays,U,1
+127,U,E,1000,0000002110,12/31/9999,7/23/2013,Chip Trays,Chip Trays,U,1
+130,U,E,1000,0000002110,10/3/2005,9/1/1966,Chip Trays,Chip Trays,U,1
+128,U,E,1000,0000002110,7/22/2013,11/15/2006,Chip Trays,Chip Trays,U,1
+229,U,E,1000,0000002111,12/31/9999,9/1/1966,Obs (2110),"Obs 2"" Chip Trays & Access Aff (2110)",U,1
+241,U,E,1000,0000002120,12/31/9999,9/1/1966,Obs (2110),"Obs - 4"" Chip Trays (2110)",U,1
+231,U,E,1000,0000002121,12/31/9999,9/1/1966,Obs (2110),"Obs 4"" Chip Trays Aff (2110)",U,1
+132,U,E,1000,0000002140,5/31/2007,11/15/2006,Film Frame Holder,Film Frame Holder,U,1
+148,U,E,1000,0000002140,11/14/2006,10/4/2005,Film Frame Holder,Film Frame Holder,U,1
+131,U,E,1000,0000002140,12/31/9999,6/1/2007,Film Frame Holder,Film Frame Holder,U,1
+149,U,E,1000,0000002140,10/3/2005,9/1/1966,Film Frame Holder,Film Frame Holder,U,1
+1244,U,E,1000,0000002141,9/2/2017,9/1/1966,Obs (2140),Obs Film Frame Holder Aff (2140),U,1
+1227,U,E,1000,0000002141,9/12/2017,9/3/2017,Obs (2140),Obs Film Frame Holder Aff (2140),U,1
+1226,U,E,1000,0000002141,12/31/9999,9/13/2017,Obs (2140),Obs Film Frame Holder Aff (2140),U,1
+242,U,E,1000,0000002150,12/31/9999,9/1/1966,Obs (2110),Obs - Misc TAP Products (2110),U,1
+239,U,E,1000,0000002151,12/31/9999,9/1/1966,Obs (2110),Obs Misc TAP Products Aff (2110),U,1
+683,U,E,1000,0000002160,12/31/9999,9/1/1966,Tape & Reel,Tape & Reel,U,1
+153,U,E,1000,0000002170,3/31/2007,9/3/2006,Horizontal Wafer Shp,Horizontal Wafer Shippers,U,1
+210,U,E,1000,0000002170,9/2/2006,8/28/1998,Horizontal Wafer Shp,Horizontal Wafer Shippers,U,1
+152,U,E,1000,0000002170,5/31/2007,4/1/2007,Horizontal Wafer Shp,Horizontal Wafer Shippers,U,1
+151,U,E,1000,0000002170,12/31/9999,6/1/2007,Horizontal Wafer Shp,Horizontal Wafer Shippers,U,1
+240,U,E,1000,0000002210,11/14/2006,10/4/2005,obs - Matrix Trays,obs - Matrix Trays,U,1
+88,U,E,1000,0000002210,9/30/2017,9/1/2009,obs - Matrix Trays,obs - Matrix Trays,U,1
+87,U,E,1000,0000002210,12/31/9999,10/1/2017,obs - Matrix Trays,obs - Matrix Trays,U,1
+639,U,E,1000,0000002210,10/3/2005,9/1/1966,obs - Matrix Trays,obs - Matrix Trays,U,1
+89,U,E,1000,0000002210,8/31/2009,11/15/2006,obs - Matrix Trays,obs - Matrix Trays,U,1
+1228,U,E,1000,0000002211,12/31/9999,9/13/2017,Obs (2210),Obs Process Matrix Trays Aff (2210),U,1
+1245,U,E,1000,0000002211,9/2/2017,9/1/1966,Obs (2210),Obs Process Matrix Trays Aff (2210),U,1
+1229,U,E,1000,0000002211,9/12/2017,9/3/2017,Obs (2210),Obs Process Matrix Trays Aff (2210),U,1
+244,U,E,1000,0000002220,12/31/9999,9/1/1966,Obs (2210),Obs - Shipping Matrix Trays (2210),U,1
+245,U,E,1000,0000002221,12/31/9999,9/1/1966,Obs (2210),Obs Shipping Matrix Trays Aff (2210),U,1
+246,U,E,1000,0000002230,12/31/9999,9/1/1966,Obs (2110),Obs - P44 Matrix Trays (2110),U,1
+247,U,E,1000,0000002231,12/31/9999,9/1/1966,Obs (2120),Obs P44 Matrix Trays Aff (2110),U,1
+250,U,E,1000,0000002250,12/31/9999,8/27/2000,Obs (2210),Obs - Recl Matrix Trays Outgoing (2210),U,1
+251,U,E,1000,0000002260,12/31/9999,9/1/2002,Obs (2170),Obs - Reclaim Horizon Wafer Ship (2170),U,1
+626,U,E,1000,0000002411,12/31/9999,9/1/1966,Obs (2410),Obs Thin Film/ MR Head Tray Aff (2410),U,1
+255,U,E,1000,0000002420,10/3/2005,9/1/1966,Obs (2410),Obs Thin Film/ MR Head Tray (2410),U,1
+254,U,E,1000,0000002420,12/31/9999,10/4/2005,Obs (2410),Obs Thin Film/ MR Head Tray (2410),U,1
+271,U,E,1000,0000002421,12/31/9999,9/1/1966,Obs (2420),Obs Thin Film/ MR Head Can/Boxes (2420),U,1
+1055,U,E,1000,0000002430,12/31/9999,9/1/1966,Alternative Carriers,Alternative Carriers,U,1
+278,U,E,1000,0000002431,12/31/9999,9/1/1966,Obs (2430),OBS Optical Disk Products Aff (2430),U,1
+256,U,E,1000,0000002440,12/31/9999,9/1/1966,Obs (2430),Obs - Removable Memory Products (2430),U,1
+280,U,E,1000,0000002441,12/31/9999,9/1/1966,Obs (2430),Obs Removable Memory Products Aff (2430),U,1
+272,U,E,1000,0000002450,12/31/9999,10/4/2005,Obs (2410),Obs HGA Trays (2410),U,1
+273,U,E,1000,0000002450,10/3/2005,5/30/1999,Obs (2410),Obs HGA Trays (2410),U,1
+282,U,E,1000,0000002451,12/31/9999,5/30/1999,Obs (2450),Obs HGA Trays Aff (2450),U,1
+284,U,E,1000,0000002460,3/31/2008,4/1/2007,Obs-Flat Panel Dis,Obs-Flat Panel Display Shippers (2430),U,1
+279,U,E,1000,0000002460,12/31/9999,4/1/2008,Obs-Flat Panel Dis,Obs-Flat Panel Display Shippers (2430),U,1
+285,U,E,1000,0000002460,3/31/2007,1/1/2006,Obs-Flat Panel Dis,Obs-Flat Panel Display Shippers (2430),U,1
+292,U,E,1000,0000002999,12/31/9999,8/29/2004,Obs-(1999),Obs-FEP Cross Market(1999),U,1
+693,U,E,1000,0000003130,4/30/2007,1/1/2007,Tubing & Pipe,Tubing & Pipe,U,1
+694,U,E,1000,0000003130,12/31/2006,9/1/1966,Tubing & Pipe,Tubing & Pipe,U,1
+620,U,E,1000,0000003130,12/31/9999,4/4/2011,Tubing & Pipe,Tubing & Pipe,U,1
+634,U,E,1000,0000003130,6/30/2007,5/1/2007,Tubing & Pipe,Tubing & Pipe,U,1
+621,U,E,1000,0000003130,4/3/2011,1/27/2010,Tubing & Pipe,Tubing & Pipe,U,1
+622,U,E,1000,0000003130,1/26/2010,7/1/2007,Tubing & Pipe,Tubing & Pipe,U,1
+317,U,E,1000,0000003170,12/31/9999,9/1/1966,Obs (3562),Obs - Fluoropolymer Tanks (3562),U,1
+320,U,E,1000,0000003171,12/31/9999,9/1/1966,Obs (3562),Obs Fluoropolymer Tanks Aff (3562),U,1
+698,U,E,1000,0000003180,12/18/2008,9/1/1966,Custom Purebond,Custom Purebond,U,1
+697,U,E,1000,0000003180,12/31/9999,12/19/2008,Custom Purebond,Custom Purebond,U,1
+330,U,E,1000,0000003181,12/31/9999,9/1/1966,Obs (3180),Obs Custom Purebond Aff (3180),U,1
+319,U,E,1000,0000003190,12/31/9999,9/1/1966,Obs(3340),Obs - Custom Integra Valves (3340),U,1
+332,U,E,1000,0000003191,12/31/9999,9/1/1966,Obs (3340),Obs Custom Fabrication Aff (3340),U,1
+328,U,E,1000,0000003199,12/31/9999,9/1/1966,Obs (3340),Obs - Sheet Stock (3340),U,1
+699,U,E,1000,0000003210,12/31/9999,3/4/2018,Instrument Valves,Instrumentation Valves,U,1
+1292,U,E,1000,0000003210,2/3/2018,9/1/1966,Instrument Valves,Instrumentation Valves,U,1
+1275,U,E,1000,0000003210,3/3/2018,2/4/2018,Instrument Valves,Instrumentation Valves,U,1
+17,U,E,1000,0000003220,12/31/9999,3/4/2018,Integra Valves,Integra Valves,U,1
+18,U,E,1000,0000003220,3/3/2018,2/4/2018,Integra Valves,Integra Valves,U,1
+106,U,E,1000,0000003220,2/3/2018,9/1/1966,Integra Valves,Integra Valves,U,1
+337,U,E,1000,0000003221,12/31/9999,9/1/1966,Obs (3220),Obs Integra Valves Aff (3220),U,1
+715,U,E,1000,0000003260,10/17/2006,9/13/2005,Spray & Gauge,Spray Products & Gauge Protectors,U,1
+701,U,E,1000,0000003260,12/31/9999,3/16/2012,Spray & Gauge,Spray Products & Gauge Protectors,U,1
+714,U,E,1000,0000003260,6/30/2007,10/18/2006,Spray & Gauge,Spray Products & Gauge Protectors,U,1
+716,U,E,1000,0000003260,9/12/2005,9/1/1966,Spray & Gauge,Spray Products & Gauge Protectors,U,1
+702,U,E,1000,0000003260,3/15/2012,1/27/2010,Spray & Gauge,Spray Products & Gauge Protectors,U,1
+713,U,E,1000,0000003260,1/26/2010,7/1/2007,Spray & Gauge,Spray Products & Gauge Protectors,U,1
+352,U,E,1000,0000003261,12/31/9999,9/1/1966,Obs (3260),Obs Spray Guns Aff (3260),U,1
+573,U,E,1000,0000003271,12/31/9999,9/1/2019,Pureline Fittings,Pureline Fittings,U,1
+817,U,E,1000,0000003271,8/31/2019,6/8/2016,Pureline Fittings,Pureline Fittings,U,1
+818,U,E,1000,0000003271,6/7/2016,1/1/2011,Pureline Fittings,Pureline Fittings,U,1
+819,U,E,1000,0000003272,12/31/9999,9/1/2019,Pureline Tubing-Pipe,Pureline Tubing & Pipe,U,1
+820,U,E,1000,0000003272,8/31/2019,6/8/2016,Pureline Tubing-Pipe,Pureline Tubing & Pipe,U,1
+1354,U,E,1000,0000003272,6/7/2016,1/1/2011,Pureline Tubing-Pipe,Pureline Tubing & Pipe,U,1
+1355,U,E,1000,0000003273,12/31/9999,9/1/2019,Pureline Valves,Pureline Valves,U,1
+1357,U,E,1000,0000003273,6/7/2016,1/1/2011,Pureline Valves,Pureline Valves,U,1
+1356,U,E,1000,0000003273,8/31/2019,6/8/2016,Pureline Valves,Pureline Valves,U,1
+674,U,E,1000,0000003280,1/26/2010,10/1/2007,VAlex SS Tubes&Fit,VAlex SS Tubes and Fittings,U,1
+673,U,E,1000,0000003280,12/16/2012,1/27/2010,VAlex SS Tubes&Fit,VAlex SS Tubes and Fittings,U,1
+720,U,E,1000,0000003280,12/31/9999,12/17/2012,VAlex SS Tubes&Fit,VAlex SS Tubes and Fittings,U,1
+345,U,E,1000,0000003340,12/31/9999,9/1/1966,Obs Custom Mach,Obs Custom Machining,U,1
+359,U,E,1000,0000003341,12/31/9999,9/1/1966,Obs (3340),OBS Custom Machining Aff (3340),U,1
+443,U,E,1000,0000003400,7/31/2008,9/1/1966,AMH General,AMH General,U,1
+440,U,E,1000,0000003400,10/1/2016,8/1/2008,AMH General,AMH General,U,1
+439,U,E,1000,0000003400,12/31/9999,10/2/2016,AMH General,AMH General,U,1
+724,U,E,1000,0000003410,3/15/2012,1/27/2010,Cynergy Products,Cynergy Products,U,1
+726,U,E,1000,0000003410,6/30/2007,11/15/2006,Cynergy Products,Cynergy Products,U,1
+723,U,E,1000,0000003410,12/31/9999,3/16/2012,Cynergy Products,Cynergy Products,U,1
+727,U,E,1000,0000003410,11/14/2006,10/4/2005,Cynergy Products,Cynergy Products,U,1
+730,U,E,1000,0000003410,10/3/2005,9/1/1966,Cynergy Products,Cynergy Products,U,1
+725,U,E,1000,0000003410,1/26/2010,7/1/2007,Cynergy Products,Cynergy Products,U,1
+364,U,E,1000,0000003411,12/31/9999,9/1/1966,Obs (3410),OBS Cynergy Fittings Aff (3410),U,1
+351,U,E,1000,0000003420,12/31/9999,9/1/1966,Obs (3410),Obs - Cynergy Valves (3410),U,1
+353,U,E,1000,0000003430,12/31/9999,9/1/1966,Obs (3410),Obs - Cynergy Tubing & Support (3410),U,1
+357,U,E,1000,0000003440,12/31/9999,9/1/1966,Obs (3410),Obs - Cynergy Tools (3410),U,1
+358,U,E,1000,0000003450,12/31/9999,9/1/1966,Obs (3410,Obs - Cynergy Custom Products (3410),U,1
+369,U,E,1000,0000003460,12/31/9999,9/1/1966,LS Equipment,LS Equipment,U,1
+67,U,E,1000,0000003470,12/31/9999,9/20/2021,JangAn Drums,JangAn Drums,U,1
+1506,U,E,1000,0000003470,9/19/2021,9/1/1966,JangAn Drums,JangAn Drums,U,1
+746,U,E,1000,0000003480,1/26/2010,7/1/2007,CPI Products,CPI Products,U,1
+762,U,E,1000,0000003480,10/3/2005,9/1/1966,CPI Products,CPI Products,U,1
+755,U,E,1000,0000003480,6/30/2007,5/1/2007,CPI Products,CPI Products,U,1
+757,U,E,1000,0000003480,4/30/2007,10/4/2005,CPI Products,CPI Products,U,1
+738,U,E,1000,0000003480,12/31/9999,3/16/2012,CPI Products,CPI Products,U,1
+743,U,E,1000,0000003480,3/15/2012,1/27/2010,CPI Products,CPI Products,U,1
+926,U,E,1000,0000003500,12/31/9999,9/1/1966,FHG Containers PM Gr,FHG Containers PM Grp A Genl (5000),U,1
+104,U,E,1000,0000003560,12/31/9999,3/7/2021,Containers,Containers,U,1
+171,U,E,1000,0000003560,3/6/2021,1/1/1900,Containers,Containers,U,1
+378,U,E,1000,0000003561,12/31/9999,9/1/2002,Obs(3560),Obs - > 55 Gallon Containers (3560),U,1
+766,U,E,1000,0000003562,10/17/2006,9/1/2002,Process Tanks,Process Tanks,U,1
+765,U,E,1000,0000003562,6/30/2007,10/18/2006,Process Tanks,Process Tanks,U,1
+763,U,E,1000,0000003562,12/31/9999,12/19/2008,Process Tanks,Process Tanks,U,1
+764,U,E,1000,0000003562,12/18/2008,7/1/2007,Process Tanks,Process Tanks,U,1
+1015,U,E,1000,0000003564,12/31/9999,6/6/2012,EPT Drums,Entegris Precision Technology Drums,U,1
+1016,U,E,1000,0000003564,6/5/2012,1/1/2006,EPT Drums,Entegris Precision Technology Drums,U,1
+103,U,E,1000,0000003610,4/30/2007,9/1/1966,Flowmtrs & Regulatrs,Flowmeters & Regulators,U,1
+90,U,E,1000,0000003610,3/15/2012,1/27/2010,Flowmtrs & Regulatrs,Flowmeters & Regulators,U,1
+64,U,E,1000,0000003610,12/31/9999,2/4/2018,Flowmtrs & Regulatrs,Flowmeters & Regulators,U,1
+65,U,E,1000,0000003610,2/3/2018,3/16/2012,Flowmtrs & Regulatrs,Flowmeters & Regulators,U,1
+93,U,E,1000,0000003610,1/26/2010,7/1/2007,Flowmtrs & Regulatrs,Flowmeters & Regulators,U,1
+95,U,E,1000,0000003610,6/30/2007,5/1/2007,Flowmtrs & Regulatrs,Flowmeters & Regulators,U,1
+831,U,E,1000,0000003620,12/31/9999,3/19/2014,Sensing Products,Sensing Products,U,1
+835,U,E,1000,0000003620,11/30/2008,9/1/1966,Sensing Products,Sensing Products,U,1
+834,U,E,1000,0000003620,3/18/2014,12/1/2008,Sensing Products,Sensing Products,U,1
+197,U,E,1000,0000003630,2/26/2005,9/1/1966,Obs (3620),Obs Sensing Products Fluoropure (3620),U,1
+113,U,E,1000,0000003630,12/31/9999,2/27/2005,Obs (3620),Obs Sensing Products Fluoropure (3620),U,1
+198,U,E,1000,0000003640,12/31/9999,9/1/1966,Obs (3620),Obs Sensing Products Valves (3620),U,1
+386,U,E,1000,0000003650,12/31/9999,9/1/1966,Obsolete PC,Obs Deteq Pressure Transducer,U,1
+266,U,E,1000,0000003750,3/6/2021,9/29/2019,LS Packaging,Life Science Packaging,U,1
+1324,U,E,1000,0000003750,3/2/2019,3/1/2016,LS Packaging,Life Science Packaging,U,1
+1481,U,E,1000,0000003750,2/29/2016,1/1/2015,LS Packaging,Life Science Packaging,U,1
+265,U,E,1000,0000003750,12/31/9999,3/7/2021,LS Packaging,Life Science Packaging,U,1
+1182,U,E,1000,0000003750,9/28/2019,3/3/2019,LS Packaging,Life Science Packaging,U,1
+1330,U,E,1000,0000003751,9/28/2019,1/1/2018,Flex Concepts,Flex Concepts,U,1
+1325,U,E,1000,0000003751,12/31/9999,9/29/2019,Flex Concepts,Flex Concepts,U,1
+922,U,E,1000,0000003810,10/3/2005,8/6/2005,Cent Pumps & Access,Centrifigul Pumps & Accessories,U,1
+920,U,E,1000,0000003810,6/30/2009,10/4/2005,Cent Pumps & Access,Centrifigul Pumps & Accessories,U,1
+919,U,E,1000,0000003810,6/20/2013,7/1/2009,Cent Pumps & Access,Centrifigul Pumps & Accessories,U,1
+918,U,E,1000,0000003810,12/31/9999,6/21/2013,Cent Pumps & Access,Centrifigul Pumps & Accessories,U,1
+923,U,E,1000,0000003812,12/31/9999,6/21/2013,Liquid Subsystems,Liquid Subsystems,U,1
+933,U,E,1000,0000003812,11/14/2006,10/4/2005,Liquid Subsystems,Liquid Subsystems,U,1
+924,U,E,1000,0000003812,6/20/2013,1/28/2009,Liquid Subsystems,Liquid Subsystems,U,1
+937,U,E,1000,0000003812,10/3/2005,8/6/2005,Liquid Subsystems,Liquid Subsystems,U,1
+932,U,E,1000,0000003812,1/27/2009,11/15/2006,Liquid Subsystems,Liquid Subsystems,U,1
+939,U,E,1000,0000003814,6/20/2013,10/22/2010,Liquid SubsystemsOEM,Liquid Subsystems - OEM,U,1
+938,U,E,1000,0000003814,12/31/9999,6/21/2013,Liquid SubsystemsOEM,Liquid Subsystems - OEM,U,1
+940,U,E,1000,0000003814,10/21/2010,12/1/2008,Liquid SubsystemsOEM,Liquid Subsystems - OEM,U,1
+927,U,E,1000,0000003912,12/31/9999,3/4/2018,Manual Valves - obsA,Manual Valves - obsA,U,1
+930,U,E,1000,0000003912,6/14/2016,8/27/2000,Manual Valves - obsA,Manual Valves - obsA,U,1
+929,U,E,1000,0000003912,2/3/2018,6/15/2016,Manual Valves - obsA,Manual Valves - obsA,U,1
+928,U,E,1000,0000003912,3/3/2018,2/4/2018,Manual Valves - obsA,Manual Valves - obsA,U,1
+402,U,E,1000,0000003915,12/31/9999,8/27/2000,Obs  (3912),Obs - FHG Pumps (3912),U,1
+414,U,E,1000,0000003916,12/31/9999,8/27/2000,Obs  (3912),Obs - FHG Custom Valves (3912),U,1
+789,U,E,1000,0000003917,12/31/9999,12/22/2008,Custom Manifolds,Custom Manifolds,U,1
+790,U,E,1000,0000003917,12/21/2008,9/1/1966,Custom Manifolds,Custom Manifolds,U,1
+420,U,E,1000,0000003931,12/31/9999,8/27/2000,Obs (3933),Obs (3933),U,1
+1319,U,E,1000,0000003932,12/31/2006,9/1/1966,Cross Divisional,Cross Divisional,U,1
+1293,U,E,1000,0000003932,12/31/9999,3/4/2018,Cross Divisional,Cross Divisional,U,1
+1295,U,E,1000,0000003932,2/3/2018,6/26/2008,Cross Divisional,Cross Divisional,U,1
+1318,U,E,1000,0000003932,6/25/2008,1/1/2007,Cross Divisional,Cross Divisional,U,1
+1294,U,E,1000,0000003932,3/3/2018,2/4/2018,Cross Divisional,Cross Divisional,U,1
+421,U,E,1000,0000003934,12/31/9999,8/27/2000,Obs (3933),Obs (3933),U,1
+422,U,E,1000,0000003935,12/31/9999,8/27/2000,Obs (3933),Obs (3933),U,1
+847,U,E,1000,0000003960,3/18/2014,1/28/2009,Pressure Measurement,Pressure Measurement,U,1
+846,U,E,1000,0000003960,12/31/9999,3/19/2014,Pressure Measurement,Pressure Measurement,U,1
+861,U,E,1000,0000003960,1/27/2009,9/1/1966,Pressure Measurement,Pressure Measurement,U,1
+424,U,E,1000,0000003961,12/31/9999,8/27/2000,Obs (3961),OBS FHG In-Line Pressure (3961),U,1
+864,U,E,1000,0000003962,1/27/2009,9/1/1966,Flow Measurement,Flow Measurement,U,1
+863,U,E,1000,0000003962,3/18/2014,1/28/2009,Flow Measurement,Flow Measurement,U,1
+862,U,E,1000,0000003962,12/31/9999,3/19/2014,Flow Measurement,Flow Measurement,U,1
+946,U,E,1000,0000003963,1/27/2009,9/1/1966,Integrated Flow Cont,Integrated Flow Controllers,U,1
+945,U,E,1000,0000003963,3/13/2014,1/28/2009,Integrated Flow Cont,Integrated Flow Controllers,U,1
+944,U,E,1000,0000003963,12/31/9999,3/14/2014,Integrated Flow Cont,Integrated Flow Controllers,U,1
+425,U,E,1000,0000003964,12/31/9999,8/27/2000,Obs  (3620),Obs Displays (3620),U,1
+656,U,E,1000,0000003965,12/31/9999,2/2/2020,Invue Concentration,Invue Concentration,U,1
+1115,U,E,1000,0000003965,2/1/2020,1/1/2013,Invue Concentration,Invue Concentration,U,1
+66,U,E,1000,0000003999,12/31/9999,1/1/1999,LS/ FH Cross Mrkt,LifeScience & FluidHandling Cross Market,U,1
+444,U,E,1000,0000004090,12/31/9999,8/27/2000,Obs (3400),ObsCustom Products/APG Shared Genl(3400),U,1
+456,U,E,1000,0000004100,8/31/2002,1/1/2001,Bus Dev Genl,Business Development Genl,U,1
+455,U,E,1000,0000004100,12/31/2000,8/27/2000,Bus Dev Genl,Business Development Genl,U,1
+454,U,E,1000,0000004100,8/26/2000,9/1/1966,Bus Dev Genl,Business Development Genl,U,1
+457,U,E,1000,0000004100,12/31/9999,9/1/2002,Bus Dev Genl,Business Development Genl,U,1
+445,U,E,1000,0000004110,12/31/9999,5/1/2007,obs (4411),obsolete Microelectronic Filt(4411),U,1
+447,U,E,1000,0000004110,10/3/2005,9/1/1966,obs (4411),obsolete Microelectronic Filt(4411),U,1
+446,U,E,1000,0000004110,4/30/2007,10/4/2005,obs (4411),obsolete Microelectronic Filt(4411),U,1
+931,U,E,1000,0000004111,12/31/9999,2/27/2005,Obs (4110),Obs MicroE Filtration I Aff (4110),U,1
+935,U,E,1000,0000004111,2/26/2005,9/1/1966,Obs (4110),Obs MicroE Filtration I Aff (4110),U,1
+448,U,E,1000,0000004120,12/31/9999,9/1/1966,Obs (4110),Obs - MicroE Filtration II (4110),U,1
+954,U,E,1000,0000004121,12/31/9999,9/1/1966,Obs (4110),Obs MicroE Filtration II Aff (4110),U,1
+281,U,E,1000,0000004131,12/31/9999,9/1/1966,Obs (4130),Obs MicroE Filtration III Aff (4130),U,1
+451,U,E,1000,0000004150,12/31/9999,9/1/2002,Obs (4400),Obs - Entegris Inter-Company Sales (4400,U,1
+459,U,E,1000,0000004210,12/31/9999,1/1/1998,Obs (4130),Obsolete (4130),U,1
+460,U,E,1000,0000004211,12/31/9999,2/27/2005,Obs (4130),Obsolete (4130),U,1
+461,U,E,1000,0000004211,2/26/2005,1/1/1998,Obs (4130),Obsolete (4130),U,1
+452,U,E,1000,0000004300,12/31/9999,9/1/1966,Obs (4400),PL Var PM Grp 1 Genl (4400),U,1
+809,U,E,1000,0000004330,6/25/2008,1/1/2007,Industrial,Industrial,U,1
+795,U,E,1000,0000004330,12/31/9999,6/26/2008,Industrial,Industrial,U,1
+815,U,E,1000,0000004330,12/31/2006,10/4/2005,Industrial,Industrial,U,1
+816,U,E,1000,0000004330,10/3/2005,9/1/1966,Industrial,Industrial,U,1
+463,U,E,1000,0000004331,12/31/9999,2/27/2005,Obs (4330),Obs Industrial Aff (4330),U,1
+466,U,E,1000,0000004331,2/26/2005,9/1/1966,Obs (4330),Obs Industrial Aff (4330),U,1
+354,U,E,1000,0000004400,3/3/2012,9/11/2008,MC General,MC General,U,1
+411,U,E,1000,0000004400,10/1/2016,3/4/2012,MC General,MC General,U,1
+362,U,E,1000,0000004400,9/9/2008,8/6/2005,MC General,MC General,U,1
+322,U,E,1000,0000004400,12/31/9999,10/2/2016,MC General,MC General,U,1
+355,U,E,1000,0000004400,9/10/2008,9/10/2008,MC General,MC General,U,1
+479,U,E,1000,0000004401,12/20/2012,12/5/2012,Water Treatment Filt,Water Treatment Filter Cartridges,U,1
+482,U,E,1000,0000004401,12/4/2012,1/1/2010,Water Treatment Filt,Water Treatment Filter Cartridges,U,1
+475,U,E,1000,0000004401,12/31/9999,12/21/2012,Water Treatment Filt,Water Treatment Filter Cartridges,U,1
+534,U,E,1000,0000004402,12/31/9999,9/29/2019,LMC General,LMC General,U,1
+553,U,E,1000,0000004402,9/28/2019,1/1/2016,LMC General,LMC General,U,1
+389,U,E,1000,0000004403,12/31/9999,1/1/2021,Water Treatment Hous,Water Treatment Housing,U,1
+412,U,E,1000,0000004405,12/31/9999,7/2/2017,LMC Analytical Srvcs,LMC Analytical Services,U,1
+413,U,E,1000,0000004405,7/1/2017,1/1/2009,LMC Analytical Srvcs,LMC Analytical Services,U,1
+1395,U,E,1000,0000004409,12/31/9999,1/1/2020,Aqueous Chem FiltPur,Aqueous Chemical Filtration / Purificati,U,1
+1367,U,E,1000,0000004410,12/31/9999,8/1/2005,Obs Copper Plating P,Obs Copper Plating Processing Products,U,1
+505,U,E,1000,0000004416,4/30/2007,10/4/2005,DI Water Filtrat,DI Water Filtration,U,1
+501,U,E,1000,0000004416,6/6/2007,5/1/2007,DI Water Filtrat,DI Water Filtration,U,1
+499,U,E,1000,0000004416,1/4/2009,6/7/2007,DI Water Filtrat,DI Water Filtration,U,1
+525,U,E,1000,0000004416,10/3/2005,8/6/2005,DI Water Filtrat,DI Water Filtration,U,1
+496,U,E,1000,0000004416,12/31/9999,7/16/2010,DI Water Filtrat,DI Water Filtration,U,1
+497,U,E,1000,0000004416,7/15/2010,1/5/2009,DI Water Filtrat,DI Water Filtration,U,1
+1128,U,E,1000,0000004417,11/27/2011,10/1/2007,Small POU Filtrat,Small POU Filtration,U,1
+1340,U,E,1000,0000004417,9/30/2007,6/7/2007,Small POU Filtrat,Small POU Filtration,U,1
+1124,U,E,1000,0000004417,12/31/9999,2/2/2020,Small POU Filtrat,Small POU Filtration,U,1
+1342,U,E,1000,0000004417,10/3/2005,8/6/2005,Small POU Filtrat,Small POU Filtration,U,1
+1341,U,E,1000,0000004417,6/6/2007,10/4/2005,Small POU Filtrat,Small POU Filtration,U,1
+1126,U,E,1000,0000004417,2/1/2020,11/28/2011,Small POU Filtrat,Small POU Filtration,U,1
+1039,U,E,1000,0000004418,2/6/2021,9/1/2019,Legacy Bulk phobic f,Legacy Bulk Phobic Filtration,U,1
+1308,U,E,1000,0000004418,8/31/2019,8/6/2005,Legacy Bulk phobic f,Legacy Bulk Phobic Filtration,U,1
+1008,U,E,1000,0000004418,12/31/9999,2/7/2021,Legacy Bulk phobic f,Legacy Bulk Phobic Filtration,U,1
+207,U,E,1000,0000004425,3/2/2007,1/1/2007,Planaredge Ret Rings,Planaredge Retaining Rings (OBS),U,1
+191,U,E,1000,0000004425,4/16/2012,9/1/2009,Planaredge Ret Rings,Planaredge Retaining Rings (OBS),U,1
+206,U,E,1000,0000004425,8/16/2009,3/3/2007,Planaredge Ret Rings,Planaredge Retaining Rings (OBS),U,1
+158,U,E,1000,0000004425,4/30/2020,4/17/2012,Planaredge Ret Rings,Planaredge Retaining Rings (OBS),U,1
+13,U,E,1000,0000004425,12/31/9999,5/1/2020,Planaredge Ret Rings,Planaredge Retaining Rings (OBS),U,1
+205,U,E,1000,0000004425,8/31/2009,8/17/2009,Planaredge Ret Rings,Planaredge Retaining Rings (OBS),U,1
+838,U,E,1000,0000004426,10/1/2016,12/5/2012,TFT High Flow Crtrd,TFT High Flow Cartridge,U,1
+842,U,E,1000,0000004426,1/4/2009,1/31/2007,TFT High Flow Crtrd,TFT High Flow Cartridge,U,1
+840,U,E,1000,0000004426,4/3/2012,1/5/2009,TFT High Flow Crtrd,TFT High Flow Cartridge,U,1
+839,U,E,1000,0000004426,12/4/2012,4/4/2012,TFT High Flow Crtrd,TFT High Flow Cartridge,U,1
+833,U,E,1000,0000004426,12/31/9999,10/2/2016,TFT High Flow Crtrd,TFT High Flow Cartridge,U,1
+468,U,E,1000,0000004427,12/31/9999,9/10/2008,Obs - (4412),Obs CE Filtration - (4412),U,1
+472,U,E,1000,0000004427,9/9/2008,1/1/2007,Obs - (4412),Obs CE Filtration - (4412),U,1
+964,U,E,1000,0000004428,9/9/2008,10/1/2007,Inkjet/Graphics ArtF,Inkjet/Graphics Art Filtration,U,1
+843,U,E,1000,0000004428,12/31/9999,10/2/2016,Inkjet/Graphics ArtF,Inkjet/Graphics Art Filtration,U,1
+897,U,E,1000,0000004428,8/10/2009,1/5/2009,Inkjet/Graphics ArtF,Inkjet/Graphics Art Filtration,U,1
+884,U,E,1000,0000004428,11/27/2011,8/11/2009,Inkjet/Graphics ArtF,Inkjet/Graphics Art Filtration,U,1
+948,U,E,1000,0000004428,1/4/2009,9/10/2008,Inkjet/Graphics ArtF,Inkjet/Graphics Art Filtration,U,1
+844,U,E,1000,0000004428,10/1/2016,11/28/2011,Inkjet/Graphics ArtF,Inkjet/Graphics Art Filtration,U,1
+975,U,E,1000,0000004429,1/5/2009,11/1/2007,TFT HighFlow Housin,TFT High Flow Housing,U,1
+966,U,E,1000,0000004429,12/4/2012,1/6/2009,TFT HighFlow Housin,TFT High Flow Housing,U,1
+965,U,E,1000,0000004429,12/31/9999,12/5/2012,TFT HighFlow Housin,TFT High Flow Housing,U,1
+476,U,E,1000,0000004430,12/31/9999,11/1/2007,Obs - (4417),Obs - Specialty Chemical Filtr (4417),U,1
+977,U,E,1000,0000004433,10/1/2016,7/16/2010,Stainless St Fltr Ho,Stanless Steel Filter Housing,U,1
+976,U,E,1000,0000004433,12/31/9999,10/2/2016,Stainless St Fltr Ho,Stanless Steel Filter Housing,U,1
+978,U,E,1000,0000004433,7/15/2010,1/1/2009,Stainless St Fltr Ho,Stanless Steel Filter Housing,U,1
+1025,U,E,1000,0000004434,7/15/2010,8/11/2009,Israel Filterss,Israel Filters,U,1
+1024,U,E,1000,0000004434,12/31/9999,7/16/2010,Israel Filterss,Israel Filters,U,1
+1026,U,E,1000,0000004434,8/10/2009,1/1/2009,Israel Filterss,Israel Filters,U,1
+1049,U,E,1000,0000004435,12/31/9999,2/4/2018,CMP Pad Conditioner,CMP Pad Conditioner,U,1
+1271,U,E,1000,0000004435,2/3/2018,12/1/2016,CMP Pad Conditioner,CMP Pad Conditioner,U,1
+1276,U,E,1000,0000004435,4/16/2012,3/1/2009,CMP Pad Conditioner,CMP Pad Conditioner,U,1
+1272,U,E,1000,0000004435,11/30/2016,10/2/2016,CMP Pad Conditioner,CMP Pad Conditioner,U,1
+1273,U,E,1000,0000004435,10/1/2016,4/17/2012,CMP Pad Conditioner,CMP Pad Conditioner,U,1
+1473,U,E,1000,0000004436,12/31/2020,8/2/2020,Torrento XS Filtratn,Torrento X/S Filtration,U,1
+1474,U,E,1000,0000004436,8/1/2020,3/26/2015,Torrento XS Filtratn,Torrento X/S Filtration,U,1
+1475,U,E,1000,0000004436,3/25/2015,2/17/2015,Torrento XS Filtratn,Torrento X/S Filtration,U,1
+1476,U,E,1000,0000004436,2/16/2015,1/1/2012,Torrento XS Filtratn,Torrento X/S Filtration,U,1
+1472,U,E,1000,0000004436,12/31/9999,1/1/2021,Torrento XS Filtratn,Torrento X/S Filtration,U,1
+1509,U,E,1000,0000004437,4/1/2017,1/1/2002,QuickChange NX Fltn,QuickChange NX Filtration,U,1
+1072,U,E,1000,0000004437,12/31/9999,1/1/2022,QuickChange NX Fltn,QuickChange NX Filtration,U,1
+1117,U,E,1000,0000004437,12/31/2021,10/3/2021,QuickChange NX Fltn,QuickChange NX Filtration,U,1
+1321,U,E,1000,0000004437,11/2/2019,4/2/2017,QuickChange NX Fltn,QuickChange NX Filtration,U,1
+1118,U,E,1000,0000004437,10/2/2021,11/3/2019,QuickChange NX Fltn,QuickChange NX Filtration,U,1
+1280,U,E,1000,0000004438,12/31/2017,1/1/2006,Adv Bulk PhobicFiltr,Advanced Bulk Phobic Filtration,U,1
+1058,U,E,1000,0000004438,12/31/9999,2/3/2019,Adv Bulk PhobicFiltr,Advanced Bulk Phobic Filtration,U,1
+1099,U,E,1000,0000004438,2/2/2019,1/1/2018,Adv Bulk PhobicFiltr,Advanced Bulk Phobic Filtration,U,1
+1012,U,E,1000,0000004439,3/4/2017,1/31/2014,Adv Photo Phobic POU,Advanced Photo Phobic POU Filtration,U,1
+1004,U,E,1000,0000004439,5/30/2020,3/5/2017,Adv Photo Phobic POU,Advanced Photo Phobic POU Filtration,U,1
+52,U,E,1000,0000004439,12/31/9999,5/31/2020,Adv Photo Phobic POU,Advanced Photo Phobic POU Filtration,U,1
+1013,U,E,1000,0000004439,1/30/2014,1/1/2002,Adv Photo Phobic POU,Advanced Photo Phobic POU Filtration,U,1
+1496,U,E,1000,0000004440,11/4/2017,3/5/2017,Adv Photo Philic POU,Adv Photo Philic POU Filtration,U,1
+1369,U,E,1000,0000004440,12/31/9999,7/4/2021,Adv Photo Philic POU,Adv Photo Philic POU Filtration,U,1
+1493,U,E,1000,0000004440,7/3/2021,5/31/2020,Adv Photo Philic POU,Adv Photo Philic POU Filtration,U,1
+1495,U,E,1000,0000004440,5/30/2020,11/5/2017,Adv Photo Philic POU,Adv Photo Philic POU Filtration,U,1
+1504,U,E,1000,0000004440,3/4/2017,1/1/2006,Adv Photo Philic POU,Adv Photo Philic POU Filtration,U,1
+1521,U,E,1000,0000004441,11/2/2019,1/1/2015,Flowplane PTFE Fltrn,Flowplane PTFE Filtration,U,1
+1520,U,E,1000,0000004441,2/6/2021,11/3/2019,Flowplane PTFE Fltrn,Flowplane PTFE Filtration,U,1
+1519,U,E,1000,0000004441,10/2/2021,2/7/2021,Flowplane PTFE Fltrn,Flowplane PTFE Filtration,U,1
+1511,U,E,1000,0000004441,12/31/2021,10/3/2021,Flowplane PTFE Fltrn,Flowplane PTFE Filtration,U,1
+1510,U,E,1000,0000004441,12/31/9999,1/1/2022,Flowplane PTFE Fltrn,Flowplane PTFE Filtration,U,1
+1114,U,E,1000,0000004442,12/31/2017,1/1/2016,Photo Purification,Photo Purification,U,1
+1037,U,E,1000,0000004442,12/31/9999,7/4/2021,Photo Purification,Photo Purification,U,1
+1110,U,E,1000,0000004442,5/30/2020,1/1/2018,Photo Purification,Photo Purification,U,1
+1109,U,E,1000,0000004442,7/3/2021,5/31/2020,Photo Purification,Photo Purification,U,1
+1436,U,E,1000,0000004443,5/30/2020,6/23/2016,ChemLine III PTFE Fl,ChemLine III PTFE Filtration,U,1
+1435,U,E,1000,0000004443,12/31/9999,5/31/2020,ChemLine III PTFE Fl,ChemLine III PTFE Filtration,U,1
+1122,U,E,1000,0000004444,12/31/9999,5/31/2020,Microgard Phobic WEC,Microgard Phobic for WEC,U,1
+1428,U,E,1000,0000004444,5/30/2020,1/1/2016,Microgard Phobic WEC,Microgard Phobic for WEC,U,1
+508,U,E,1000,0000004445,2/3/2018,1/1/2016,Membrane OEM OEM,Membrane OEM,U,1
+212,U,E,1000,0000004445,5/30/2020,2/3/2019,Membrane OEM OEM,Membrane OEM,U,1
+211,U,E,1000,0000004445,12/31/9999,5/31/2020,Membrane OEM OEM,Membrane OEM,U,1
+214,U,E,1000,0000004445,2/2/2019,2/4/2018,Membrane OEM OEM,Membrane OEM,U,1
+53,U,E,1000,0000004446,12/31/9999,11/6/2016,Adv Torrento XS Fltn,Adv Torrento X/S Filtration,U,1
+759,U,E,1000,0000004447,2/29/2020,11/6/2016,WEC Solvent Pur/Filt,WEC Solvent Purification/Filtration,U,1
+675,U,E,1000,0000004447,12/31/9999,3/1/2020,WEC Solvent Pur/Filt,WEC Solvent Purification/Filtration,U,1
+1497,U,E,1000,0000004448,12/31/9999,5/9/2021,Trinzik HPC Filtratn,Trinzik HPC Filtration,U,1
+1498,U,E,1000,0000004448,5/8/2021,5/6/2018,Trinzik HPC Filtratn,Trinzik HPC Filtration,U,1
+1499,U,E,1000,0000004448,5/5/2018,1/1/2017,Trinzik HPC Filtratn,Trinzik HPC Filtration,U,1
+1111,U,E,1000,0000004449,12/31/9999,1/1/2017,Photo Manifolds Acce,Photo Manifolds & Accessories,U,1
+969,U,E,1000,0000004450,12/31/9999,1/1/2017,Srf Mod Blk Filtr,Surface Modified Bulk Filtration,U,1
+1029,U,E,1000,0000004451,12/31/9999,1/1/2018,Life Sciences,Life Sciences,U,1
+735,U,E,1000,0000004452,9/28/2019,1/1/2018,Adv Guardian PS Fln,Adv Guardian PS Filtration,U,1
+733,U,E,1000,0000004452,12/31/9999,9/29/2019,Adv Guardian PS Fln,Adv Guardian PS Filtration,U,1
+1500,U,E,1000,0000004453,12/31/9999,5/9/2021,Trinzik AT Filtratn,Trinzik AT Filtration,U,1
+1501,U,E,1000,0000004453,5/8/2021,1/1/2018,Trinzik AT Filtratn,Trinzik AT Filtration,U,1
+304,U,E,1000,0000004454,12/31/9999,1/1/2018,Trinzik UPW Filtratn,Trinzik UPW Filtration,U,1
+1304,U,E,1000,0000004455,12/31/9999,7/4/2021,Adv Photo POU Purif,Advanced Photo POU Purification,U,1
+1430,U,E,1000,0000004455,5/30/2020,2/2/2020,Adv Photo POU Purif,Advanced Photo POU Purification,U,1
+1429,U,E,1000,0000004455,7/3/2021,5/31/2020,Adv Photo POU Purif,Advanced Photo POU Purification,U,1
+1431,U,E,1000,0000004455,2/1/2020,1/1/2018,Adv Photo POU Purif,Advanced Photo POU Purification,U,1
+754,U,E,1000,0000004456,12/31/9999,9/29/2019,Astera PS Filtration,Astera PS Filtration,U,1
+758,U,E,1000,0000004456,9/28/2019,1/1/2018,Astera PS Filtration,Astera PS Filtration,U,1
+1098,U,E,1000,0000004457,12/31/9999,1/1/2018,CE All Teflon Filter,CE All Teflon Filters,U,1
+963,U,E,1000,0000004458,2/6/2021,9/1/2019,Bulk Nylon Filtratin,Bulk Nylon Filtration,U,1
+1320,U,E,1000,0000004458,5/5/2019,1/1/2019,Bulk Nylon Filtratin,Bulk Nylon Filtration,U,1
+968,U,E,1000,0000004458,8/31/2019,5/6/2019,Bulk Nylon Filtratin,Bulk Nylon Filtration,U,1
+962,U,E,1000,0000004458,12/31/9999,2/7/2021,Bulk Nylon Filtratin,Bulk Nylon Filtration,U,1
+381,U,E,1000,0000004459,12/31/9999,7/4/2021,CF OEM Chem SUS Hous,CF OEM- Chemicals and SUS Housings,U,1
+382,U,E,1000,0000004459,7/3/2021,1/1/2019,CF OEM Chem SUS Hous,CF OEM- Chemicals and SUS Housings,U,1
+1403,U,E,1000,0000004460,12/31/9999,3/1/2020,New Markets General,New Markets General,U,1
+1404,U,E,1000,0000004460,2/29/2020,1/1/2020,New Markets General,New Markets General,U,1
+554,U,E,1000,0000004461,12/31/9999,7/4/2021,Adv Photo POU Teflon,Adv Photo POU Teflon Filtration,U,1
+961,U,E,1000,0000004461,7/3/2021,5/3/2020,Adv Photo POU Teflon,Adv Photo POU Teflon Filtration,U,1
+371,U,E,1000,0000004462,12/31/9999,7/4/2021,CF Medical and Lab,CF Medical and Lab,U,1
+373,U,E,1000,0000004463,12/31/9999,7/4/2021,CF Pharma and F&B,CF Pharma and F&B,U,1
+921,U,E,1000,0000004465,12/31/9999,12/1/2021,CMP Slurries - G,CMP Slurries - G,U,1
+1503,U,E,1000,0000004465,9/4/2021,6/6/2021,CMP Slurries - G,CMP Slurries - G,U,1
+1502,U,E,1000,0000004465,11/30/2021,9/5/2021,CMP Slurries - G,CMP Slurries - G,U,1
+1517,U,E,1000,0000004465,6/5/2021,1/1/2020,CMP Slurries - G,CMP Slurries - G,U,1
+1513,U,E,1000,0000004466,12/31/9999,1/1/2021,CMP Slurries - F,CMP Slurries - F,U,1
+1514,U,E,1000,0000004467,12/31/9999,1/1/2021,HDD Chemicals,HDD Chemicals,U,1
+558,U,E,1000,0000004501,12/31/9999,1/10/2013,Stacked Disk Prodts,Stacked Disk Products,U,1
+1165,U,E,1000,0000004503,2/4/2009,2/9/2007,GPU Japan,GPU Japan,U,1
+1162,U,E,1000,0000004503,12/31/9999,3/13/2012,GPU Japan,GPU Japan,U,1
+1166,U,E,1000,0000004503,2/8/2007,11/15/2006,GPU Japan,GPU Japan,U,1
+1164,U,E,1000,0000004503,3/12/2012,2/5/2009,GPU Japan,GPU Japan,U,1
+1167,U,E,1000,0000004503,11/14/2006,10/4/2005,GPU Japan,GPU Japan,U,1
+1168,U,E,1000,0000004503,10/3/2005,8/6/2005,GPU Japan,GPU Japan,U,1
+486,U,E,1000,0000004505,10/3/2005,8/6/2005,Obs (4500)),Obs Integrated Solutions (4500),U,1
+480,U,E,1000,0000004505,12/31/9999,9/17/2009,Obs (4500)),Obs Integrated Solutions (4500),U,1
+481,U,E,1000,0000004505,9/16/2009,10/4/2005,Obs (4500)),Obs Integrated Solutions (4500),U,1
+1434,U,E,1000,0000004508,10/3/2005,8/6/2005, Scanner,Scanner,U,1
+1323,U,E,1000,0000004508,12/31/9999,6/5/2020, Scanner,Scanner,U,1
+1334,U,E,1000,0000004508,6/4/2020,8/20/2010, Scanner,Scanner,U,1
+1336,U,E,1000,0000004508,1/27/2009,11/15/2006, Scanner,Scanner,U,1
+1433,U,E,1000,0000004508,11/14/2006,10/4/2005, Scanner,Scanner,U,1
+1335,U,E,1000,0000004508,8/19/2010,1/28/2009, Scanner,Scanner,U,1
+1021,U,E,1000,0000004510,10/3/2005,8/6/2005,Obs (4508),Obs Other Extraction Litho Tool (4508),U,1
+1020,U,E,1000,0000004510,12/31/9999,10/4/2005,Obs (4508),Obs Other Extraction Litho Tool (4508),U,1
+1443,U,E,1000,0000004511,8/29/2020,6/28/2020, Cleanroom,Cleanroom,U,1
+1446,U,E,1000,0000004511,11/14/2006,10/4/2005, Cleanroom,Cleanroom,U,1
+1442,U,E,1000,0000004511,12/31/9999,8/30/2020, Cleanroom,Cleanroom,U,1
+1447,U,E,1000,0000004511,10/3/2005,8/6/2005, Cleanroom,Cleanroom,U,1
+1445,U,E,1000,0000004511,9/18/2016,11/15/2006, Cleanroom,Cleanroom,U,1
+1444,U,E,1000,0000004511,6/27/2020,9/19/2016, Cleanroom,Cleanroom,U,1
+1,U,E,1000,0000004512,12/31/9999,10/4/2005,Obs (1842),Obs Extraction Metrology (1842),U,1
+2,U,E,1000,0000004512,10/3/2005,8/6/2005,Obs (1842),Obs Extraction Metrology (1842),U,1
+1011,U,E,1000,0000004513,9/7/2008,11/15/2006,Gas Conditioning Sys,Gas Conditioning Systems & Services,U,1
+1010,U,E,1000,0000004513,9/8/2008,9/8/2008,Gas Conditioning Sys,Gas Conditioning Systems & Services,U,1
+941,U,E,1000,0000004513,12/31/9999,6/21/2013,Gas Conditioning Sys,Gas Conditioning Systems & Services,U,1
+943,U,E,1000,0000004513,10/21/2010,12/1/2008,Gas Conditioning Sys,Gas Conditioning Systems & Services,U,1
+942,U,E,1000,0000004513,6/20/2013,10/22/2010,Gas Conditioning Sys,Gas Conditioning Systems & Services,U,1
+1009,U,E,1000,0000004513,11/30/2008,9/9/2008,Gas Conditioning Sys,Gas Conditioning Systems & Services,U,1
+1269,U,E,1000,0000004514,6/3/2017,1/1/2009,Regeneration Service,Regeneration Service,U,1
+1268,U,E,1000,0000004514,12/31/9999,6/4/2017,Regeneration Service,Regeneration Service,U,1
+1172,U,E,1000,0000004515,3/12/2012,2/16/2011,In-line Filterss,In-line Filters,U,1
+1156,U,E,1000,0000004515,11/4/2017,6/17/2016,In-line Filterss,In-line Filters,U,1
+1173,U,E,1000,0000004515,2/15/2011,1/1/2002,In-line Filterss,In-line Filters,U,1
+1158,U,E,1000,0000004515,8/2/2014,3/13/2012,In-line Filterss,In-line Filters,U,1
+1155,U,E,1000,0000004515,12/31/9999,11/5/2017,In-line Filterss,In-line Filters,U,1
+1157,U,E,1000,0000004515,6/16/2016,8/3/2014,In-line Filterss,In-line Filters,U,1
+583,U,E,1000,0000004517,12/31/9999,3/13/2012,Surface Mnt FltrsJP,Surface Mount Filters Japan OEM,U,1
+624,U,E,1000,0000004517,3/12/2012,1/1/2011,Surface Mnt FltrsJP,Surface Mount Filters Japan OEM,U,1
+579,U,E,1000,0000004518,9/11/2012,1/1/2011,Specialty Filterss,Specialty Filters,U,1
+578,U,E,1000,0000004518,11/4/2012,9/12/2012,Specialty Filterss,Specialty Filters,U,1
+569,U,E,1000,0000004518,12/31/9999,11/5/2012,Specialty Filterss,Specialty Filters,U,1
+866,U,E,1000,0000004520,12/31/9999,3/13/2012,Gas Diffusers JPOEM,Gas Diffusers Japan OEM,U,1
