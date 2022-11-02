@@ -1,14 +1,16 @@
 from distutils import extension
 import sys
+from numpy import source
 import pika
 import base64
 import os
 from os import listdir, walk, replace
 from os.path import join,splitext, exists
 from time import sleep
+import shutil
 
 inputPath = r"\\127.0.0.1\c$\LAB_SHARED_FOLDER"
-
+longTermStorageLocation = r"\\127.0.0.1\c$\long_term"
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
 
@@ -35,7 +37,6 @@ def getFileExtension(file):
 
 def encodeFiles(file_name):
     try:
-        print(file_name)
         with open(file_name, "rb") as file:
             encoded_string = base64.b64encode(file.read()) 
         return encoded_string
@@ -50,6 +51,19 @@ def createMesseage(file,file_name,file_extension):
     }
     return str(message)
 
+def moveFile(dir):
+    fileStart = dir.rfind('\\')
+    folderStart = dir.rfind('$') + 1
+    sourceDir = dir[folderStart:fileStart] 
+    fileName = dir[fileStart:]
+    target = longTermStorageLocation + sourceDir
+    if not os.path.exists(target):
+        os.makedirs(target)
+    # target = longTermStorageLocation + fileName
+    shutil.move(dir,target)
+    pass
+
+
 def main(dir):
     while True:
         # sendOrNo = input("Do you want to send the File?")
@@ -60,17 +74,17 @@ def main(dir):
                 encodedFile = encodeFiles(f)
                 fileName, extension = getFileExtension(f)
                 dataDict = createMesseage(encodedFile,fileName,extension)
+                moveFile(f)
+                # channel.basic_publish(exchange='',
+                #                     routing_key='hello',
+                #                     body=dataDict)
+                # print("[X] Sent ", dataDict)
                 
-                channel.basic_publish(exchange='',
-                                    routing_key='hello',
-                                    body=dataDict)
-                print("[X] Sent ", dataDict)
         else:
             continue
     
 
 if __name__ == '__main__':
-
     try:
         main(inputPath)
         # main()
