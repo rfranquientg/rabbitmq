@@ -1,0 +1,5 @@
+ configuration:
+     error_sleep_time: 5
+     target_directory: 'output'
+     
+     

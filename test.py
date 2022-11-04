@@ -10,28 +10,10 @@ import ast
 import json
 from time import sleep
 import logging
-### Testing the read of a config file
-sleepTime = 1
+import magic 
 
-import pika 
-import time
 
-connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-channel = connection.channel()
-channel.queue_declare(queue='hello')
 
-def checkConnection():
-    sleep(sleepTime)
-    global connect_open
-    try:
-        pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-        logging.debug("Connection active")
-        connect_open = True
-    except:
-        connect_open = False
-        logging.error(f"Connection retrying in {sleepTime} seconds")
-        sleep(sleepTime)
-    return connect_open
 
-while True:
-    print(checkConnection())
+
+print("Directory Exists:",os.path.exists(r"\\127.0.0.1\\c$\LAB_SHARED_FOLDER"))

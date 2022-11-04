@@ -1,5 +1,4 @@
-from sqlite3 import connect
-from sre_constants import SUCCESS
+from asyncio.log import logger
 import sys
 import pika
 import base64
@@ -9,8 +8,16 @@ from os.path import join,splitext, exists
 from time import sleep
 import shutil
 import logging
+import yaml
+import magic
 
+global sleepTime
+global inputPath
+global longTermStorageLocation
+global allowed_file_types
+global files_to_skip
 
+files_to_skip = []
 
 logging.basicConfig(filename = 'script.log',level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 root = logging.getLogger()
@@ -22,10 +29,19 @@ handler.setFormatter(formatter)
 root.addHandler(handler)
 logging.getLogger("pika").propagate = False
 
-sleepTime = 5
-inputPath = r"\\127.0.0.1\c$\LAB_SHARED_FOLDER"
-# inputPath = r"\\RABBITMQ\Users\Administrator\Desktop\lab_shared_folder"
-longTermStorageLocation = r"\\127.0.0.1\c$\long_term"
+
+
+fileScan = magic.Magic(uncompress=True)
+
+
+
+with open('send_config.yaml', 'r') as file:
+    config_file = yaml.safe_load(file)
+    inputPath = r"{}".format(config_file["configuration"]["source_directory"])
+    sleepTime = config_file["configuration"]["error_sleep_time"]
+    longTermStorageLocation =  r"{}".format(config_file["configuration"]["long_term_storage"])
+    allowed_file_types = list(config_file["configuration"]["allowed_file_types"])
+
 
 
 def createConnection():
@@ -43,7 +59,7 @@ def createConnection():
                 
         except:
             logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
-            sleep(5)
+            sleep(sleepTime)
             
 
 def checkConnection():
@@ -58,15 +74,31 @@ def checkConnection():
         sleep(sleepTime)
     return connect_open
 
+def checkDirectory(inputdir, outputdir):
+        isExistInput = os.path.exists(inputdir)
+        isExistOutput = os.path.exists(outputdir)
+        if isExistInput == False or isExistOutput == False:
+            logging.error("Incorrect path in source or storage directories, please correct and restart program")
+            sys.exit()
+        
 
-
+""" Does not work fix this tom"""
 def getFiles(dir):
     files = []
     for r, d, f in walk(dir):
         for file in f:
-            # if file.endswith(".docx"):
-            files.append(join(r, file))
-    return files
+            if file in files_to_skip:
+                continue
+            else:
+                scanResults = fileScan.from_file(join(r, file))
+                approvedExtension = file.endswith(tuple(allowed_file_types))
+                if bool(approvedExtension) == True and 'executable' not in str(scanResults):
+                    files.append(join(r, file))
+                else:
+                    logger.info(f"Ignoring {file} because fileype is not allowed")
+                    logger.info(f'Adding {file} to skip list')
+                    files_to_skip.append(file)
+        return files
 
 def checkForFiles(dir):
     files = getFiles(dir)
@@ -105,7 +137,6 @@ def moveFile(dir):
     target = longTermStorageLocation + sourceDir
     if not os.path.exists(target):
         os.makedirs(target)
-    # target = longTermStorageLocation + fileName
     shutil.move(dir,target)
     logging.info(f"Moved {fileName}' to long term storage")
     
@@ -115,27 +146,25 @@ def main(dir):
         files = checkForFiles(dir)
         if files is not None:
             for f in files:
-                    if checkConnection() == True:
-                        encodedFile = encodeFiles(f)
-                        fileName, extension = getFileExtension(f)
-                        dataDict = createMesseage(encodedFile,fileName,extension)
-                        channel.basic_publish(exchange='',
-                                            routing_key='hello',
-                                            body=dataDict)
-                        moveFile(f)
-                        print("[X] Sent ", dataDict)
-                    else:
-                        createConnection()
+                if checkConnection() == True:
+                    encodedFile = encodeFiles(f)
+                    fileName, extension = getFileExtension(f)
+                    dataDict = createMesseage(encodedFile,fileName,extension)
+                    channel.basic_publish(exchange='',
+                                        routing_key='hello',
+                                        body=dataDict)
+                    moveFile(f)
+                    print("[X] Sent ", dataDict)
+                else:
+                    createConnection()
         else:
             sleep(5)
             continue
             
-            
-
-        
 
 if __name__ == '__main__':
     try:
+        checkDirectory(inputPath,longTermStorageLocation)
         createConnection()
         main(inputPath)
     except KeyboardInterrupt:
