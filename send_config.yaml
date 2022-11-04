@@ -1,7 +1,7 @@
  configuration:
-     source_directory: '\\127.0.0.1\c$\LAB_SHARED_FOLDER'
+     source_directory: '\\DESKTOP-ROY\rabbitmq_source'
      error_sleep_time: 5
-     long_term_storage: '\\127.0.0.1\c$\long_term'
+     long_term_storage: '\\DESKTOP-ROY\rabbitmq_archive'
      allowed_file_types: ['.txt','.csv']
      log_file_name : 'send.log'
      

@@ -1,4 +1,3 @@
-from re import S
 import pika, sys, os
 import base64
 import ast
@@ -8,7 +7,7 @@ import yaml
 from time import sleep
 #This is the path to output folder
 
-outputPath= 'output'
+
 
 logging.basicConfig(filename = 'script.log',level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 root = logging.getLogger()
@@ -54,10 +53,11 @@ def checkConnection():
         sleep(sleepTime)
     return connect_open
 
-def decodeFile(mssg, networkShare = True):
+def decodeFile(mssg, networkShare = False):
     print("Decoded String here")
     temp = str(mssg, "utf-8")
     messageDict =  ast.literal_eval(temp)
+    print(messageDict['File_Name'])
     if networkShare == True:
         newStart = messageDict['File_Name'].index('$') + 2
     else:
@@ -65,13 +65,19 @@ def decodeFile(mssg, networkShare = True):
     indexOfLastFolder = messageDict['File_Name'].rfind("\\")
     dirTest = messageDict['File_Name'][newStart:indexOfLastFolder]
     filename = messageDict['File_Name'][indexOfLastFolder + 1:] + messageDict['Extension']
-    outputDir = join(outputPath,dirTest)
+    outputDir = join(target_directory,dirTest)
     endPath =join(outputDir, filename)
     print(endPath)
     if not os.path.exists(outputDir):
         os.makedirs(outputDir)
     with open(endPath, "wb") as f:
         f.write(base64.b64decode(messageDict["Data"]))
+
+### If you want to eliminate the source directory structure all you need to do is send only upto that part or send the directory to subract on this side. 
+def decodeFile2(mssg):
+    decodedMesseageStr = str(mssg, "utf-8")
+    messageDict =  ast.literal_eval(decodedMesseageStr)
+
 
 def main():
     def callback(ch, method, properties, body):

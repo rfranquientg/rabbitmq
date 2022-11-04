@@ -86,6 +86,7 @@ def checkDirectory(inputdir, outputdir):
 def getFiles(dir):
     files = []
     for r, d, f in walk(dir):
+        print(d,f)
         for file in f:
             if file in files_to_skip:
                 continue
@@ -98,7 +99,7 @@ def getFiles(dir):
                     logger.info(f"Ignoring {file} because fileype is not allowed")
                     logger.info(f'Adding {file} to skip list')
                     files_to_skip.append(file)
-        return files
+    return files
 
 def checkForFiles(dir):
     files = getFiles(dir)

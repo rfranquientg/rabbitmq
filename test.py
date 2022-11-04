@@ -13,7 +13,14 @@ import logging
 import magic 
 
 
+dir = r"\\DESKTOP-ROY\rabbitmq_source"
+
+
+print("Directory Exists:",os.path.exists(dir))
 
 
 
-print("Directory Exists:",os.path.exists(r"\\127.0.0.1\\c$\LAB_SHARED_FOLDER"))
+for root, dirs, files in os.walk(dir):
+    print("Root",root)
+    print("Dirs", dirs)
+    print("Files", files )

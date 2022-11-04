@@ -1,0 +1,795 @@
+2022-11-04 13:52:12,647 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:52:16,757 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-04 13:52:21,772 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:52:22,373 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-04 13:52:27,389 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:52:27,416 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-04 13:52:32,424 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:52:32,438 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-04 13:52:37,444 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:52:37,492 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 13:52:37,511 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:52:42,517 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:52:47,534 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:52:52,546 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:52:57,565 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:02,577 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:07,584 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:12,598 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:17,614 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:22,627 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:27,644 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:32,657 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:35,076 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:53:35,133 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 13:53:37,671 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:42,691 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:47,705 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:52,733 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:53:57,754 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:02,777 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:07,789 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:12,823 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:17,830 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:22,840 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:27,853 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:32,874 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:37,896 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:42,911 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:47,923 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:52,950 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:54:57,993 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:03,008 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:08,012 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:13,023 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:18,057 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:23,065 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:28,125 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:33,178 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:38,193 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:43,205 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:48,215 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:53,231 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:55:58,251 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:03,262 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:08,281 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:13,286 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:18,296 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:23,313 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:28,334 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:33,350 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:38,365 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:43,371 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:49,004 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:56:49,051 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 13:56:49,052 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:54,065 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:56:59,082 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:57:04,091 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:57:09,100 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:57:14,115 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:57:19,125 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:57:24,138 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:57:33,270 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:57:33,340 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 13:57:33,342 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:57:38,358 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:58:01,805 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:58:01,847 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 13:58:01,851 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:58:06,858 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:58:11,876 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:59:09,352 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 13:59:09,404 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 13:59:09,406 - root - INFO - No new files will check in 5 seconds
+2022-11-04 13:59:14,421 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:06,849 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:02:06,932 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:02:06,932 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:11,939 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:16,952 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:21,966 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:25,162 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:02:25,214 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:02:25,215 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:30,230 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:35,231 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:40,249 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:45,259 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:50,280 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:02:55,290 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:03:00,299 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:03:05,302 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:03:10,412 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:03:15,424 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:03:20,437 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:03:25,439 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:03:30,448 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:03:35,449 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:04:32,383 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:04:32,481 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:04:32,556 - root - DEBUG - Connection active
+2022-11-04 14:04:32,597 - root - DEBUG - Connection active
+2022-11-04 14:04:32,700 - root - INFO - Moved \MOCK_DATA (2).csv' to long term storage
+2022-11-04 14:04:32,805 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:04:37,820 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:04:42,834 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:04:47,864 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:04:50,185 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:04:50,236 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:04:52,892 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:04:57,910 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:02,944 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:07,986 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:13,000 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:18,005 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:23,031 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:28,051 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:33,072 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:38,099 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:43,116 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:48,134 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:53,188 - root - DEBUG - Connection active
+2022-11-04 14:05:53,208 - root - DEBUG - Connection active
+2022-11-04 14:05:53,309 - root - INFO - Moved \MOCK_DATA.csv' to long term storage
+2022-11-04 14:05:53,331 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:05:58,342 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:03,353 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:08,370 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:13,381 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:18,402 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:23,411 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:28,645 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:33,730 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:38,750 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:43,776 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:48,798 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:53,818 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:06:58,883 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:03,899 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:08,913 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:13,931 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:18,954 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:23,969 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:28,988 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:34,010 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:39,026 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:44,039 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:49,054 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:54,074 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:07:59,092 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:04,105 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:09,129 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:14,147 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:19,164 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:24,180 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:29,198 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:34,220 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:39,232 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:44,245 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:49,264 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:54,293 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:08:59,307 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:04,322 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:09,331 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:14,356 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:19,365 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:24,391 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:29,395 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:34,415 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:39,427 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:40,889 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:09:40,950 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:09:44,439 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:49,447 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:09:54,490 - root - DEBUG - Connection active
+2022-11-04 14:10:11,060 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:10:11,121 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:10:11,192 - root - DEBUG - Connection active
+2022-11-04 14:10:11,236 - root - DEBUG - Connection active
+2022-11-04 14:10:27,520 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:10:27,586 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:10:27,651 - root - DEBUG - Connection active
+2022-11-04 14:10:27,701 - root - DEBUG - Connection active
+2022-11-04 14:10:27,799 - root - INFO - Moved \MOCK_DATA.csv' to long term storage
+2022-11-04 14:10:27,810 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:10:32,815 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:10:37,848 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:10:42,878 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:10:47,891 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:10:52,906 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:10:57,919 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:02,932 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:07,948 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:12,969 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:17,985 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:22,996 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:28,006 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:33,020 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:38,084 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:43,089 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:48,104 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:53,128 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:11:58,142 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:03,151 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:08,166 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:13,185 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:18,196 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:23,207 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:28,224 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:33,244 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:38,260 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:43,279 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:48,293 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:53,308 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:12:58,328 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:03,343 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:08,363 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:13,373 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:18,437 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:23,456 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:28,466 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:33,487 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:38,507 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:43,521 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:48,536 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:53,540 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:13:58,555 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:03,571 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:08,591 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:13,603 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:18,616 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:23,618 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:28,755 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:33,760 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:38,777 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:43,792 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:48,820 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:53,827 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:14:58,881 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:03,891 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:08,908 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:13,924 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:18,961 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:23,975 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:29,002 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:34,018 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:39,040 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:44,064 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:49,074 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:54,088 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:15:59,107 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:04,113 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:09,147 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:14,162 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:19,191 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:24,195 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:29,213 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:34,236 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:39,281 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:44,301 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:49,319 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:54,327 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:16:59,345 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:04,369 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:09,391 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:14,414 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:19,432 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:24,444 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:29,472 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:34,487 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:39,495 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:44,508 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:49,521 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:54,536 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:17:59,543 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:04,565 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:05,225 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:18:05,286 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:18:09,575 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:14,591 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:19,602 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:24,616 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:29,657 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:34,671 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:39,677 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:44,691 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:49,710 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:54,726 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:18:59,735 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:19:04,754 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:19:09,800 - root - DEBUG - Connection active
+2022-11-04 14:19:50,681 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:19:56,150 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:20:21,154 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:20:21,204 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:20:21,251 - root - DEBUG - Connection active
+2022-11-04 14:20:21,364 - root - INFO - Moved \MOCK_DATA.csv' to long term storage
+2022-11-04 14:20:21,413 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:20:26,435 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:20:28,421 - root - DEBUG - Connection active
+2022-11-04 14:20:31,444 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:20:36,462 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:20:41,479 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:20:46,498 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:20:51,513 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:20:56,525 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:01,546 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:06,567 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:11,589 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:16,620 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:21,629 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:26,651 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:31,663 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:36,684 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:41,700 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:46,709 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:21:51,782 - root - DEBUG - Connection active
+2022-11-04 14:23:32,129 - root - DEBUG - Connection active
+2022-11-04 14:36:42,373 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:36:42,409 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:36:42,440 - root - DEBUG - Connection active
+2022-11-04 14:37:16,076 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:37:16,107 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:37:16,119 - root - DEBUG - Connection active
+2022-11-04 14:37:23,727 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 14:37:23,763 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 14:37:23,804 - root - DEBUG - Connection active
+2022-11-04 14:37:23,825 - root - DEBUG - Connection active
+2022-11-04 14:37:23,907 - root - INFO - Moved \MOCK_DATA.csv' to long term storage
+2022-11-04 14:37:23,908 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:37:28,930 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:37:33,997 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:37:39,014 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:37:44,030 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:37:49,041 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:37:54,047 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:37:59,070 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:04,118 - root - DEBUG - Connection active
+2022-11-04 14:38:04,134 - root - DEBUG - Connection active
+2022-11-04 14:38:04,214 - root - INFO - Moved \MOCK_DATA.csv' to long term storage
+2022-11-04 14:38:04,217 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:09,230 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:14,253 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:19,311 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:24,321 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:29,343 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:34,357 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:39,369 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:44,389 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:49,403 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:54,411 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:38:59,431 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:04,452 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:09,463 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:14,469 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:19,499 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:24,508 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:29,520 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:34,544 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:39,559 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:44,569 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:49,607 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:54,624 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:39:59,639 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:04,658 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:09,719 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:14,737 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:19,751 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:24,766 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:29,791 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:34,799 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:39,818 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:44,826 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:49,844 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:54,847 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:40:59,861 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:04,875 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:09,898 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:14,900 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:19,922 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:24,924 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:29,951 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:34,961 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:39,981 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:44,985 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:50,008 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:41:55,024 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:00,049 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:05,065 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:10,096 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:15,103 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:20,123 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:25,125 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:30,138 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:35,154 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:40,161 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:45,169 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:50,185 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:42:55,188 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:00,207 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:05,211 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:10,264 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:15,278 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:20,302 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:25,316 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:30,338 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:35,356 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:40,381 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:45,397 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:50,416 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:43:55,441 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:00,465 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:05,478 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:10,488 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:15,499 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:20,522 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:25,535 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:30,551 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:35,560 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:40,578 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:45,595 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:50,612 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:44:55,633 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:00,666 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:05,682 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:10,697 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:15,710 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:20,718 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:25,735 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:30,746 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:35,763 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:40,770 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:45,789 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:50,800 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:45:55,810 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:00,818 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:05,834 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:10,853 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:15,876 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:20,899 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:25,916 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:30,941 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:35,957 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:40,980 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:45,990 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:51,008 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:46:56,015 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:01,041 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:06,044 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:11,068 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:16,077 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:21,097 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:26,100 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:31,111 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:36,129 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:41,161 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:46,173 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:51,199 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:47:56,209 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:01,227 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:06,233 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:11,254 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:16,264 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:21,297 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:26,309 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:31,322 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:36,339 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:41,362 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:46,378 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:51,401 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:48:56,416 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:01,469 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:06,475 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:11,499 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:16,516 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:21,531 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:26,557 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:31,568 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:36,582 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:41,603 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:46,619 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:51,636 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:49:56,655 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:01,682 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:06,703 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:11,727 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:16,735 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:21,754 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:26,768 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:31,782 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:36,792 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:41,806 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:46,817 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:51,838 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:50:56,858 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:01,868 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:06,883 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:11,892 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:16,913 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:21,937 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:26,957 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:31,973 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:36,985 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:41,995 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:47,002 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:52,016 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:51:57,035 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:02,056 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:07,071 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:12,099 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:17,106 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:22,133 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:27,146 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:32,161 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:37,166 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:42,185 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:47,196 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:52,228 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:52:57,243 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:02,260 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:07,264 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:12,281 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:17,295 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:22,310 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:27,319 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:32,339 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:37,345 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:42,361 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:47,375 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:52,419 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:53:57,433 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:02,509 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:07,518 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:12,560 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:17,573 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:22,592 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:27,605 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:32,619 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:37,621 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:42,637 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:47,650 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:52,673 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:54:57,678 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:02,690 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:07,709 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:12,730 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:17,743 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:22,750 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:27,774 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:32,784 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:37,790 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:42,805 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:47,826 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:52,846 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:55:57,855 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:02,874 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:07,889 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:12,897 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:17,917 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:22,933 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:27,954 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:32,969 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:37,988 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:43,002 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:48,021 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:53,035 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:56:58,054 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:03,074 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:08,087 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:13,112 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:18,121 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:23,138 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:28,156 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:33,180 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:38,199 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:43,215 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:48,233 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:53,246 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:57:58,258 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:03,276 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:08,281 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:13,308 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:18,319 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:23,337 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:28,353 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:33,370 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:38,374 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:43,395 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:48,409 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:53,431 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:58:58,434 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:03,470 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:08,484 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:13,500 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:18,504 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:23,526 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:28,540 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:33,560 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:38,576 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:43,648 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:48,658 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:53,682 - root - INFO - No new files will check in 5 seconds
+2022-11-04 14:59:58,699 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:03,722 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:08,732 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:13,756 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:18,772 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:23,799 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:28,816 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:33,837 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:38,853 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:43,870 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:48,874 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:53,890 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:00:58,904 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:03,927 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:08,937 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:13,955 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:18,964 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:23,980 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:28,991 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:34,008 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:39,025 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:44,036 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:49,049 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:54,067 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:01:59,092 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:04,109 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:09,119 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:14,131 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:19,153 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:24,174 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:29,187 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:34,203 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:39,215 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:44,231 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:49,255 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:54,267 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:02:59,285 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:04,303 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:09,314 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:14,331 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:19,344 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:24,353 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:29,366 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:34,379 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:39,387 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:44,406 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:49,423 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:54,447 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:03:59,462 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:04,484 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:09,501 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:14,522 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:19,531 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:24,552 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:29,558 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:34,582 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:39,596 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:44,609 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:49,614 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:54,646 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:04:59,650 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:04,679 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:09,691 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:14,715 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:19,717 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:24,736 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:29,752 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:34,769 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:39,785 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:44,807 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:49,821 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:54,837 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:05:59,851 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:04,864 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:09,880 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:14,897 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:19,901 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:24,918 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:29,921 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:34,945 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:39,958 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:44,982 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:49,989 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:06:54,995 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:00,004 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:05,022 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:10,044 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:15,056 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:20,064 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:25,074 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:30,087 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:35,099 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:40,113 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:45,124 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:50,133 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:07:55,147 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:00,158 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:05,164 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:10,175 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:15,186 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:20,201 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:25,218 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:30,250 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:35,270 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:40,280 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:45,298 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:50,324 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:08:55,357 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:00,368 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:05,388 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:10,409 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:15,420 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:20,432 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:25,442 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:30,452 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:35,467 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:40,481 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:45,505 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:50,515 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:09:55,544 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:00,547 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:05,578 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:10,583 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:15,631 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:20,648 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:25,663 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:30,678 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:35,705 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:40,718 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:45,729 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:50,740 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:10:55,768 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:00,784 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:05,803 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:10,819 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:15,844 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:20,850 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:25,862 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:30,873 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:35,893 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:40,901 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:45,925 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:50,947 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:11:55,972 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:00,990 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:06,009 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:07,518 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 15:12:07,571 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 15:12:07,573 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:11,010 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:12,581 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:14,556 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-04 15:12:14,598 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-04 15:12:16,034 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:17,595 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:21,046 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:22,603 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:26,095 - root - DEBUG - Connection active
+2022-11-04 15:12:27,644 - root - DEBUG - Connection active
+2022-11-04 15:12:27,675 - root - DEBUG - Connection active
+2022-11-04 15:12:27,756 - root - INFO - Moved \test.txt' to long term storage
+2022-11-04 15:12:27,759 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:32,771 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:37,781 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:42,800 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:47,824 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:52,847 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:12:57,871 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:02,888 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:07,910 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:12,927 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:17,945 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:22,973 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:28,016 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:33,033 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:38,055 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:43,074 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:48,085 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:53,111 - root - INFO - No new files will check in 5 seconds
+2022-11-04 15:13:58,162 - root - DEBUG - Connection active
+2022-11-04 15:13:58,195 - root - DEBUG - Connection active
+2022-11-04 15:13:58,259 - root - INFO - Moved \New Text Document.txt' to long term storage
+2022-11-04 15:13:58,262 - root - INFO - No new files will check in 5 seconds
