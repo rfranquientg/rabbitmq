@@ -4,4 +4,6 @@
      long_term_storage: '\\DESKTOP-ROY\rabbitmq_archive'
      allowed_file_types: ['.txt','.csv']
      log_file_name : 'send.log'
+     queue: 'pikaFileTransfer'
+     host: '10.200.5.66:15672'
      

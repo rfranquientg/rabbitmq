@@ -23,6 +23,7 @@ with open('recieve_config.yaml', 'r') as file:
     config_file = yaml.safe_load(file)
     target_directory = r"{}".format(config_file["configuration"]["target_directory"])
     sleepTime = config_file["configuration"]["error_sleep_time"]
+    rabbit_queue = config_file["configuration"]["queue"]
     
 def createConnection():
     connectionSuccessful = False
@@ -33,10 +34,9 @@ def createConnection():
         try:
             connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
             channel = connection.channel()
-            channel.queue_declare(queue='hello')
+            channel.queue_declare(queue=rabbit_queue)
             connectionSuccessful = True
             logging.info("Connection to RabbitMQ sucessful")
-            
         except:
             logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
             sleep(sleepTime)
@@ -53,31 +53,20 @@ def checkConnection():
         sleep(sleepTime)
     return connect_open
 
-def decodeFile(mssg, networkShare = False):
-    print("Decoded String here")
-    temp = str(mssg, "utf-8")
-    messageDict =  ast.literal_eval(temp)
-    print(messageDict['File_Name'])
-    if networkShare == True:
-        newStart = messageDict['File_Name'].index('$') + 2
-    else:
-        newStart = 0
+def decodeFile(mssg):
+    decodedMesseageStr = str(mssg, "utf-8")
+    messageDict =  ast.literal_eval(decodedMesseageStr)
     indexOfLastFolder = messageDict['File_Name'].rfind("\\")
-    dirTest = messageDict['File_Name'][newStart:indexOfLastFolder]
+    dirTest = messageDict['File_Name'][:indexOfLastFolder]
     filename = messageDict['File_Name'][indexOfLastFolder + 1:] + messageDict['Extension']
+    logging.info(f"Recieved {filename}")
     outputDir = join(target_directory,dirTest)
     endPath =join(outputDir, filename)
-    print(endPath)
     if not os.path.exists(outputDir):
         os.makedirs(outputDir)
     with open(endPath, "wb") as f:
         f.write(base64.b64decode(messageDict["Data"]))
-
-### If you want to eliminate the source directory structure all you need to do is send only upto that part or send the directory to subract on this side. 
-def decodeFile2(mssg):
-    decodedMesseageStr = str(mssg, "utf-8")
-    messageDict =  ast.literal_eval(decodedMesseageStr)
-
+    logging.info(f"File {filename} stored successfully")
 
 def main():
     def callback(ch, method, properties, body):
@@ -89,15 +78,13 @@ def main():
                     createConnection()
     while True:
         createConnection()
-        channel.queue_declare(queue='hello')
-        channel.basic_consume(queue='hello', on_message_callback=callback, auto_ack=True)
-        print(' [*] Waiting for messages. To exit press CTRL+C')
+        channel.queue_declare(queue=rabbit_queue)
+        channel.basic_consume(queue=rabbit_queue, on_message_callback=callback, auto_ack=True)
         try:
-            channel.start_consuming()
             logging.info(' [*] Waiting for messages. To exit press CTRL+C')
+            channel.start_consuming()
         except pika.exceptions.ConnectionClosedByBroker:
             while checkConnection() == False:
-
                 createConnection()
                 sleep(sleepTime)
         continue

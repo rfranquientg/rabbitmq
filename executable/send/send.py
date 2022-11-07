@@ -9,7 +9,7 @@ from time import sleep
 import shutil
 import logging
 import yaml
-import magic
+# import magic
 
 global sleepTime
 global inputPath
@@ -29,11 +29,7 @@ handler.setFormatter(formatter)
 root.addHandler(handler)
 logging.getLogger("pika").propagate = False
 
-
-
-fileScan = magic.Magic(uncompress=True)
-
-
+# fileScan = magic.Magic(uncompress=True)
 
 with open('send_config.yaml', 'r') as file:
     config_file = yaml.safe_load(file)
@@ -41,8 +37,8 @@ with open('send_config.yaml', 'r') as file:
     sleepTime = config_file["configuration"]["error_sleep_time"]
     longTermStorageLocation =  r"{}".format(config_file["configuration"]["long_term_storage"])
     allowed_file_types = list(config_file["configuration"]["allowed_file_types"])
-
-
+    rabbit_queue = config_file["configuration"]["queue"]
+    rabbit_host = config_file["configuration"]["host"]
 
 def createConnection():
     connectionSuccessful = False
@@ -51,21 +47,20 @@ def createConnection():
     while connectionSuccessful == False:
         logging.info("Initiating Connection to RabbitMQ Instance")
         try:
-            connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+            connection = pika.BlockingConnection(pika.ConnectionParameters(rabbit_host))
             channel = connection.channel()
-            channel.queue_declare(queue='hello')
+            # channel.queue_declare(queue=rabbit_queue)
             connectionSuccessful = True
             logging.info("Connection to RabbitMQ sucessful")
                 
         except:
             logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
             sleep(sleepTime)
-            
 
 def checkConnection():
     global connect_open
     try:
-        pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+        pika.BlockingConnection(pika.ConnectionParameters(rabbit_host))
         logging.debug("Connection active")
         connect_open = True
     except:
@@ -81,8 +76,6 @@ def checkDirectory(inputdir, outputdir):
             logging.error("Incorrect path in source or storage directories, please correct and restart program")
             sys.exit()
         
-
-""" Does not work fix this tom"""
 def getFiles(dir):
     files = []
     for r, d, f in walk(dir):
@@ -90,7 +83,8 @@ def getFiles(dir):
             if file in files_to_skip:
                 continue
             else:
-                scanResults = fileScan.from_file(join(r, file))
+                # scanResults = fileScan.from_file(join(r, file))
+                scanResults = ' '
                 approvedExtension = file.endswith(tuple(allowed_file_types))
                 if bool(approvedExtension) == True and 'executable' not in str(scanResults):
                     files.append(join(r, file))
@@ -98,7 +92,7 @@ def getFiles(dir):
                     logger.info(f"Ignoring {file} because fileype is not allowed")
                     logger.info(f'Adding {file} to skip list')
                     files_to_skip.append(file)
-        return files
+    return files
 
 def checkForFiles(dir):
     files = getFiles(dir)
@@ -140,7 +134,6 @@ def moveFile(dir):
     shutil.move(dir,target)
     logging.info(f"Moved {fileName}' to long term storage")
     
-
 def main(dir):
     while True:
         files = checkForFiles(dir)
@@ -149,19 +142,20 @@ def main(dir):
                 if checkConnection() == True:
                     encodedFile = encodeFiles(f)
                     fileName, extension = getFileExtension(f)
-                    dataDict = createMesseage(encodedFile,fileName,extension)
+                    subtractFromDir = len(inputPath)
+                    dataDict = createMesseage(encodedFile,fileName[subtractFromDir:],extension)
                     channel.basic_publish(exchange='',
-                                        routing_key='hello',
+                                        routing_key=rabbit_queue,
                                         body=dataDict)
                     moveFile(f)
                     print("[X] Sent ", dataDict)
                 else:
                     createConnection()
+                    continue
         else:
             sleep(5)
             continue
             
-
 if __name__ == '__main__':
     try:
         checkDirectory(inputPath,longTermStorageLocation)

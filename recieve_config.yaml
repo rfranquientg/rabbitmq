@@ -1,5 +1,6 @@
  configuration:
      error_sleep_time: 5
      target_directory: '\\DESKTOP-ROY\rabbitmq_target'
+     queue: 'pikaeFileTrasnfer'
      
      
