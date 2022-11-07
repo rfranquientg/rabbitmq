@@ -7,9 +7,7 @@ import yaml
 from time import sleep
 #This is the path to output folder
 
-
-
-logging.basicConfig(filename = 'script.log',level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename = 'recieve.log',level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 root = logging.getLogger()
 root.setLevel(logging.DEBUG)
 handler = logging.StreamHandler(sys.stdout)
@@ -19,11 +17,14 @@ handler.setFormatter(formatter)
 root.addHandler(handler)
 logging.getLogger("pika").propagate = False
 
+global credentials 
+
 with open('recieve_config.yaml', 'r') as file:
     config_file = yaml.safe_load(file)
     target_directory = r"{}".format(config_file["configuration"]["target_directory"])
     sleepTime = config_file["configuration"]["error_sleep_time"]
     rabbit_queue = config_file["configuration"]["queue"]
+    rabbit_host = config_file["configuration"]["host"]
     
 def createConnection():
     connectionSuccessful = False
@@ -32,7 +33,12 @@ def createConnection():
     while connectionSuccessful == False:
         logging.info("Initiating Connection to RabbitMQ Instance")
         try:
-            connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+            credentials = pika.PlainCredentials('rolando', 'password')
+            parameters = pika.ConnectionParameters(rabbit_host,
+                                   5672,
+                                   '/',
+                                   credentials)
+            connection = pika.BlockingConnection(parameters)
             channel = connection.channel()
             channel.queue_declare(queue=rabbit_queue)
             connectionSuccessful = True
@@ -44,7 +50,12 @@ def createConnection():
 def checkConnection():
     global connect_open
     try:
-        pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+        credentials = pika.PlainCredentials('rolando', 'password')
+        parameters = pika.ConnectionParameters(rabbit_host,
+                                            5672,
+                                            '/',
+                                            credentials)
+        pika.BlockingConnection(parameters)
         logging.debug("Connection active")
         connect_open = True
     except:
@@ -77,16 +88,26 @@ def main():
                 while checkConnection() == False:
                     createConnection()
     while True:
-        createConnection()
+        credentials = pika.PlainCredentials('rolando', 'password')
+        parameters = pika.ConnectionParameters(rabbit_host,
+                                   5672,
+                                   '/',
+                                   credentials)
+
+        connection = pika.BlockingConnection(parameters)
+        channel = connection.channel()
         channel.queue_declare(queue=rabbit_queue)
         channel.basic_consume(queue=rabbit_queue, on_message_callback=callback, auto_ack=True)
         try:
+            createConnection()
             logging.info(' [*] Waiting for messages. To exit press CTRL+C')
             channel.start_consuming()
         except pika.exceptions.ConnectionClosedByBroker:
             while checkConnection() == False:
                 createConnection()
                 sleep(sleepTime)
+        except:
+            logging.error('Connection Failure')
         continue
 
 if __name__ == '__main__':
