@@ -1,3 +1,4 @@
+from ast import excepthandler
 from asyncio.log import logger
 import sys
 import pika
@@ -9,7 +10,8 @@ from time import sleep
 import shutil
 import logging
 import yaml
-# import magic
+import filetype
+import traceback
 
 global sleepTime
 global inputPath
@@ -30,7 +32,6 @@ handler.setFormatter(formatter)
 root.addHandler(handler)
 logging.getLogger("pika").propagate = False
 
-# fileScan = magic.Magic(uncompress=True)
 
 with open('send_config.yaml', 'r') as file:
     config_file = yaml.safe_load(file)
@@ -94,10 +95,14 @@ def getFiles(dir):
             if file in files_to_skip:
                 continue
             else:
-                # scanResults = fileScan.from_file(join(r, file))
-                scanResults = ' '
+                # scanResults = fileScan.from_file()
+                kind = filetype.guess(join(r, file))
                 approvedExtension = file.endswith(tuple(allowed_file_types))
-                if bool(approvedExtension) == True and 'executable' not in str(scanResults):
+                if kind is not None:
+                    scanResults = kind.mime
+                else:
+                    scanResults = ' '
+                if bool(approvedExtension) == True and 'application' not in str(scanResults):
                     files.append(join(r, file))
                 else:
                     logger.info(f"Ignoring {file} because fileype is not allowed")
@@ -142,30 +147,38 @@ def moveFile(dir):
     target = longTermStorageLocation + sourceDir
     if not os.path.exists(target):
         os.makedirs(target)
-    shutil.move(dir,target)
-    logging.info(f"Moved {fileName}' to long term storage")
+    try:
+        shutil.move(dir,target)
+        logging.info(f"Moved {fileName}' to long term storage")
+    except shutil.Error:
+        logging.debug(f"Destination path already exists, ")
+        shutil.move(dir,target + '_new')
+
     
 def main(dir):
-    while True:
-        files = checkForFiles(dir)
-        if files is not None:
-            for f in files:
-                if checkConnection() == True:
-                    encodedFile = encodeFiles(f)
-                    fileName, extension = getFileExtension(f)
-                    subtractFromDir = len(inputPath)
-                    dataDict = createMesseage(encodedFile,fileName[subtractFromDir:],extension)
-                    channel.basic_publish(exchange='',
-                                        routing_key=rabbit_queue,
-                                        body=dataDict)
-                    moveFile(f)
-                    print("[X] Sent ", dataDict)
-                else:
-                    createConnection()
-                    continue
-        else:
-            sleep(5)
-            continue
+    try:
+        while True:
+            files = checkForFiles(dir)
+            if files is not None:
+                for f in files:
+                    if checkConnection() == True:
+                        encodedFile = encodeFiles(f)
+                        fileName, extension = getFileExtension(f)
+                        subtractFromDir = len(inputPath)
+                        dataDict = createMesseage(encodedFile,fileName[subtractFromDir:],extension)
+                        channel.basic_publish(exchange='',
+                                            routing_key=rabbit_queue,
+                                            body=dataDict)
+                        moveFile(f)
+                        print("[X] Sent ", dataDict)
+                    else:
+                        createConnection()
+                        continue
+            else:
+                sleep(5)
+                continue
+    except:
+        logging.error(traceback.format_exc())
             
 if __name__ == '__main__':
     try:
