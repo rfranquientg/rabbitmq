@@ -1,0 +1,9 @@
+2022-11-08 16:06:56,407 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-08 16:06:56,427 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-08 16:11:02,728 - root - DEBUG - Connection active
+2022-11-08 16:11:02,728 - root - INFO - Recieved dsadsa.txt
+2022-11-08 16:11:02,739 - root - INFO - File dsadsa.txt stored successfully
+2022-11-08 16:11:27,923 - root - DEBUG - Connection active
+2022-11-08 16:11:27,923 - root - INFO - Recieved rolando.txt
+2022-11-08 16:11:27,937 - root - INFO - File rolando.txt stored successfully
+2022-11-08 16:15:19,396 - root - ERROR - Connection check failed, sleeping 5 seconds
