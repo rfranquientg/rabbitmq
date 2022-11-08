@@ -104,10 +104,12 @@ def main():
             channel.start_consuming()
         except pika.exceptions.ConnectionClosedByBroker:
             while checkConnection() == False:
+                channel.stop_consuming()
                 createConnection()
                 sleep(sleepTime)
         except:
             logging.error('Connection Failure')
+            connection.close()
         continue
 
 if __name__ == '__main__':
@@ -115,6 +117,7 @@ if __name__ == '__main__':
         main()
     except KeyboardInterrupt:            
         print('Interrupted')
+        connection.close()
         try:
             sys.exit(0)
         except SystemExit:

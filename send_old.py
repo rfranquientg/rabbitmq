@@ -31,6 +31,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 root.addHandler(handler)
 logging.getLogger("pika").propagate = False
+credentials = pika.PlainCredentials('rolando', 'password')
 
 
 with open('send_config.yaml', 'r') as file:
@@ -49,7 +50,6 @@ def createConnection():
     while connectionSuccessful == False:
         logging.info("Initiating Connection to RabbitMQ Instance")
         try:
-            credentials = pika.PlainCredentials('rolando', 'password')
             parameters = pika.ConnectionParameters(rabbit_host,
                                             5672,
                                             '/',
@@ -162,6 +162,13 @@ def main(dir):
             if files is not None:
                 for f in files:
                     if checkConnection() == True:
+                        parameters = pika.ConnectionParameters(rabbit_host,
+                                   5672,
+                                   '/',
+                                   credentials)
+                        connection = pika.BlockingConnection(parameters)
+                        channel = connection.channel()
+                        channel.queue_declare(queue=rabbit_queue)
                         encodedFile = encodeFiles(f)
                         fileName, extension = getFileExtension(f)
                         subtractFromDir = len(inputPath)
