@@ -13,15 +13,42 @@ import yaml
 import filetype
 import traceback
 
+
+"""Global Variable Declaration"""
 global sleepTime
 global inputPath
 global longTermStorageLocation
 global allowed_file_types
 global files_to_skip
 global credentials
+global parameters
+global connection
+global channel
 
+"""Reading Configuration file"""
+with open('send_config.yaml', 'r') as file:
+    config_file = yaml.safe_load(file)
+    inputPath = r"{}".format(config_file["configuration"]["source_directory"])
+    sleepTime = config_file["configuration"]["error_sleep_time"]
+    longTermStorageLocation =  r"{}".format(config_file["configuration"]["long_term_storage"])
+    allowed_file_types = list(config_file["configuration"]["allowed_file_types"])
+    rabbit_queue = str(config_file["configuration"]["queue"])
+    rabbit_host = str(config_file["configuration"]["host"])
+    port = config_file["configuration"]["port"]
+    devMode = config_file["configuration"]["devMode"]
+    username = config_file["credentials"]["username"]
+    password = config_file["credentials"]["password"]
+
+
+"""Initializing variables"""
 files_to_skip = []
+credentials = pika.PlainCredentials(username, password)
+parameters = pika.ConnectionParameters(rabbit_host,
+                                            port,
+                                            '/',
+                                            credentials)
 
+"""Initializing Logging Config"""
 logging.basicConfig(filename = 'send.log',level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 root = logging.getLogger()
 root.setLevel(logging.DEBUG)
@@ -31,55 +58,61 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler.setFormatter(formatter)
 root.addHandler(handler)
 logging.getLogger("pika").propagate = False
-credentials = pika.PlainCredentials('rolando', 'password')
 
-
-with open('send_config.yaml', 'r') as file:
-    config_file = yaml.safe_load(file)
-    inputPath = r"{}".format(config_file["configuration"]["source_directory"])
-    sleepTime = config_file["configuration"]["error_sleep_time"]
-    longTermStorageLocation =  r"{}".format(config_file["configuration"]["long_term_storage"])
-    allowed_file_types = list(config_file["configuration"]["allowed_file_types"])
-    rabbit_queue = str(config_file["configuration"]["queue"])
-    rabbit_host = str(config_file["configuration"]["host"])
 
 def createConnection():
+    """Creates initial connection to RabbitMQ Instance"""
     connectionSuccessful = False
-    global connection
-    global channel
-    while connectionSuccessful == False:
-        logging.info("Initiating Connection to RabbitMQ Instance")
-        try:
-            parameters = pika.ConnectionParameters(rabbit_host,
-                                            5672,
-                                            '/',
-                                            credentials)
-            connection = pika.BlockingConnection(parameters)
-            channel = connection.channel()
-            channel.queue_declare(queue=rabbit_queue)
-            connectionSuccessful = True
-            logging.info("Connection to RabbitMQ sucessful")
-                
-        except:
-            logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
-            sleep(sleepTime)
+    if devMode == False:
+        while connectionSuccessful == False:
+            logging.info("Initiating Connection to RabbitMQ Instance")
+            try:
+                connection = pika.BlockingConnection(parameters)
+                channel = connection.channel()
+                channel.queue_declare(queue=rabbit_queue)
+                connectionSuccessful = True
+                logging.info("Connection to RabbitMQ sucessful")
+                    
+            except:
+                logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
+                sleep(sleepTime)
+    else:
+        while connectionSuccessful == False:
+            logging.info("Dev Mode: Initiating Connection to RabbitMQ Instance")
+            try:
+                connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+                channel = connection.channel()
+                channel.queue_declare(queue=rabbit_queue)
+                connectionSuccessful = True
+            except:
+                logging.error("Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds")
+                sleep(sleepTime)
+
+
 
 def checkConnection():
+    """Checks if the connection is open, and if the connection is open returns TRUE, else FALSE"""
     global connect_open
-    try:
-        credentials = pika.PlainCredentials('rolando', 'password')
-        parameters = pika.ConnectionParameters(rabbit_host,
-                                            5672,
-                                            '/',
-                                            credentials)
-        pika.BlockingConnection(parameters)
-        logging.debug("Connection active")
-        connect_open = True
-    except:
-        connect_open = False
-        logging.error(f"Connection check failed, retrying in {sleepTime} seconds")
-        sleep(sleepTime)
-    return connect_open
+    if devMode == False:
+        try:
+            pika.BlockingConnection(parameters)
+            logging.debug("Connection active")
+            connect_open = True
+        except:
+            connect_open = False
+            logging.error(f"Connection check failed, retrying in {sleepTime} seconds")
+            sleep(sleepTime)
+        return connect_open
+    else:
+        try:
+            pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+            logging.debug("Connection active")
+            connect_open = True
+        except:
+            logging.error(f"Connection check failed, sleeping {sleepTime} seconds")
+            sleep(sleepTime)
+        return connect_open
+
 
 def checkDirectory(inputdir, outputdir):
         isExistInput = os.path.exists(inputdir)
@@ -162,13 +195,14 @@ def main(dir):
             if files is not None:
                 for f in files:
                     if checkConnection() == True:
-                        parameters = pika.ConnectionParameters(rabbit_host,
-                                   5672,
-                                   '/',
-                                   credentials)
-                        connection = pika.BlockingConnection(parameters)
-                        channel = connection.channel()
-                        channel.queue_declare(queue=rabbit_queue)
+                        if devMode == False:
+                            connection = pika.BlockingConnection(parameters)
+                            channel = connection.channel()
+                            channel.queue_declare(queue=rabbit_queue)
+                        else:
+                            connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+                            channel = connection.channel()
+                            channel.queue_declare(queue=rabbit_queue)
                         encodedFile = encodeFiles(f)
                         fileName, extension = getFileExtension(f)
                         subtractFromDir = len(inputPath)
@@ -186,7 +220,10 @@ def main(dir):
                 continue
     except:
         logging.error(traceback.format_exc())
-            
+
+
+
+
 if __name__ == '__main__':
     try:
         checkDirectory(inputPath,longTermStorageLocation)

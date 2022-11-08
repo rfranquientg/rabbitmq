@@ -1,7 +1,12 @@
- configuration:
-     error_sleep_time: 5
-     target_directory: '\\DESKTOP-ROY\rabbitmq_target'
-     queue: 'pikaFileTransfer'
-     host: '10.200.5.66'
-     
-     
+configuration:
+  error_sleep_time: 5
+  target_directory: \\DESKTOP-ROY\rabbitmq_target
+  queue: pikaFileTransfer
+  log_file_name: send.log
+  host: localhost
+  port: 5672
+  log_file_retention: days
+  devMode: true
+credentials:
+  username: rolando
+  password: password
