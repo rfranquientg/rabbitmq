@@ -36,6 +36,7 @@ with open('send_config.yaml', 'r') as file:
     rabbit_host = str(config_file["configuration"]["host"])
     port = config_file["configuration"]["port"]
     devMode = config_file["configuration"]["devMode"]
+    log_file_name = config_file["configuration"]["devMode"]
     username = config_file["credentials"]["username"]
     password = config_file["credentials"]["password"]
 

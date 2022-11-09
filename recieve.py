@@ -37,7 +37,6 @@ handler.setFormatter(formatter)
 root.addHandler(handler)
 logging.getLogger("pika").propagate = False
 
-
 """Initializing Variables"""
 credentials = pika.PlainCredentials(username, password)
 parameters = pika.ConnectionParameters(rabbit_host,
@@ -110,6 +109,7 @@ def decodeFile(mssg):
     with open(endPath, "wb") as f:
         f.write(base64.b64decode(messageDict["Data"]))
     logging.info(f"File {filename} stored successfully")
+    logging.info(' [*] Waiting for messages.')
 
 def main():
     """Main Function"""
