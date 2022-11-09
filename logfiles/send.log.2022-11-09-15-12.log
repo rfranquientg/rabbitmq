@@ -1,0 +1,40 @@
+2022-11-09 15:12:42,920 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:12:47,932 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:12:52,936 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:12:57,948 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:13:02,959 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:13:07,972 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:13:13,004 - root - DEBUG - Connection active
+2022-11-09 15:13:13,020 - root - INFO - Moved \ag.txt' to long term storage
+2022-11-09 15:13:13,036 - root - DEBUG - Connection active
+2022-11-09 15:13:13,058 - root - INFO - Moved \CMC_Q02_0MATERIAL_ATTR.csv' to long term storage
+2022-11-09 15:13:13,131 - root - DEBUG - Connection active
+2022-11-09 15:13:13,148 - root - INFO - Moved \CMC_Q02_0PLANT_ATTR.csv' to long term storage
+2022-11-09 15:13:13,163 - root - DEBUG - Connection active
+2022-11-09 15:13:13,187 - root - INFO - Moved \CMC_Q02_0PROD_HIER_TEXT.csv' to long term storage
+2022-11-09 15:13:13,239 - root - DEBUG - Connection active
+2022-11-09 15:13:13,446 - root - INFO - Moved \CMC_Q02_MARM.csv' to long term storage
+2022-11-09 15:13:13,773 - root - ERROR - Fatal Error
+2022-11-09 15:13:13,775 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\send.py", line 267, in main
+    print("[X] Sent ", dataDict)
+KeyboardInterrupt
+
+2022-11-09 15:13:13,775 - root - INFO - Will Attempt Reconection in 5 seconds
+2022-11-09 15:13:18,803 - root - DEBUG - Connection active
+2022-11-09 15:13:18,854 - root - INFO - Moved \CMC_Q02_MAT_PLANT_ATTR.csv' to long term storage
+2022-11-09 15:13:18,952 - root - DEBUG - Connection active
+2022-11-09 15:13:18,974 - root - INFO - Moved \CMC_Q02_TCURR.csv' to long term storage
+2022-11-09 15:13:19,057 - root - DEBUG - Connection active
+2022-11-09 15:13:19,075 - root - INFO - Moved \dads.txt' to long term storage
+2022-11-09 15:13:19,091 - root - DEBUG - Connection active
+2022-11-09 15:13:19,107 - root - INFO - Moved \fdsfdsf.txt' to long term storage
+2022-11-09 15:13:19,124 - root - DEBUG - Connection active
+2022-11-09 15:13:19,143 - root - INFO - Moved \mike.txt' to long term storage
+2022-11-09 15:13:19,159 - root - DEBUG - Connection active
+2022-11-09 15:13:19,175 - root - INFO - Moved \one.txt' to long term storage
+2022-11-09 15:13:19,182 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:13:24,184 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:13:29,188 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:13:34,192 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:13:39,204 - root - INFO - No new files will check in 5 seconds

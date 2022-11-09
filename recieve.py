@@ -5,6 +5,9 @@ from  os.path import join
 import logging
 import yaml
 from time import sleep
+from logging.handlers import TimedRotatingFileHandler
+from logging import handlers
+import traceback
 
 """Global Variable Declaration"""
 global credentials
@@ -21,28 +24,34 @@ with open('recieve_config.yaml', 'r') as file:
     rabbit_queue = str(config_file["configuration"]["queue"])
     rabbit_host = str(config_file["configuration"]["host"])
     port = config_file["configuration"]["port"]
+    log_file_name = join("logfiles", str(config_file["configuration"]["log_file_name"]))
     devMode = config_file["configuration"]["devMode"]
     username = config_file["credentials"]["username"]
     password = config_file["credentials"]["password"]
 
-
-"""Initializing Logging"""
-logging.basicConfig(filename = 'recieve.log',level=logging.DEBUG,format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-root = logging.getLogger()
-root.setLevel(logging.DEBUG)
-handler = logging.StreamHandler(sys.stdout)
-handler.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-handler.setFormatter(formatter)
-root.addHandler(handler)
-logging.getLogger("pika").propagate = False
-
 """Initializing Variables"""
+folder_for_logs = 'logfiles'
 credentials = pika.PlainCredentials(username, password)
 parameters = pika.ConnectionParameters(rabbit_host,
                                             port,
                                             '/',
                                             credentials)
+
+"""Initializing Logging Config"""
+if not os.path.exists('logfiles'):
+    os.makedirs('logfiles')
+log = logging.getLogger('')
+log.setLevel(logging.DEBUG)
+format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+ch = logging.StreamHandler(sys.stdout)
+ch.setFormatter(format)
+log.addHandler(ch)
+fh = handlers.TimedRotatingFileHandler(log_file_name, when="M", interval=1)
+fh.suffix = "%Y-%m-%d-%H-%M.log"
+fh.setFormatter(format)
+log.addHandler(fh)
+logging.getLogger("pika").propagate = False
+
 def createConnection():
     """Creates initial connection to RabbitMQ Instance"""
     connectionSuccessful = False
@@ -99,10 +108,10 @@ def decodeFile(mssg):
     decodedMesseageStr = str(mssg, "utf-8")
     messageDict =  ast.literal_eval(decodedMesseageStr)
     indexOfLastFolder = messageDict['File_Name'].rfind("\\")
-    dirTest = messageDict['File_Name'][:indexOfLastFolder]
+    dirFromSource = messageDict['File_Name'][:indexOfLastFolder]
     filename = messageDict['File_Name'][indexOfLastFolder + 1:] + messageDict['Extension']
     logging.info(f"Recieved {filename}")
-    outputDir = join(target_directory,dirTest)
+    outputDir = target_directory + dirFromSource
     endPath =join(outputDir, filename)
     if not os.path.exists(outputDir):
         os.makedirs(outputDir)
@@ -122,11 +131,11 @@ def main():
                 while checkConnection() == False:
                     createConnection()
     while True:
-        if devMode == False:
-            connection = pika.BlockingConnection(parameters)
-        else:
-            connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
         try:
+            if devMode == False:
+                connection = pika.BlockingConnection(parameters)
+            else:
+                connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
             channel = connection.channel()
             channel.queue_declare(queue=rabbit_queue)
             channel.basic_consume(queue=rabbit_queue, on_message_callback=callback, auto_ack=True)
@@ -134,13 +143,17 @@ def main():
             logging.info(' [*] Waiting for messages. To exit press CTRL+C')
             channel.start_consuming()
         except pika.exceptions.ConnectionClosedByBroker:
+            logging.error('Connection closed by Broker')
             while checkConnection() == False:
+                logging.error('Attempting to restore connection')
                 channel.stop_consuming()
                 createConnection()
                 sleep(sleepTime)
         except:
-            logging.error('Connection Failure')
-            connection.close()
+            logging.error('Unknown Connection Failure, network might be down..')
+            logging.error(traceback.format_exc())
+            createConnection()
+        
         continue
 
 if __name__ == '__main__':

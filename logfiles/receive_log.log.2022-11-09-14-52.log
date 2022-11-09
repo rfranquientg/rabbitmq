@@ -1,0 +1,6 @@
+2022-11-09 14:52:27,039 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 14:52:27,052 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 14:52:27,062 - root - DEBUG - Connection active
+2022-11-09 14:52:27,063 - root - INFO - Recieved dads.txt
+2022-11-09 14:52:27,064 - root - INFO - File dads.txt stored successfully
+2022-11-09 14:52:27,064 - root - INFO -  [*] Waiting for messages.

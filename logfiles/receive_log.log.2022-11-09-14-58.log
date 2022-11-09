@@ -1,0 +1,45 @@
+2022-11-09 14:58:03,969 - root - DEBUG - Connection active
+2022-11-09 14:58:03,975 - root - INFO - Recieved ag.txt
+2022-11-09 14:58:03,977 - root - INFO - File ag.txt stored successfully
+2022-11-09 14:58:03,977 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:04,158 - root - DEBUG - Connection active
+2022-11-09 14:58:04,162 - root - INFO - Recieved CMC_Q02_0MATERIAL_ATTR.csv
+2022-11-09 14:58:04,172 - root - INFO - File CMC_Q02_0MATERIAL_ATTR.csv stored successfully
+2022-11-09 14:58:04,172 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:04,184 - root - DEBUG - Connection active
+2022-11-09 14:58:04,185 - root - INFO - Recieved CMC_Q02_0PLANT_ATTR.csv
+2022-11-09 14:58:04,191 - root - INFO - File CMC_Q02_0PLANT_ATTR.csv stored successfully
+2022-11-09 14:58:04,191 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:04,205 - root - DEBUG - Connection active
+2022-11-09 14:58:04,208 - root - INFO - Recieved CMC_Q02_0PROD_HIER_TEXT.csv
+2022-11-09 14:58:04,217 - root - INFO - File CMC_Q02_0PROD_HIER_TEXT.csv stored successfully
+2022-11-09 14:58:04,217 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:04,693 - root - DEBUG - Connection active
+2022-11-09 14:58:04,838 - root - INFO - Recieved CMC_Q02_MARM.csv
+2022-11-09 14:58:04,888 - root - INFO - File CMC_Q02_MARM.csv stored successfully
+2022-11-09 14:58:04,889 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:12,548 - root - DEBUG - Connection active
+2022-11-09 14:58:12,554 - root - INFO - Recieved CMC_Q02_MAT_PLANT_ATTR.csv
+2022-11-09 14:58:12,585 - root - INFO - File CMC_Q02_MAT_PLANT_ATTR.csv stored successfully
+2022-11-09 14:58:12,586 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:12,762 - root - DEBUG - Connection active
+2022-11-09 14:58:12,770 - root - INFO - Recieved CMC_Q02_TCURR.csv
+2022-11-09 14:58:12,785 - root - INFO - File CMC_Q02_TCURR.csv stored successfully
+2022-11-09 14:58:12,785 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:13,005 - root - DEBUG - Connection active
+2022-11-09 14:58:13,006 - root - INFO - Recieved dads.txt
+2022-11-09 14:58:13,008 - root - INFO - File dads.txt stored successfully
+2022-11-09 14:58:13,009 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:13,044 - root - DEBUG - Connection active
+2022-11-09 14:58:13,045 - root - INFO - Recieved fdsfdsf.txt
+2022-11-09 14:58:13,047 - root - INFO - File fdsfdsf.txt stored successfully
+2022-11-09 14:58:13,047 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:13,084 - root - DEBUG - Connection active
+2022-11-09 14:58:13,085 - root - INFO - Recieved mike.txt
+2022-11-09 14:58:13,088 - root - INFO - File mike.txt stored successfully
+2022-11-09 14:58:13,090 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:13,127 - root - DEBUG - Connection active
+2022-11-09 14:58:13,127 - root - INFO - Recieved one.txt
+2022-11-09 14:58:13,130 - root - INFO - File one.txt stored successfully
+2022-11-09 14:58:13,130 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:58:41,610 - root - ERROR - Connection check failed, sleeping 5 seconds

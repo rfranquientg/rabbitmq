@@ -1,0 +1,14 @@
+2022-11-09 15:22:30,834 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:22:34,934 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 15:22:39,950 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:22:44,018 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 15:22:49,028 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:22:53,120 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 15:22:58,123 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:23:02,210 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 15:23:07,221 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:23:11,310 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 15:23:16,320 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:23:20,413 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 15:23:25,419 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:23:29,493 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds

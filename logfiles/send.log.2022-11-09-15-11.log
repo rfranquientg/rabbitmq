@@ -1,0 +1,18 @@
+2022-11-09 15:11:32,269 - root - ERROR - Connection check failed, sleeping 5 seconds
+2022-11-09 15:11:41,690 - root - ERROR - Connection check failed, sleeping 5 seconds
+2022-11-09 15:12:27,543 - root - DEBUG - Connection active
+2022-11-09 15:12:27,561 - root - DEBUG - Connection active
+2022-11-09 15:12:27,583 - root - INFO - Moved \CMC_Q02_MAT_PLANT_ATTR.csv' to long term storage
+2022-11-09 15:12:27,674 - root - DEBUG - Connection active
+2022-11-09 15:12:27,698 - root - INFO - Moved \CMC_Q02_TCURR.csv' to long term storage
+2022-11-09 15:12:27,778 - root - DEBUG - Connection active
+2022-11-09 15:12:27,794 - root - INFO - Moved \dads.txt' to long term storage
+2022-11-09 15:12:27,809 - root - DEBUG - Connection active
+2022-11-09 15:12:27,827 - root - INFO - Moved \fdsfdsf.txt' to long term storage
+2022-11-09 15:12:27,844 - root - DEBUG - Connection active
+2022-11-09 15:12:27,860 - root - INFO - Moved \mike.txt' to long term storage
+2022-11-09 15:12:27,878 - root - DEBUG - Connection active
+2022-11-09 15:12:27,898 - root - INFO - Moved \one.txt' to long term storage
+2022-11-09 15:12:27,903 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:12:32,907 - root - INFO - No new files will check in 5 seconds
+2022-11-09 15:12:37,917 - root - INFO - No new files will check in 5 seconds

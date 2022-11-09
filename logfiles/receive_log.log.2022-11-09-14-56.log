@@ -1,0 +1,24 @@
+2022-11-09 14:56:56,277 - root - DEBUG - Connection active
+2022-11-09 14:56:56,286 - root - INFO - Recieved CMC_Q02_0MATERIAL_ATTR.csv
+2022-11-09 14:56:56,300 - root - INFO - File CMC_Q02_0MATERIAL_ATTR.csv stored successfully
+2022-11-09 14:56:56,301 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:56:56,410 - root - DEBUG - Connection active
+2022-11-09 14:56:56,411 - root - INFO - Recieved CMC_Q02_0PLANT_ATTR.csv
+2022-11-09 14:56:56,422 - root - INFO - File CMC_Q02_0PLANT_ATTR.csv stored successfully
+2022-11-09 14:56:56,423 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:56:56,467 - root - DEBUG - Connection active
+2022-11-09 14:56:56,472 - root - INFO - Recieved CMC_Q02_0PROD_HIER_TEXT.csv
+2022-11-09 14:56:56,485 - root - INFO - File CMC_Q02_0PROD_HIER_TEXT.csv stored successfully
+2022-11-09 14:56:56,486 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:56:56,971 - root - DEBUG - Connection active
+2022-11-09 14:56:57,107 - root - INFO - Recieved CMC_Q02_MARM.csv
+2022-11-09 14:56:57,150 - root - INFO - File CMC_Q02_MARM.csv stored successfully
+2022-11-09 14:56:57,150 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:57:03,536 - root - DEBUG - Connection active
+2022-11-09 14:57:03,544 - root - INFO - Recieved CMC_Q02_MAT_PLANT_ATTR.csv
+2022-11-09 14:57:03,584 - root - INFO - File CMC_Q02_MAT_PLANT_ATTR.csv stored successfully
+2022-11-09 14:57:03,584 - root - INFO -  [*] Waiting for messages.
+2022-11-09 14:57:03,699 - root - DEBUG - Connection active
+2022-11-09 14:57:03,706 - root - INFO - Recieved CMC_Q02_TCURR.csv
+2022-11-09 14:57:03,726 - root - INFO - File CMC_Q02_TCURR.csv stored successfully
+2022-11-09 14:57:03,727 - root - INFO -  [*] Waiting for messages.

@@ -1,0 +1,23 @@
+2022-11-09 14:56:26,117 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:56:31,131 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:56:36,148 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:56:41,165 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:56:46,169 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:56:51,180 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:56:56,218 - root - DEBUG - Connection active
+2022-11-09 14:56:56,258 - root - INFO - Moved \CMC_Q02_0MATERIAL_ATTR.csv' to long term storage
+2022-11-09 14:56:56,366 - root - DEBUG - Connection active
+2022-11-09 14:56:56,393 - root - INFO - Moved \CMC_Q02_0PLANT_ATTR.csv' to long term storage
+2022-11-09 14:56:56,420 - root - DEBUG - Connection active
+2022-11-09 14:56:56,454 - root - INFO - Moved \CMC_Q02_0PROD_HIER_TEXT.csv' to long term storage
+2022-11-09 14:56:56,524 - root - DEBUG - Connection active
+2022-11-09 14:56:56,720 - root - DEBUG - Destination path already exists, 
+2022-11-09 14:57:03,482 - root - DEBUG - Connection active
+2022-11-09 14:57:03,516 - root - INFO - Moved \CMC_Q02_MAT_PLANT_ATTR.csv' to long term storage
+2022-11-09 14:57:03,648 - root - DEBUG - Connection active
+2022-11-09 14:57:03,677 - root - INFO - Moved \CMC_Q02_TCURR.csv' to long term storage
+2022-11-09 14:57:03,810 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:57:08,826 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:57:13,830 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:57:18,839 - root - INFO - No new files will check in 5 seconds
+2022-11-09 14:57:23,844 - root - INFO - No new files will check in 5 seconds

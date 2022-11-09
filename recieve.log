@@ -1,0 +1,196 @@
+2022-11-09 10:57:47,207 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 10:57:47,218 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 10:57:47,227 - root - DEBUG - Connection active
+2022-11-09 10:57:47,227 - root - INFO - Recieved New Text Document.txt
+2022-11-09 10:57:51,949 - root - ERROR - Connection Failure
+2022-11-09 10:57:51,968 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 10:57:51,979 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 10:59:12,336 - root - DEBUG - Connection active
+2022-11-09 10:59:12,336 - root - INFO - Recieved pokemon.txt
+2022-11-09 10:59:16,981 - root - ERROR - Connection Failure
+2022-11-09 10:59:17,000 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 10:59:17,012 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 10:59:45,336 - root - DEBUG - Connection active
+2022-11-09 10:59:45,337 - root - INFO - Recieved dsadsa.txt
+2022-11-09 10:59:47,624 - root - ERROR - Connection Failure
+2022-11-09 10:59:47,647 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 10:59:47,659 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:02:55,726 - root - DEBUG - Connection active
+2022-11-09 11:02:55,726 - root - INFO - Recieved New Text Document.txt
+2022-11-09 11:03:00,376 - root - ERROR - Connection Failure
+2022-11-09 11:03:00,396 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:03:00,408 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:03:25,410 - root - ERROR - Connection Failure
+2022-11-09 11:03:25,428 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:03:25,441 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:03:30,447 - root - ERROR - Connection Failure
+2022-11-09 11:03:30,466 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:03:30,476 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:05:04,034 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:05:04,046 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:05:04,056 - root - DEBUG - Connection active
+2022-11-09 11:05:04,056 - root - INFO - Recieved New Text Document.txt
+2022-11-09 11:05:08,736 - root - ERROR - Connection Failure
+2022-11-09 11:05:08,749 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 136, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 851, in process_data_events
+    self._dispatch_channel_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 567, in _dispatch_channel_events
+    impl_channel._get_cookie()._dispatch_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1510, in _dispatch_events
+    consumer_info.on_message_callback(self, evt.method,
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 121, in callback
+    decodeFile(body)
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 109, in decodeFile
+    os.makedirs(outputDir)
+  File "C:\Users\rfranqui\Miniconda3\lib\os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "C:\Users\rfranqui\Miniconda3\lib\os.py", line 215, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "C:\Users\rfranqui\Miniconda3\lib\os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileNotFoundError: [WinError 53] The network path was not found: '\\\\DESKTOP-ROY\\rabbitmq_target\\'
+
+2022-11-09 11:05:08,774 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:05:08,789 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:06:13,779 - root - ERROR - Connection Failure
+2022-11-09 11:06:13,785 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 136, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 842, in process_data_events
+    self._flush_output(common_terminator)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 514, in _flush_output
+    self._impl.ioloop.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 579, in poll
+    self._poller.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 953, in poll
+    read, write, error = select.select(
+KeyboardInterrupt
+
+2022-11-09 11:06:13,808 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:06:13,820 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:06:18,827 - root - ERROR - Connection Failure
+2022-11-09 11:06:18,828 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 136, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 842, in process_data_events
+    self._flush_output(common_terminator)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 514, in _flush_output
+    self._impl.ioloop.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 579, in poll
+    self._poller.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 953, in poll
+    read, write, error = select.select(
+KeyboardInterrupt
+
+2022-11-09 11:06:18,848 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:06:18,861 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:07:03,568 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:07:03,579 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:07:18,358 - root - DEBUG - Connection active
+2022-11-09 11:07:18,359 - root - INFO - Recieved mike.txt
+2022-11-09 11:07:18,361 - root - INFO - File mike.txt stored successfully
+2022-11-09 11:07:18,362 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:08:59,123 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:08:59,136 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:09:23,644 - root - DEBUG - Connection active
+2022-11-09 11:09:23,644 - root - INFO - Recieved mike.txt
+2022-11-09 11:09:23,647 - root - INFO - File mike.txt stored successfully
+2022-11-09 11:09:23,647 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:14:25,214 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:14:25,226 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:14:25,236 - root - DEBUG - Connection active
+2022-11-09 11:14:25,236 - root - INFO - Recieved dsdasd.txt
+2022-11-09 11:14:25,237 - root - INFO - File dsdasd.txt stored successfully
+2022-11-09 11:14:25,237 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:15:47,252 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:15:47,263 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:15:47,272 - root - DEBUG - Connection active
+2022-11-09 11:15:47,273 - root - INFO - Recieved hello.txt
+2022-11-09 11:15:47,275 - root - INFO - File hello.txt stored successfully
+2022-11-09 11:15:47,275 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:17:17,548 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:17:17,559 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:17:22,479 - root - DEBUG - Connection active
+2022-11-09 11:17:22,479 - root - INFO - Recieved New Text Document.txt
+2022-11-09 11:17:22,481 - root - INFO - File New Text Document.txt stored successfully
+2022-11-09 11:17:22,481 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:19:24,790 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:19:24,801 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:19:32,750 - root - DEBUG - Connection active
+2022-11-09 11:19:32,750 - root - INFO - Recieved dsada.txt
+2022-11-09 11:19:32,752 - root - INFO - File dsada.txt stored successfully
+2022-11-09 11:19:32,752 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:19:59,800 - root - ERROR - Connection Failure
+2022-11-09 11:19:59,804 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 137, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 842, in process_data_events
+    self._flush_output(common_terminator)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 514, in _flush_output
+    self._impl.ioloop.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 579, in poll
+    self._poller.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 953, in poll
+    read, write, error = select.select(
+KeyboardInterrupt
+
+2022-11-09 11:19:59,826 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:19:59,838 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:20:09,828 - root - ERROR - Connection Failure
+2022-11-09 11:20:09,828 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 137, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 842, in process_data_events
+    self._flush_output(common_terminator)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 514, in _flush_output
+    self._impl.ioloop.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 579, in poll
+    self._poller.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 953, in poll
+    read, write, error = select.select(
+KeyboardInterrupt
+
+2022-11-09 11:20:09,849 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:20:09,859 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:20:33,582 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:20:33,594 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:20:42,695 - root - DEBUG - Connection active
+2022-11-09 11:20:42,695 - root - INFO - Recieved dasdsa.txt
+2022-11-09 11:20:42,697 - root - INFO - File dasdsa.txt stored successfully
+2022-11-09 11:20:42,697 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:21:54,712 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 11:21:54,724 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 11:22:02,879 - root - DEBUG - Connection active
+2022-11-09 11:22:02,879 - root - INFO - Recieved mike.txt
+2022-11-09 11:22:02,881 - root - INFO - File mike.txt stored successfully
+2022-11-09 11:22:02,881 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:22:22,952 - root - DEBUG - Connection active
+2022-11-09 11:22:22,953 - root - INFO - Recieved ag.txt
+2022-11-09 11:22:22,954 - root - INFO - File ag.txt stored successfully
+2022-11-09 11:22:22,954 - root - INFO -  [*] Waiting for messages.
+2022-11-09 11:22:53,035 - root - DEBUG - Connection active
+2022-11-09 11:22:53,035 - root - INFO - Recieved one.txt
+2022-11-09 11:22:53,037 - root - INFO - File one.txt stored successfully
+2022-11-09 11:22:53,037 - root - INFO -  [*] Waiting for messages.

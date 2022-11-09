@@ -1,0 +1,29 @@
+2022-11-09 15:11:42,478 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:11:42,494 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 15:11:47,499 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:11:47,530 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 15:11:47,542 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 15:12:27,599 - root - DEBUG - Connection active
+2022-11-09 15:12:27,605 - root - INFO - Recieved CMC_Q02_MAT_PLANT_ATTR.csv
+2022-11-09 15:12:27,634 - root - INFO - File CMC_Q02_MAT_PLANT_ATTR.csv stored successfully
+2022-11-09 15:12:27,634 - root - INFO -  [*] Waiting for messages.
+2022-11-09 15:12:27,713 - root - DEBUG - Connection active
+2022-11-09 15:12:27,719 - root - INFO - Recieved CMC_Q02_TCURR.csv
+2022-11-09 15:12:27,730 - root - INFO - File CMC_Q02_TCURR.csv stored successfully
+2022-11-09 15:12:27,730 - root - INFO -  [*] Waiting for messages.
+2022-11-09 15:12:27,803 - root - DEBUG - Connection active
+2022-11-09 15:12:27,804 - root - INFO - Recieved dads.txt
+2022-11-09 15:12:27,806 - root - INFO - File dads.txt stored successfully
+2022-11-09 15:12:27,806 - root - INFO -  [*] Waiting for messages.
+2022-11-09 15:12:27,839 - root - DEBUG - Connection active
+2022-11-09 15:12:27,840 - root - INFO - Recieved fdsfdsf.txt
+2022-11-09 15:12:27,841 - root - INFO - File fdsfdsf.txt stored successfully
+2022-11-09 15:12:27,842 - root - INFO -  [*] Waiting for messages.
+2022-11-09 15:12:27,873 - root - DEBUG - Connection active
+2022-11-09 15:12:27,874 - root - INFO - Recieved mike.txt
+2022-11-09 15:12:27,876 - root - INFO - File mike.txt stored successfully
+2022-11-09 15:12:27,877 - root - INFO -  [*] Waiting for messages.
+2022-11-09 15:12:27,905 - root - DEBUG - Connection active
+2022-11-09 15:12:27,906 - root - INFO - Recieved one.txt
+2022-11-09 15:12:27,907 - root - INFO - File one.txt stored successfully
+2022-11-09 15:12:27,908 - root - INFO -  [*] Waiting for messages.

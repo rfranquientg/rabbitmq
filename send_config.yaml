@@ -1,7 +1,7 @@
 configuration:
-  source_directory: \\DESKTOP-ROY\rabbitmq_source
+  source_directory: C:\test_dir\source
   error_sleep_time: 5
-  long_term_storage: \\DESKTOP-ROY\rabbitmq_archive
+  long_term_storage: C:\test_dir\archive
   allowed_file_types:
     - .txt
     - .csv
@@ -9,7 +9,6 @@ configuration:
   queue: pikaFileTransfer
   host: localhost
   port: 5672
-  log_file_retention: days
   devMode: true
 credentials:
   username: rolando
