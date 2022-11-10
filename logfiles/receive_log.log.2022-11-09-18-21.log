@@ -1,0 +1,4 @@
+2022-11-09 18:21:50,451 - root - DEBUG - Connection active
+2022-11-09 18:21:50,459 - root - INFO - Recieved omid.txt
+2022-11-09 18:21:50,463 - root - INFO - File omid.txt stored successfully
+2022-11-09 18:21:50,464 - root - INFO -  [*] Waiting for messages.

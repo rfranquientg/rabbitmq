@@ -1,0 +1,23 @@
+2022-11-09 18:24:45,399 - root - ERROR - Connection closed by Broker
+2022-11-09 18:24:45,425 - root - ERROR - Connection check failed, sleeping 5 seconds
+2022-11-09 18:24:50,451 - root - ERROR - Unknown Connection Failure, network might be down..
+2022-11-09 18:24:50,453 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 138, in main
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 360, in __init__
+    self._impl = self._create_connection(parameters, _impl_class)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.IncompatibleProtocolError: StreamLostError: ('Transport indicated EOF',)
+
+2022-11-09 18:24:50,455 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:24:50,470 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:24:55,484 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:24:59,064 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:25:04,068 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:25:04,092 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:25:09,105 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:25:09,130 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:25:14,141 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:25:14,238 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:25:14,276 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C

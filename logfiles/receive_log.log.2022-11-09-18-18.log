@@ -1,0 +1,23 @@
+2022-11-09 18:18:04,329 - root - ERROR - Unknown Connection Failure, network might be down..
+2022-11-09 18:18:04,362 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 138, in main
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 360, in __init__
+    self._impl = self._create_connection(parameters, _impl_class)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.AMQPConnectionError
+
+2022-11-09 18:18:04,364 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:18:08,476 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:18:13,480 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:18:17,581 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:18:22,593 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:18:26,695 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:18:31,701 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:18:31,721 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:18:36,729 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:18:36,741 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:18:41,754 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:18:41,804 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:18:41,826 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C

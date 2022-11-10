@@ -1,0 +1,23 @@
+2022-11-09 18:38:17,446 - root - ERROR - Unknown Connection Failure, network might be down..
+2022-11-09 18:38:17,470 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 144, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 842, in process_data_events
+    self._flush_output(common_terminator)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 514, in _flush_output
+    self._impl.ioloop.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 579, in poll
+    self._poller.poll()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\select_connection.py", line 953, in poll
+    read, write, error = select.select(
+KeyboardInterrupt
+
+2022-11-09 18:38:17,472 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:38:17,540 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:38:17,555 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 18:38:22,566 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 18:38:22,602 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C

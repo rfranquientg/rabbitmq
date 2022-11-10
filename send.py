@@ -101,7 +101,7 @@ def createConnection():
                 logging.error("Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds")
                 sleep(sleepTime)
 
-def checkConnection():
+def checkConnection(connect_open = connect_open):
     """Checks if the connection is open, and if the connection is open returns TRUE, else FALSE"""
     if devMode == False:
         try:
@@ -132,6 +132,7 @@ def checkDirectory(inputdir, outputdir):
     isExistOutput = os.path.exists(outputdir)
     if isExistInput == False or isExistOutput == False:
         logging.error("Incorrect path in source or storage directories, please correct and restart program")
+        sleep(sleepTime)
         sys.exit()
         
 def getFiles(dir):
@@ -141,7 +142,6 @@ def getFiles(dir):
             if file in files_to_skip:
                 continue
             else:
-                # scanResults = fileScan.from_file()
                 kind = filetype.guess(join(r, file))
                 approvedExtension = file.endswith(tuple(allowed_file_types))
                 if kind is not None:
@@ -200,7 +200,7 @@ def createMesseage(file,file_name,file_extension):
     return str(message)
 
 def find2nd(dir):
-    """ This funciton is used to remove the (source drive or computer) from the path and tell the move file function how to create the target dir
+    """ This funciton is used to remove the (source drive or computer) from the path and tell the move file function what path to use for the Archive Directory
     For example: \\server\machine1\file.txt to \machine1\file.txt
     """
     if dir.startswith('\\'):
@@ -234,7 +234,6 @@ def moveFile(dir):
         logging.debug(f"Destination path already exists, ")
         shutil.move(dir,target + '_new')
 
-    
 def main(dir):
     """
     Main function which checks if a checks if there are files in the directory being scanned,
@@ -243,7 +242,6 @@ def main(dir):
     """
     while True:
         try:
-        
             files = checkForFiles(dir)
             if files is not None:
                 for f in files:
@@ -274,16 +272,15 @@ def main(dir):
                 continue
         except pika.exceptions.ConnectionClosedByBroker as rabbitShutdown:
             logging.error("Connection to RabbitMQ lost, check that RabbitMQ instance is still working")
-            logging.error(traceback.format_exc())
+            logging.debug(traceback.format_exc())
             logging.info(f"Will Attempt Reconection in {sleepTime} seconds")
             sleep(sleepTime)
         except:
             logging.error("Fatal Error")
-            logging.error(traceback.format_exc())
+            logging.debug(traceback.format_exc())
             logging.info(f"Will Attempt Reconection in {sleepTime} seconds")
             sleep(sleepTime)
         continue
-
 
 if __name__ == '__main__':
     try:

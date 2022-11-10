@@ -1,13 +1,18 @@
-2022-11-09 15:25:41,905 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
-2022-11-09 15:25:45,995 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
-2022-11-09 15:25:51,002 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
-2022-11-09 15:25:55,086 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
-2022-11-09 15:26:00,097 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
-2022-11-09 15:26:04,193 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
-2022-11-09 15:26:09,210 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
-2022-11-09 15:26:13,304 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
-2022-11-09 15:26:18,306 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
-2022-11-09 15:26:18,316 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
-2022-11-09 15:26:23,318 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
-2022-11-09 15:26:23,357 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
-2022-11-09 15:26:23,369 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-09 19:46:54,382 - root - ERROR - Connection closed by Broker
+2022-11-09 19:46:54,426 - root - ERROR - Connection check failed, sleeping 5 seconds
+2022-11-09 19:46:59,452 - root - ERROR - Unknown Connection Failure, network might be down..
+2022-11-09 19:46:59,454 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\recieve.py", line 138, in main
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 360, in __init__
+    self._impl = self._create_connection(parameters, _impl_class)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.IncompatibleProtocolError: StreamLostError: ('Transport indicated EOF',)
+
+2022-11-09 19:46:59,455 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 19:46:59,485 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 19:47:04,496 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 19:47:08,600 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-09 19:47:13,614 - root - INFO - Dev Mode: Initiating Connection to RabbitMQ Instance
+2022-11-09 19:47:17,707 - root - ERROR - Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds

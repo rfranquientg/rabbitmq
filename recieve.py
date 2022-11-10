@@ -5,7 +5,6 @@ from  os.path import join
 import logging
 import yaml
 from time import sleep
-from logging.handlers import TimedRotatingFileHandler
 from logging import handlers
 import traceback
 
@@ -15,6 +14,7 @@ global sleepTime
 global inputPath
 global parameters
 global connection
+
 
 """Reading Configuration file"""
 with open('recieve_config.yaml', 'r') as file:
