@@ -1,4 +1,0 @@
-2022-11-09 14:55:02,787 - root - DEBUG - Connection active
-2022-11-09 14:55:02,996 - root - INFO - Recieved CMC_Q02_MARM.csv
-2022-11-09 14:55:03,072 - root - INFO - File CMC_Q02_MARM.csv stored successfully
-2022-11-09 14:55:03,072 - root - INFO -  [*] Waiting for messages.

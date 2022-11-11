@@ -13,7 +13,7 @@ global credentials
 global sleepTime
 global inputPath
 global parameters
-global connection
+
 
 
 """Reading Configuration file"""
@@ -53,55 +53,42 @@ log.addHandler(fh)
 logging.getLogger("pika").propagate = False
 
 def createConnection():
+    global connectionSuccessful
+    global channel
+    global connection
     """Creates initial connection to RabbitMQ Instance"""
     connectionSuccessful = False
-    if devMode == False:
-        while connectionSuccessful == False:
-            logging.info("Initiating Connection to RabbitMQ Instance")
-            try:
+    while connectionSuccessful == False:
+        logging.info("Initiating Connection to RabbitMQ Instance")
+        try:
+            if devMode == False:
                 connection = pika.BlockingConnection(parameters)
-                channel = connection.channel()
-                channel.queue_declare(queue=rabbit_queue)
-                connectionSuccessful = True
-                logging.info("Connection to RabbitMQ sucessful")
-                    
-            except:
-                logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
-                sleep(sleepTime)
-    else:
-        while connectionSuccessful == False:
-            logging.info("Dev Mode: Initiating Connection to RabbitMQ Instance")
-            try:
+            else:
+                logging.info("Attempting Devmode Connection to RabbitMQ")
                 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-                channel = connection.channel()
-                channel.queue_declare(queue=rabbit_queue)
-                connectionSuccessful = True
-            except:
-                logging.error("Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds")
-                sleep(sleepTime)
+            channel = connection.channel()
+            channel.queue_declare(queue=rabbit_queue)
+            connectionSuccessful = True
+            logging.info("Connection to RabbitMQ sucessful")
+        except:
+            logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
+            sleep(sleepTime)
 
 def checkConnection():
     """Checks if the connection is open, and if the connection is open returns TRUE, else FALSE"""
     global connect_open
-    if devMode == False:
-        try:
+    try:
+        if devMode == False:
             pika.BlockingConnection(parameters)
-            logging.debug("Connection active")
-            connect_open = True
-        except:
-            connect_open = False
-            logging.error(f"Connection check failed, retrying in {sleepTime} seconds")
-            sleep(sleepTime)
-        return connect_open
-    else:
-        try:
+        else:
             pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-            logging.debug("Connection active")
-            connect_open = True
-        except:
-            logging.error(f"Connection check failed, sleeping {sleepTime} seconds")
-            sleep(sleepTime)
-        return connect_open
+        logging.debug("Connection active")
+        connect_open = True
+    except:
+        connect_open = False
+        logging.error(f"Connection check failed, retrying in {sleepTime} seconds")
+        sleep(sleepTime)
+    return connect_open
 
 def decodeFile(mssg):
     """Decode the dict messeage recieved and parses the information to a file."""
@@ -132,28 +119,20 @@ def main():
                     createConnection()
     while True:
         try:
-            if devMode == False:
-                connection = pika.BlockingConnection(parameters)
-            else:
-                connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
-            channel = connection.channel()
-            channel.queue_declare(queue=rabbit_queue)
-            channel.basic_consume(queue=rabbit_queue, on_message_callback=callback, auto_ack=True)
             createConnection()
+            channel.basic_consume(queue=rabbit_queue, on_message_callback=callback, auto_ack=True)
             logging.info(' [*] Waiting for messages. To exit press CTRL+C')
             channel.start_consuming()
         except pika.exceptions.ConnectionClosedByBroker:
             logging.error('Connection closed by Broker')
             while checkConnection() == False:
                 logging.error('Attempting to restore connection')
-                channel.stop_consuming()
                 createConnection()
                 sleep(sleepTime)
         except:
             logging.error('Unknown Connection Failure, network might be down..')
             logging.error(traceback.format_exc())
             createConnection()
-        
         continue
 
 if __name__ == '__main__':

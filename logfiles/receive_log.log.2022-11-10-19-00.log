@@ -1,0 +1,181 @@
+2022-11-10 19:00:12,180 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-10 19:00:12,182 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-10 19:00:12,208 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-10 19:00:12,211 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-10 19:00:12,219 - root - DEBUG - Connection active
+2022-11-10 19:00:12,220 - root - INFO - Recieved 18-59-47.csv
+2022-11-10 19:00:12,229 - root - INFO - File 18-59-47.csv stored successfully
+2022-11-10 19:00:12,229 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,241 - root - DEBUG - Connection active
+2022-11-10 19:00:12,242 - root - INFO - Recieved 18-59-48.csv
+2022-11-10 19:00:12,248 - root - INFO - File 18-59-48.csv stored successfully
+2022-11-10 19:00:12,249 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,261 - root - DEBUG - Connection active
+2022-11-10 19:00:12,262 - root - INFO - Recieved 18-59-49.csv
+2022-11-10 19:00:12,269 - root - INFO - File 18-59-49.csv stored successfully
+2022-11-10 19:00:12,270 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,280 - root - DEBUG - Connection active
+2022-11-10 19:00:12,281 - root - INFO - Recieved 18-59-50.csv
+2022-11-10 19:00:12,289 - root - INFO - File 18-59-50.csv stored successfully
+2022-11-10 19:00:12,290 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,302 - root - DEBUG - Connection active
+2022-11-10 19:00:12,302 - root - INFO - Recieved 18-59-51.csv
+2022-11-10 19:00:12,307 - root - INFO - File 18-59-51.csv stored successfully
+2022-11-10 19:00:12,308 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,320 - root - DEBUG - Connection active
+2022-11-10 19:00:12,320 - root - INFO - Recieved 18-59-53.csv
+2022-11-10 19:00:12,326 - root - INFO - File 18-59-53.csv stored successfully
+2022-11-10 19:00:12,326 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,338 - root - DEBUG - Connection active
+2022-11-10 19:00:12,338 - root - INFO - Recieved 18-59-54.csv
+2022-11-10 19:00:12,343 - root - INFO - File 18-59-54.csv stored successfully
+2022-11-10 19:00:12,345 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,355 - root - DEBUG - Connection active
+2022-11-10 19:00:12,356 - root - INFO - Recieved 18-59-55.csv
+2022-11-10 19:00:12,363 - root - INFO - File 18-59-55.csv stored successfully
+2022-11-10 19:00:12,363 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,374 - root - DEBUG - Connection active
+2022-11-10 19:00:12,375 - root - INFO - Recieved 18-59-56.csv
+2022-11-10 19:00:12,383 - root - INFO - File 18-59-56.csv stored successfully
+2022-11-10 19:00:12,383 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,392 - root - DEBUG - Connection active
+2022-11-10 19:00:12,393 - root - INFO - Recieved 18-59-57.csv
+2022-11-10 19:00:12,401 - root - INFO - File 18-59-57.csv stored successfully
+2022-11-10 19:00:12,401 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,418 - root - DEBUG - Connection active
+2022-11-10 19:00:12,418 - root - INFO - Recieved 18-59-58.csv
+2022-11-10 19:00:12,424 - root - INFO - File 18-59-58.csv stored successfully
+2022-11-10 19:00:12,424 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,439 - root - DEBUG - Connection active
+2022-11-10 19:00:12,441 - root - INFO - Recieved 18-59-59.csv
+2022-11-10 19:00:12,447 - root - INFO - File 18-59-59.csv stored successfully
+2022-11-10 19:00:12,448 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,468 - root - DEBUG - Connection active
+2022-11-10 19:00:12,470 - root - INFO - Recieved 19-00-00.csv
+2022-11-10 19:00:12,480 - root - INFO - File 19-00-00.csv stored successfully
+2022-11-10 19:00:12,482 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,501 - root - DEBUG - Connection active
+2022-11-10 19:00:12,503 - root - INFO - Recieved 19-00-01.csv
+2022-11-10 19:00:12,509 - root - INFO - File 19-00-01.csv stored successfully
+2022-11-10 19:00:12,510 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,532 - root - DEBUG - Connection active
+2022-11-10 19:00:12,534 - root - INFO - Recieved 19-00-02.csv
+2022-11-10 19:00:12,539 - root - INFO - File 19-00-02.csv stored successfully
+2022-11-10 19:00:12,540 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,554 - root - DEBUG - Connection active
+2022-11-10 19:00:12,554 - root - INFO - Recieved 19-00-03.csv
+2022-11-10 19:00:12,565 - root - INFO - File 19-00-03.csv stored successfully
+2022-11-10 19:00:12,565 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,580 - root - DEBUG - Connection active
+2022-11-10 19:00:12,582 - root - INFO - Recieved 19-00-04.csv
+2022-11-10 19:00:12,593 - root - INFO - File 19-00-04.csv stored successfully
+2022-11-10 19:00:12,599 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,631 - root - DEBUG - Connection active
+2022-11-10 19:00:12,632 - root - INFO - Recieved 19-00-05.csv
+2022-11-10 19:00:12,641 - root - INFO - File 19-00-05.csv stored successfully
+2022-11-10 19:00:12,642 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,658 - root - DEBUG - Connection active
+2022-11-10 19:00:12,659 - root - INFO - Recieved 19-00-06.csv
+2022-11-10 19:00:12,665 - root - INFO - File 19-00-06.csv stored successfully
+2022-11-10 19:00:12,666 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,679 - root - DEBUG - Connection active
+2022-11-10 19:00:12,680 - root - INFO - Recieved 19-00-07.csv
+2022-11-10 19:00:12,689 - root - INFO - File 19-00-07.csv stored successfully
+2022-11-10 19:00:12,689 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,703 - root - DEBUG - Connection active
+2022-11-10 19:00:12,703 - root - INFO - Recieved 19-00-08.csv
+2022-11-10 19:00:12,709 - root - INFO - File 19-00-08.csv stored successfully
+2022-11-10 19:00:12,709 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:12,723 - root - DEBUG - Connection active
+2022-11-10 19:00:12,724 - root - INFO - Recieved 19-00-09.csv
+2022-11-10 19:00:12,734 - root - INFO - File 19-00-09.csv stored successfully
+2022-11-10 19:00:12,736 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:14,909 - root - DEBUG - Connection active
+2022-11-10 19:00:14,910 - root - INFO - Recieved 19-00-10.csv
+2022-11-10 19:00:14,921 - root - INFO - File 19-00-10.csv stored successfully
+2022-11-10 19:00:14,922 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:14,977 - root - DEBUG - Connection active
+2022-11-10 19:00:14,977 - root - INFO - Recieved 19-00-11.csv
+2022-11-10 19:00:14,991 - root - INFO - File 19-00-11.csv stored successfully
+2022-11-10 19:00:14,993 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:15,046 - root - DEBUG - Connection active
+2022-11-10 19:00:15,047 - root - INFO - Recieved 19-00-12.csv
+2022-11-10 19:00:15,059 - root - INFO - File 19-00-12.csv stored successfully
+2022-11-10 19:00:15,059 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:15,095 - root - DEBUG - Connection active
+2022-11-10 19:00:15,096 - root - INFO - Recieved 19-00-13.csv
+2022-11-10 19:00:15,110 - root - INFO - File 19-00-13.csv stored successfully
+2022-11-10 19:00:15,111 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:15,157 - root - DEBUG - Connection active
+2022-11-10 19:00:15,158 - root - INFO - Recieved 19-00-14.csv
+2022-11-10 19:00:15,164 - root - INFO - File 19-00-14.csv stored successfully
+2022-11-10 19:00:15,166 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:24,711 - root - DEBUG - Connection active
+2022-11-10 19:00:24,712 - root - INFO - Recieved 19-00-15.csv
+2022-11-10 19:00:24,727 - root - INFO - File 19-00-15.csv stored successfully
+2022-11-10 19:00:24,729 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:24,786 - root - DEBUG - Connection active
+2022-11-10 19:00:24,786 - root - INFO - Recieved 19-00-16.csv
+2022-11-10 19:00:24,797 - root - INFO - File 19-00-16.csv stored successfully
+2022-11-10 19:00:24,799 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:24,837 - root - DEBUG - Connection active
+2022-11-10 19:00:24,838 - root - INFO - Recieved 19-00-17.csv
+2022-11-10 19:00:24,852 - root - INFO - File 19-00-17.csv stored successfully
+2022-11-10 19:00:24,853 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:24,909 - root - DEBUG - Connection active
+2022-11-10 19:00:24,912 - root - INFO - Recieved 19-00-18.csv
+2022-11-10 19:00:24,923 - root - INFO - File 19-00-18.csv stored successfully
+2022-11-10 19:00:24,924 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:24,994 - root - DEBUG - Connection active
+2022-11-10 19:00:24,997 - root - INFO - Recieved 19-00-19.csv
+2022-11-10 19:00:25,011 - root - INFO - File 19-00-19.csv stored successfully
+2022-11-10 19:00:25,013 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:25,071 - root - DEBUG - Connection active
+2022-11-10 19:00:25,072 - root - INFO - Recieved 19-00-20.csv
+2022-11-10 19:00:25,087 - root - INFO - File 19-00-20.csv stored successfully
+2022-11-10 19:00:25,088 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:25,141 - root - DEBUG - Connection active
+2022-11-10 19:00:25,143 - root - INFO - Recieved 19-00-21.csv
+2022-11-10 19:00:25,153 - root - INFO - File 19-00-21.csv stored successfully
+2022-11-10 19:00:25,154 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:25,217 - root - DEBUG - Connection active
+2022-11-10 19:00:25,218 - root - INFO - Recieved 19-00-22.csv
+2022-11-10 19:00:25,228 - root - INFO - File 19-00-22.csv stored successfully
+2022-11-10 19:00:25,229 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:25,277 - root - DEBUG - Connection active
+2022-11-10 19:00:25,278 - root - INFO - Recieved 19-00-23.csv
+2022-11-10 19:00:25,289 - root - INFO - File 19-00-23.csv stored successfully
+2022-11-10 19:00:25,290 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:25,337 - root - DEBUG - Connection active
+2022-11-10 19:00:25,337 - root - INFO - Recieved 19-00-24.csv
+2022-11-10 19:00:25,347 - root - INFO - File 19-00-24.csv stored successfully
+2022-11-10 19:00:25,348 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:30,399 - root - DEBUG - Connection active
+2022-11-10 19:00:30,401 - root - INFO - Recieved 19-00-25.csv
+2022-11-10 19:00:30,409 - root - INFO - File 19-00-25.csv stored successfully
+2022-11-10 19:00:30,410 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:30,446 - root - DEBUG - Connection active
+2022-11-10 19:00:30,448 - root - INFO - Recieved 19-00-27.csv
+2022-11-10 19:00:30,458 - root - INFO - File 19-00-27.csv stored successfully
+2022-11-10 19:00:30,458 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:30,496 - root - DEBUG - Connection active
+2022-11-10 19:00:30,497 - root - INFO - Recieved 19-00-28.csv
+2022-11-10 19:00:30,507 - root - INFO - File 19-00-28.csv stored successfully
+2022-11-10 19:00:30,508 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:30,544 - root - DEBUG - Connection active
+2022-11-10 19:00:30,545 - root - INFO - Recieved 19-00-29.csv
+2022-11-10 19:00:30,557 - root - INFO - File 19-00-29.csv stored successfully
+2022-11-10 19:00:30,558 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:30,594 - root - DEBUG - Connection active
+2022-11-10 19:00:30,595 - root - INFO - Recieved 19-00-30.csv
+2022-11-10 19:00:30,603 - root - INFO - File 19-00-30.csv stored successfully
+2022-11-10 19:00:30,604 - root - INFO -  [*] Waiting for messages.
+2022-11-10 19:00:31,257 - root - ERROR - Connection closed by Broker
+2022-11-10 19:00:31,269 - root - ERROR - Connection check failed, retrying in 5 seconds
+2022-11-10 19:00:36,283 - root - ERROR - Attempting to restore connection
+2022-11-10 19:01:26,159 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-10 19:01:26,159 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-10 19:01:30,280 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-10 19:01:35,296 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-10 19:01:35,296 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-10 19:01:35,305 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds

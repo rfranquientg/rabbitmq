@@ -1,0 +1,18 @@
+2022-11-10 18:51:35,853 - root - INFO - No new files will check in 5 seconds
+2022-11-10 18:51:40,867 - root - INFO - No new files will check in 5 seconds
+2022-11-10 18:51:44,048 - root - ERROR - Fatal Error
+2022-11-10 18:51:44,051 - root - DEBUG - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\send.py", line 245, in main
+    sleep(5)
+KeyboardInterrupt
+
+2022-11-10 18:51:44,051 - root - INFO - Will Attempt Reconection in 5 seconds
+2022-11-10 18:51:49,061 - root - INFO - No new files will check in 5 seconds
+2022-11-10 18:51:54,075 - root - INFO - No new files will check in 5 seconds
+2022-11-10 18:51:56,692 - root - ERROR - Fatal Error
+2022-11-10 18:51:56,692 - root - DEBUG - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\send.py", line 245, in main
+    sleep(5)
+KeyboardInterrupt
+
+2022-11-10 18:51:56,693 - root - INFO - Will Attempt Reconection in 5 seconds

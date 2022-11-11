@@ -13,19 +13,7 @@ import logging
 import yaml
 import filetype
 import traceback
-
-
-"""Global Variable Declaration"""
-global sleepTime
-global inputPath
-global archival_directory
-global allowed_file_types
-global files_to_skip
-global credentials
-global parameters
-global connection
-global channel
-global connect_open
+import typing
 
 
 """Reading Configuration file"""
@@ -43,11 +31,9 @@ with open('send_config.yaml', 'r') as file:
     username = config_file["credentials"]["username"]
     password = config_file["credentials"]["password"]
 
-
-
 """Initializing variables"""
 files_to_skip = []
-connect_open = False
+
 
 folder_for_logs = 'logfiles'
 credentials = pika.PlainCredentials(username, password)
@@ -75,54 +61,41 @@ logging.getLogger("pika").propagate = False
 
 def createConnection():
     """Creates initial connection to RabbitMQ Instance"""
+    global connectionSuccessful
+    global channel
+    global connection
     connectionSuccessful = False
-    if devMode == False:
-        while connectionSuccessful == False:
-            logging.info("Initiating Connection to RabbitMQ Instance")
-            try:
+    while connectionSuccessful == False:
+        logging.info("Initiating Connection to RabbitMQ Instance")
+        try:
+            if devMode == False:
                 connection = pika.BlockingConnection(parameters)
-                channel = connection.channel()
-                channel.queue_declare(queue=rabbit_queue)
-                connectionSuccessful = True
-                logging.info("Connection to RabbitMQ sucessful")
-                    
-            except:
-                logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
-                sleep(sleepTime)
-    else:
-        while connectionSuccessful == False:
-            logging.info("Dev Mode: Initiating Connection to RabbitMQ Instance")
-            try:
+            else:
+                logging.info("Attempting Devmode Connection to RabbitMQ")
                 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-                channel = connection.channel()
-                channel.queue_declare(queue=rabbit_queue)
-                connectionSuccessful = True
-            except:
-                logging.error("Dev Mode: Connection to RabbitMQ unsucesfull, retying in 5 seconds")
-                sleep(sleepTime)
+            channel = connection.channel()
+            channel.queue_declare(queue=rabbit_queue)
+            connectionSuccessful = True
+            logging.info("Connection to RabbitMQ sucessful")
+        except:
+            logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
+            sleep(sleepTime)
 
-def checkConnection(connect_open = connect_open):
+def checkConnection():
     """Checks if the connection is open, and if the connection is open returns TRUE, else FALSE"""
-    if devMode == False:
-        try:
+    global connect_open
+    try:
+        if devMode == False:
             pika.BlockingConnection(parameters)
-            logging.debug("Connection active")
-            connect_open = True
-        except:
-            connect_open = False
-            logging.error(f"Connection check failed, retrying in {sleepTime} seconds")
-            sleep(sleepTime)
-        return connect_open
-    else:
-        try:
+        else:
             pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-            logging.debug("Connection active")
-            connect_open = True
-        except:
-            logging.error(f"Connection check failed, sleeping {sleepTime} seconds")
-            sleep(sleepTime)
-        return connect_open
-
+        logging.debug("Connection active")
+        connect_open = True
+    except:
+        connect_open = False
+        logging.error(f"Connection check failed, retrying in {sleepTime} seconds")
+        sleep(sleepTime)
+    return connect_open
 
 def checkDirectory(inputdir, outputdir):
     """
@@ -136,6 +109,8 @@ def checkDirectory(inputdir, outputdir):
         sys.exit()
         
 def getFiles(dir):
+    """This function checks the files in the folder that it's watching, then if the file is in the allowed file type 
+    and the magic numbers are valid then it adds it to a list and returns it. If not an allowed file, it's added in a list to skip"""
     files = []
     for r, d, f in walk(dir):
         for file in f:
@@ -232,7 +207,8 @@ def moveFile(dir):
         logging.info(f"Moved {fileName}' to long term storage")
     except shutil.Error:
         logging.debug(f"Destination path already exists, ")
-        shutil.move(dir,target + '_new')
+
+        # shutil.move(dir,target + '_new')
 
 def main(dir):
     """
@@ -245,15 +221,8 @@ def main(dir):
             files = checkForFiles(dir)
             if files is not None:
                 for f in files:
+                    createConnection()
                     if checkConnection() == True:
-                        if devMode == False:
-                            connection = pika.BlockingConnection(parameters)
-                            channel = connection.channel()
-                            channel.queue_declare(queue=rabbit_queue)
-                        else:
-                            connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-                            channel = connection.channel()
-                            channel.queue_declare(queue=rabbit_queue)
                         encodedFile = encodeFiles(f)
                         fileName, extension = getFileExtension(f)
                         subtractFromDir = len(inputPath)
@@ -272,7 +241,7 @@ def main(dir):
                 continue
         except pika.exceptions.ConnectionClosedByBroker as rabbitShutdown:
             logging.error("Connection to RabbitMQ lost, check that RabbitMQ instance is still working")
-            logging.debug(traceback.format_exc())
+            # logging.debug(traceback.format_exc())
             logging.info(f"Will Attempt Reconection in {sleepTime} seconds")
             sleep(sleepTime)
         except:
@@ -285,7 +254,6 @@ def main(dir):
 if __name__ == '__main__':
     try:
         checkDirectory(inputPath,archival_directory)
-        checkConnection()
         main(inputPath)
     except KeyboardInterrupt:
         print('Interrupted')
