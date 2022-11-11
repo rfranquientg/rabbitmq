@@ -7,6 +7,7 @@ import yaml
 from time import sleep
 from logging import handlers
 import traceback
+from typing import ByteString, List, Dict, Any
 
 """Global Variable Declaration"""
 global credentials
@@ -19,20 +20,20 @@ global parameters
 """Reading Configuration file"""
 with open('recieve_config.yaml', 'r') as file:
     config_file = yaml.safe_load(file)
-    sleepTime = config_file["configuration"]["error_sleep_time"]
-    target_directory = config_file["configuration"]["target_directory"]
-    rabbit_queue = str(config_file["configuration"]["queue"])
-    rabbit_host = str(config_file["configuration"]["host"])
-    port = config_file["configuration"]["port"]
-    log_file_name = join("logfiles", str(config_file["configuration"]["log_file_name"]))
-    devMode = config_file["configuration"]["devMode"]
-    username = config_file["credentials"]["username"]
-    password = config_file["credentials"]["password"]
+    sleepTime: float = config_file["configuration"]["error_sleep_time"]
+    target_directory: str = config_file["configuration"]["target_directory"]
+    rabbit_queue: str = str(config_file["configuration"]["queue"])
+    rabbit_host: str = str(config_file["configuration"]["host"])
+    port: int = config_file["configuration"]["port"]
+    log_file_name: str = join("logfiles", str(config_file["configuration"]["log_file_name"]))
+    devMode: bool = config_file["configuration"]["devMode"]
+    username: str = config_file["credentials"]["username"]
+    password: str = config_file["credentials"]["password"]
 
 """Initializing Variables"""
-folder_for_logs = 'logfiles'
-credentials = pika.PlainCredentials(username, password)
-parameters = pika.ConnectionParameters(rabbit_host,
+folder_for_logs: str = 'logfiles'
+credentials: pika = pika.PlainCredentials(username, password)
+parameters: pika = pika.ConnectionParameters(rabbit_host,
                                             port,
                                             '/',
                                             credentials)
@@ -74,7 +75,7 @@ def createConnection():
             logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
             sleep(sleepTime)
 
-def checkConnection():
+def checkConnection() -> bool:
     """Checks if the connection is open, and if the connection is open returns TRUE, else FALSE"""
     global connect_open
     try:
@@ -90,7 +91,7 @@ def checkConnection():
         sleep(sleepTime)
     return connect_open
 
-def decodeFile(mssg):
+def decodeFile(mssg: ByteString):
     """Decode the dict messeage recieved and parses the information to a file."""
     decodedMesseageStr = str(mssg, "utf-8")
     messageDict =  ast.literal_eval(decodedMesseageStr)

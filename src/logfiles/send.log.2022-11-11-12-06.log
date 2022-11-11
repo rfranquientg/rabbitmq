@@ -1,0 +1,7 @@
+2022-11-11 12:06:06,120 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 12:06:06,123 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 12:06:06,126 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 12:06:23,988 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 12:06:23,989 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 12:06:23,992 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 12:06:24,002 - root - INFO - Archival, and Source Directories are valid, proceeding to next step

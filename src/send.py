@@ -1,46 +1,36 @@
 from asyncio.log import logger
-from logging.handlers import TimedRotatingFileHandler
 from logging import handlers
 import sys
 import pika
 import base64
 import os
-from os import listdir, walk, replace
-from os.path import join,splitext, exists
+from os import walk
+from os.path import join,splitext
 from time import sleep
 import shutil
 import logging
 import yaml
 import filetype
 import traceback
-import typing
+from typing import ByteString, List, Dict, Any, Union, Tuple
 
 
 """Reading Configuration file"""
 with open('send_config.yaml', 'r') as file:
     config_file = yaml.safe_load(file)
-    inputPath = r"{}".format(config_file["configuration"]["source_directory"])
-    sleepTime = config_file["configuration"]["error_sleep_time"]
-    archival_directory =  r"{}".format(config_file["configuration"]["long_term_storage"])
-    allowed_file_types = list(config_file["configuration"]["allowed_file_types"])
-    rabbit_queue = str(config_file["configuration"]["queue"])
-    rabbit_host = str(config_file["configuration"]["host"])
-    port = config_file["configuration"]["port"]
-    devMode = config_file["configuration"]["devMode"]
-    log_file_name = join("logfiles", str(config_file["configuration"]["log_file_name"]))
-    username = config_file["credentials"]["username"]
-    password = config_file["credentials"]["password"]
-
-"""Initializing variables"""
-files_to_skip = []
+    inputPath: str = r"{}".format(config_file["configuration"]["source_directory"])
+    sleepTime: float = config_file["configuration"]["error_sleep_time"]
+    archival_directory: str =  r"{}".format(config_file["configuration"]["long_term_storage"])
+    allowed_file_types: str = list(config_file["configuration"]["allowed_file_types"])
+    rabbit_queue: str = str(config_file["configuration"]["queue"])
+    rabbit_host: str = str(config_file["configuration"]["host"])
+    port: int = config_file["configuration"]["port"]
+    devMode: bool = config_file["configuration"]["devMode"]
+    log_file_name: str = join("logfiles", str(config_file["configuration"]["log_file_name"]))
+    username: str = config_file["credentials"]["username"]
+    password: str = config_file["credentials"]["password"]
 
 
-folder_for_logs = 'logfiles'
-credentials = pika.PlainCredentials(username, password)
-parameters = pika.ConnectionParameters(rabbit_host,
-                                            port,
-                                            '/',
-                                            credentials)
 
 """Initializing Logging Config"""
 if not os.path.exists('logfiles'):
@@ -58,12 +48,21 @@ fh.setFormatter(format)
 log.addHandler(fh)
 logging.getLogger("pika").propagate = False
 
+"""Initializing variables"""
+files_to_skip: List[Any] = []
+folder_for_logs: str = 'logfiles'
+credentials: pika = pika.PlainCredentials(username, password)
+parameters: pika = pika.ConnectionParameters(rabbit_host,
+                                            port,
+                                            '/',
+                                            credentials)
 
-def createConnection():
+def createConnection() -> None:
     """Creates initial connection to RabbitMQ Instance"""
     global connectionSuccessful
     global channel
     global connection
+
     connectionSuccessful = False
     while connectionSuccessful == False:
         logging.info("Initiating Connection to RabbitMQ Instance")
@@ -73,7 +72,7 @@ def createConnection():
             else:
                 logging.info("Attempting Devmode Connection to RabbitMQ")
                 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-            channel = connection.channel()
+            channel= connection.channel()
             channel.queue_declare(queue=rabbit_queue)
             connectionSuccessful = True
             logging.info("Connection to RabbitMQ sucessful")
@@ -81,7 +80,7 @@ def createConnection():
             logging.error("Connection to RabbitMQ unsucesfull, retying in 5 seconds")
             sleep(sleepTime)
 
-def checkConnection():
+def checkConnection() -> bool:
     """Checks if the connection is open, and if the connection is open returns TRUE, else FALSE"""
     global connect_open
     try:
@@ -97,7 +96,7 @@ def checkConnection():
         sleep(sleepTime)
     return connect_open
 
-def checkDirectory(inputdir, outputdir):
+def checkDirectory(inputdir : str, outputdir: str):
     """
     This function checks that the directories passed into the config file are valid.
     """
@@ -106,19 +105,25 @@ def checkDirectory(inputdir, outputdir):
     if isExistInput == False or isExistOutput == False:
         logging.error("Incorrect path in source or storage directories, please correct and restart program")
         sleep(sleepTime)
-        sys.exit()
+        return False
         
-def getFiles(dir):
+    else:
+        logging.info("Archival, and Source Directories are valid, proceeding to next step")
+        return True
+    sys.exit()
+
+        
+def getFiles(dir: str) -> List[str]:
     """This function checks the files in the folder that it's watching, then if the file is in the allowed file type 
     and the magic numbers are valid then it adds it to a list and returns it. If not an allowed file, it's added in a list to skip"""
-    files = []
+    files: List[str] = []
     for r, d, f in walk(dir):
         for file in f:
             if file in files_to_skip:
                 continue
             else:
                 kind = filetype.guess(join(r, file))
-                approvedExtension = file.endswith(tuple(allowed_file_types))
+                approvedExtension: bool = file.endswith(tuple(allowed_file_types))
                 if kind is not None:
                     scanResults = kind.mime
                 else:
@@ -131,7 +136,7 @@ def getFiles(dir):
                     files_to_skip.append(file)
     return files
 
-def checkForFiles(dir):
+def checkForFiles(dir: str) -> Union[List, None]:
     """
     This function checks if there are new files in the directory
     if there are no files it will return NONE.
@@ -144,7 +149,7 @@ def checkForFiles(dir):
         logging.info(f"No new files will check in {sleepTime} seconds")
         return None
 
-def getFileExtension(file):
+def getFileExtension(file: str) -> Tuple[str,str]:
     """
     Helper function to return the Filename and extension as a Tuple
     
@@ -152,7 +157,7 @@ def getFileExtension(file):
     file_name, file_extension = splitext(file)
     return file_name, file_extension
 
-def encodeFiles(file_name):
+def encodeFiles(file_name: str) -> ByteString:
     """
     Encodes file into base64 for sending, returns a bite-string
     """
@@ -163,20 +168,20 @@ def encodeFiles(file_name):
     except:
         print(f"File {file_name}, not found")
 
-def createMesseage(file,file_name,file_extension):
+def createMesseage(file: ByteString, file_name:str, file_extension: str) -> str:
     """
     Takes as input, a the file/bite-string, the file name and the extension and stores it in a dictionary for sending over. 
     """
-    message = {
+    message: Dict = {
     "File_Name": file_name ,
     "Extension": file_extension,
     "Data": file
     }
     return str(message)
 
-def find2nd(dir):
+def find2nd(dir: str) -> int:
     """ This funciton is used to remove the (source drive or computer) from the path and tell the move file function what path to use for the Archive Directory
-    For example: \\server\machine1\file.txt to \machine1\file.txt
+    For example: \\server\machine1\file.txt to \machine1\file.txt, to do this it returns an integer referencing the posistion of the second backslash
     """
     if dir.startswith('\\'):
         if dir.count('\\') > 2:
@@ -187,9 +192,11 @@ def find2nd(dir):
     else:
         first = dir.find('\\')
         second = dir.find('\\',first + 1) 
+        if second == -1:
+            return 0
     return second
 
-def moveFile(dir):
+def moveFile(dir: str, archival_directory: str = archival_directory):
     """
     This function will move the file to the archival directory, it takes in the source directory of the file as a input,
     and used the archival_directory global variable to know where to send the file
@@ -210,7 +217,7 @@ def moveFile(dir):
 
         # shutil.move(dir,target + '_new')
 
-def main(dir):
+def main(dir: str):
     """
     Main function which checks if a checks if there are files in the directory being scanned,
     then check if the connection is active, creates a new connection regardless, encodes the file,
@@ -253,7 +260,7 @@ def main(dir):
 
 if __name__ == '__main__':
     try:
-        checkDirectory(inputPath,archival_directory)
+        checkDirectory(inputPath, archival_directory)
         main(inputPath)
     except KeyboardInterrupt:
         print('Interrupted')

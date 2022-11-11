@@ -1,0 +1,8 @@
+2022-11-11 11:47:06,381 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 11:47:06,384 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 11:47:11,466 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 11:47:11,467 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 11:47:37,007 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 11:47:37,007 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 11:48:11,725 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 11:48:11,726 - asyncio - INFO - Adding dont_parse.docx to skip list

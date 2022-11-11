@@ -1,0 +1,10 @@
+2022-11-11 12:12:25,973 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 12:12:25,977 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 12:12:25,979 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 12:12:25,979 - root - ERROR - Incorrect path in source or storage directories, please correct and restart program
+2022-11-11 12:13:07,077 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 12:13:07,078 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 12:13:07,079 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 12:13:07,080 - root - ERROR - Incorrect path in source or storage directories, please correct and restart program
+2022-11-11 12:13:12,090 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 12:13:12,091 - root - ERROR - Incorrect path in source or storage directories, please correct and restart program

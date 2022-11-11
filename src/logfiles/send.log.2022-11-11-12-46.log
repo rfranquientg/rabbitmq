@@ -1,0 +1,287 @@
+2022-11-11 12:46:44,031 - root - INFO - No new files will check in 5 seconds
+2022-11-11 12:46:49,051 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:49,052 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:49,068 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:49,081 - root - DEBUG - Connection active
+2022-11-11 12:46:49,086 - root - INFO - Moved \12-46-44.csv' to long term storage
+2022-11-11 12:46:49,096 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:49,097 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:49,120 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:49,135 - root - DEBUG - Connection active
+2022-11-11 12:46:49,145 - root - INFO - Moved \12-46-45.csv' to long term storage
+2022-11-11 12:46:49,153 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:49,154 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:49,178 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:49,194 - root - DEBUG - Connection active
+2022-11-11 12:46:49,201 - root - INFO - Moved \12-46-46.csv' to long term storage
+2022-11-11 12:46:49,213 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:49,214 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:49,239 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:49,254 - root - DEBUG - Connection active
+2022-11-11 12:46:49,260 - root - INFO - Moved \12-46-47.csv' to long term storage
+2022-11-11 12:46:49,274 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:49,276 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:49,302 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:49,317 - root - DEBUG - Connection active
+2022-11-11 12:46:49,323 - root - INFO - Moved \12-46-48.csv' to long term storage
+2022-11-11 12:46:49,335 - root - INFO - No new files will check in 5 seconds
+2022-11-11 12:46:54,345 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:54,346 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:54,364 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:54,373 - root - DEBUG - Connection active
+2022-11-11 12:46:54,383 - root - INFO - Moved \12-46-49.csv' to long term storage
+2022-11-11 12:46:54,388 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:54,389 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:54,408 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:54,420 - root - DEBUG - Connection active
+2022-11-11 12:46:54,426 - root - INFO - Moved \12-46-50.csv' to long term storage
+2022-11-11 12:46:54,433 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:54,436 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:54,468 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:54,487 - root - DEBUG - Connection active
+2022-11-11 12:46:54,492 - root - INFO - Moved \12-46-51.csv' to long term storage
+2022-11-11 12:46:54,507 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:54,508 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:54,532 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:54,549 - root - DEBUG - Connection active
+2022-11-11 12:46:54,555 - root - INFO - Moved \12-46-52.csv' to long term storage
+2022-11-11 12:46:54,566 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:54,569 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:54,591 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:54,609 - root - DEBUG - Connection active
+2022-11-11 12:46:54,616 - root - INFO - Moved \12-46-53.csv' to long term storage
+2022-11-11 12:46:54,627 - root - INFO - No new files will check in 5 seconds
+2022-11-11 12:46:59,645 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:59,646 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:59,662 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:59,676 - root - DEBUG - Connection active
+2022-11-11 12:46:59,683 - root - INFO - Moved \12-46-55.csv' to long term storage
+2022-11-11 12:46:59,695 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:59,696 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:59,726 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:59,741 - root - DEBUG - Connection active
+2022-11-11 12:46:59,745 - root - INFO - Moved \12-46-56.csv' to long term storage
+2022-11-11 12:46:59,756 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:59,757 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:59,777 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:59,791 - root - DEBUG - Connection active
+2022-11-11 12:46:59,797 - root - INFO - Moved \12-46-57.csv' to long term storage
+2022-11-11 12:46:59,806 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:59,809 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:59,830 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:59,845 - root - DEBUG - Connection active
+2022-11-11 12:46:59,853 - root - INFO - Moved \12-46-58.csv' to long term storage
+2022-11-11 12:46:59,864 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:46:59,865 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:46:59,895 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:46:59,908 - root - DEBUG - Connection active
+2022-11-11 12:46:59,911 - root - INFO - Moved \12-46-59.csv' to long term storage
+2022-11-11 12:46:59,924 - root - INFO - No new files will check in 5 seconds
+2022-11-11 12:47:04,945 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:04,946 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:04,964 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:04,975 - root - DEBUG - Connection active
+2022-11-11 12:47:04,982 - root - INFO - Moved \12-47-00.csv' to long term storage
+2022-11-11 12:47:04,987 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:04,991 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:05,014 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:05,030 - root - DEBUG - Connection active
+2022-11-11 12:47:05,036 - root - INFO - Moved \12-47-01.csv' to long term storage
+2022-11-11 12:47:05,046 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:05,048 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:05,069 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:05,084 - root - DEBUG - Connection active
+2022-11-11 12:47:05,091 - root - INFO - Moved \12-47-02.csv' to long term storage
+2022-11-11 12:47:05,101 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:05,102 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:05,125 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:05,137 - root - DEBUG - Connection active
+2022-11-11 12:47:05,150 - root - INFO - Moved \12-47-03.csv' to long term storage
+2022-11-11 12:47:05,158 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:05,161 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:05,183 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:05,198 - root - DEBUG - Connection active
+2022-11-11 12:47:05,203 - root - INFO - Moved \12-47-04.csv' to long term storage
+2022-11-11 12:47:05,217 - root - INFO - No new files will check in 5 seconds
+2022-11-11 12:47:10,236 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:10,237 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:10,250 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-11 12:47:15,264 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:15,264 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:15,271 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-11 12:47:20,283 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:20,283 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:22,328 - root - ERROR - Connection to RabbitMQ unsucesfull, retying in 5 seconds
+2022-11-11 12:47:27,337 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,338 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,359 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,378 - root - DEBUG - Connection active
+2022-11-11 12:47:27,384 - root - INFO - Moved \12-47-05.csv' to long term storage
+2022-11-11 12:47:27,394 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,395 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,420 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,434 - root - DEBUG - Connection active
+2022-11-11 12:47:27,439 - root - INFO - Moved \12-47-06.csv' to long term storage
+2022-11-11 12:47:27,443 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,445 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,464 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,476 - root - DEBUG - Connection active
+2022-11-11 12:47:27,486 - root - INFO - Moved \12-47-07.csv' to long term storage
+2022-11-11 12:47:27,491 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,491 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,509 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,521 - root - DEBUG - Connection active
+2022-11-11 12:47:27,529 - root - INFO - Moved \12-47-08.csv' to long term storage
+2022-11-11 12:47:27,535 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,536 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,555 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,570 - root - DEBUG - Connection active
+2022-11-11 12:47:27,574 - root - INFO - Moved \12-47-09.csv' to long term storage
+2022-11-11 12:47:27,595 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,596 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,618 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,628 - root - DEBUG - Connection active
+2022-11-11 12:47:27,637 - root - INFO - Moved \12-47-10.csv' to long term storage
+2022-11-11 12:47:27,642 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,642 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,660 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,675 - root - DEBUG - Connection active
+2022-11-11 12:47:27,684 - root - INFO - Moved \12-47-11.csv' to long term storage
+2022-11-11 12:47:27,690 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,690 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,710 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,724 - root - DEBUG - Connection active
+2022-11-11 12:47:27,730 - root - INFO - Moved \12-47-12.csv' to long term storage
+2022-11-11 12:47:27,736 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,738 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,756 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,772 - root - DEBUG - Connection active
+2022-11-11 12:47:27,777 - root - INFO - Moved \12-47-13.csv' to long term storage
+2022-11-11 12:47:27,785 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,787 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,817 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,836 - root - DEBUG - Connection active
+2022-11-11 12:47:27,842 - root - INFO - Moved \12-47-14.csv' to long term storage
+2022-11-11 12:47:27,854 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,855 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,883 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,902 - root - DEBUG - Connection active
+2022-11-11 12:47:27,911 - root - INFO - Moved \12-47-15.csv' to long term storage
+2022-11-11 12:47:27,921 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,923 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:27,948 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:27,973 - root - DEBUG - Connection active
+2022-11-11 12:47:27,981 - root - INFO - Moved \12-47-16.csv' to long term storage
+2022-11-11 12:47:27,992 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:27,993 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,023 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,041 - root - DEBUG - Connection active
+2022-11-11 12:47:28,052 - root - INFO - Moved \12-47-17.csv' to long term storage
+2022-11-11 12:47:28,059 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,061 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,098 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,121 - root - DEBUG - Connection active
+2022-11-11 12:47:28,128 - root - INFO - Moved \12-47-18.csv' to long term storage
+2022-11-11 12:47:28,141 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,143 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,174 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,202 - root - DEBUG - Connection active
+2022-11-11 12:47:28,209 - root - INFO - Moved \12-47-19.csv' to long term storage
+2022-11-11 12:47:28,222 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,223 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,253 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,276 - root - DEBUG - Connection active
+2022-11-11 12:47:28,288 - root - INFO - Moved \12-47-20.csv' to long term storage
+2022-11-11 12:47:28,299 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,301 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,330 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,352 - root - DEBUG - Connection active
+2022-11-11 12:47:28,359 - root - INFO - Moved \12-47-21.csv' to long term storage
+2022-11-11 12:47:28,371 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,373 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,409 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,432 - root - DEBUG - Connection active
+2022-11-11 12:47:28,439 - root - INFO - Moved \12-47-22.csv' to long term storage
+2022-11-11 12:47:28,451 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,452 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,477 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,498 - root - DEBUG - Connection active
+2022-11-11 12:47:28,509 - root - INFO - Moved \12-47-23.csv' to long term storage
+2022-11-11 12:47:28,519 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,521 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,544 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,563 - root - DEBUG - Connection active
+2022-11-11 12:47:28,572 - root - INFO - Moved \12-47-24.csv' to long term storage
+2022-11-11 12:47:28,583 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,584 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,608 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,627 - root - DEBUG - Connection active
+2022-11-11 12:47:28,636 - root - INFO - Moved \12-47-25.csv' to long term storage
+2022-11-11 12:47:28,646 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,649 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,677 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,706 - root - DEBUG - Connection active
+2022-11-11 12:47:28,712 - root - INFO - Moved \12-47-26.csv' to long term storage
+2022-11-11 12:47:28,726 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:28,727 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:28,757 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:28,775 - root - DEBUG - Connection active
+2022-11-11 12:47:28,787 - root - INFO - Moved \12-47-27.csv' to long term storage
+2022-11-11 12:47:28,800 - root - INFO - No new files will check in 5 seconds
+2022-11-11 12:47:33,812 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:33,813 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:33,835 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:33,865 - root - DEBUG - Connection active
+2022-11-11 12:47:33,878 - root - INFO - Moved \12-47-28.csv' to long term storage
+2022-11-11 12:47:33,891 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:33,893 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:33,924 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:33,948 - root - DEBUG - Connection active
+2022-11-11 12:47:33,961 - root - INFO - Moved \12-47-29.csv' to long term storage
+2022-11-11 12:47:33,977 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:33,978 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:34,016 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:34,048 - root - DEBUG - Connection active
+2022-11-11 12:47:34,067 - root - INFO - Moved \12-47-30.csv' to long term storage
+2022-11-11 12:47:34,079 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:34,081 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:34,122 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:34,144 - root - DEBUG - Connection active
+2022-11-11 12:47:34,154 - root - INFO - Moved \12-47-31.csv' to long term storage
+2022-11-11 12:47:34,172 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:34,174 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:34,213 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:34,244 - root - DEBUG - Connection active
+2022-11-11 12:47:34,260 - root - INFO - Moved \12-47-32.csv' to long term storage
+2022-11-11 12:47:34,299 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:34,302 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:34,351 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:34,379 - root - DEBUG - Connection active
+2022-11-11 12:47:34,386 - root - INFO - Moved \12-47-34.csv' to long term storage
+2022-11-11 12:47:34,409 - root - INFO - No new files will check in 5 seconds
+2022-11-11 12:47:39,419 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:39,420 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:39,441 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:39,461 - root - DEBUG - Connection active
+2022-11-11 12:47:39,473 - root - INFO - Moved \12-47-35.csv' to long term storage
+2022-11-11 12:47:39,487 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:39,488 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:39,520 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:39,547 - root - DEBUG - Connection active
+2022-11-11 12:47:39,554 - root - INFO - Moved \12-47-36.csv' to long term storage
+2022-11-11 12:47:39,579 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:39,580 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:39,616 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:39,637 - root - DEBUG - Connection active
+2022-11-11 12:47:39,651 - root - INFO - Moved \12-47-37.csv' to long term storage
+2022-11-11 12:47:39,673 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:39,677 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:39,720 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:39,753 - root - DEBUG - Connection active
+2022-11-11 12:47:39,767 - root - INFO - Moved \12-47-38.csv' to long term storage
+2022-11-11 12:47:39,785 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 12:47:39,786 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 12:47:39,826 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 12:47:39,853 - root - DEBUG - Connection active
+2022-11-11 12:47:39,867 - root - INFO - Moved \12-47-39.csv' to long term storage
+2022-11-11 12:47:39,887 - root - INFO - No new files will check in 5 seconds

@@ -1,0 +1,60 @@
+2022-11-11 11:43:39,104 - asyncio - INFO - Ignoring checking_filetype.py because fileype is not allowed
+2022-11-11 11:43:39,105 - asyncio - INFO - Adding checking_filetype.py to skip list
+2022-11-11 11:43:39,107 - asyncio - INFO - Ignoring recieve.log because fileype is not allowed
+2022-11-11 11:43:39,108 - asyncio - INFO - Adding recieve.log to skip list
+2022-11-11 11:43:39,109 - asyncio - INFO - Ignoring script.log because fileype is not allowed
+2022-11-11 11:43:39,109 - asyncio - INFO - Adding script.log to skip list
+2022-11-11 11:43:39,111 - asyncio - INFO - Ignoring send.log because fileype is not allowed
+2022-11-11 11:43:39,112 - asyncio - INFO - Adding send.log to skip list
+2022-11-11 11:43:39,113 - asyncio - INFO - Ignoring send_old.exe because fileype is not allowed
+2022-11-11 11:43:39,114 - asyncio - INFO - Adding send_old.exe to skip list
+2022-11-11 11:43:39,115 - asyncio - INFO - Ignoring test.py because fileype is not allowed
+2022-11-11 11:43:39,115 - asyncio - INFO - Adding test.py to skip list
+2022-11-11 11:43:39,122 - asyncio - INFO - Ignoring recieveCSV.py because fileype is not allowed
+2022-11-11 11:43:39,122 - asyncio - INFO - Adding recieveCSV.py to skip list
+2022-11-11 11:43:39,123 - asyncio - INFO - Ignoring sendCSV.py because fileype is not allowed
+2022-11-11 11:43:39,123 - asyncio - INFO - Adding sendCSV.py to skip list
+2022-11-11 11:43:39,136 - asyncio - INFO - Ignoring big_pdf.pdf because fileype is not allowed
+2022-11-11 11:43:39,137 - asyncio - INFO - Adding big_pdf.pdf to skip list
+2022-11-11 11:43:39,150 - asyncio - INFO - Ignoring output.pdf because fileype is not allowed
+2022-11-11 11:43:39,150 - asyncio - INFO - Adding output.pdf to skip list
+2022-11-11 11:43:39,151 - asyncio - INFO - Ignoring recievePDF.py because fileype is not allowed
+2022-11-11 11:43:39,151 - asyncio - INFO - Adding recievePDF.py to skip list
+2022-11-11 11:43:39,152 - asyncio - INFO - Ignoring sendPDF.py because fileype is not allowed
+2022-11-11 11:43:39,152 - asyncio - INFO - Adding sendPDF.py to skip list
+2022-11-11 11:43:39,156 - asyncio - INFO - Ignoring test.pdf because fileype is not allowed
+2022-11-11 11:43:39,156 - asyncio - INFO - Adding test.pdf to skip list
+2022-11-11 11:43:39,157 - asyncio - INFO - Ignoring recieveMg.py because fileype is not allowed
+2022-11-11 11:43:39,157 - asyncio - INFO - Adding recieveMg.py to skip list
+2022-11-11 11:43:39,158 - asyncio - INFO - Ignoring sendMG.py because fileype is not allowed
+2022-11-11 11:43:39,158 - asyncio - INFO - Adding sendMG.py to skip list
+2022-11-11 11:43:39,159 - asyncio - INFO - Ignoring connect.py because fileype is not allowed
+2022-11-11 11:43:39,159 - asyncio - INFO - Adding connect.py to skip list
+2022-11-11 11:43:39,162 - asyncio - INFO - Ignoring connect.spec because fileype is not allowed
+2022-11-11 11:43:39,163 - asyncio - INFO - Adding connect.spec to skip list
+2022-11-11 11:43:39,167 - asyncio - INFO - Ignoring Analysis-00.toc because fileype is not allowed
+2022-11-11 11:43:39,168 - asyncio - INFO - Adding Analysis-00.toc to skip list
+2022-11-11 11:43:39,178 - asyncio - INFO - Ignoring base_library.zip because fileype is not allowed
+2022-11-11 11:43:39,179 - asyncio - INFO - Adding base_library.zip to skip list
+2022-11-11 11:43:39,182 - asyncio - INFO - Ignoring connect.exe.manifest because fileype is not allowed
+2022-11-11 11:43:39,182 - asyncio - INFO - Adding connect.exe.manifest to skip list
+2022-11-11 11:43:39,186 - asyncio - INFO - Ignoring connect.pkg because fileype is not allowed
+2022-11-11 11:43:39,186 - asyncio - INFO - Adding connect.pkg to skip list
+2022-11-11 11:43:39,190 - asyncio - INFO - Ignoring EXE-00.toc because fileype is not allowed
+2022-11-11 11:43:39,191 - asyncio - INFO - Adding EXE-00.toc to skip list
+2022-11-11 11:43:39,195 - asyncio - INFO - Ignoring PKG-00.toc because fileype is not allowed
+2022-11-11 11:43:39,196 - asyncio - INFO - Adding PKG-00.toc to skip list
+2022-11-11 11:43:39,206 - asyncio - INFO - Ignoring PYZ-00.pyz because fileype is not allowed
+2022-11-11 11:43:39,206 - asyncio - INFO - Adding PYZ-00.pyz to skip list
+2022-11-11 11:43:39,211 - asyncio - INFO - Ignoring PYZ-00.toc because fileype is not allowed
+2022-11-11 11:43:39,212 - asyncio - INFO - Adding PYZ-00.toc to skip list
+2022-11-11 11:43:39,218 - asyncio - INFO - Ignoring Tree-00.toc because fileype is not allowed
+2022-11-11 11:43:39,219 - asyncio - INFO - Adding Tree-00.toc to skip list
+2022-11-11 11:43:39,224 - asyncio - INFO - Ignoring Tree-01.toc because fileype is not allowed
+2022-11-11 11:43:39,224 - asyncio - INFO - Adding Tree-01.toc to skip list
+2022-11-11 11:43:39,226 - asyncio - INFO - Ignoring Tree-02.toc because fileype is not allowed
+2022-11-11 11:43:39,227 - asyncio - INFO - Adding Tree-02.toc to skip list
+2022-11-11 11:43:39,249 - asyncio - INFO - Ignoring xref-connect.html because fileype is not allowed
+2022-11-11 11:43:39,250 - asyncio - INFO - Adding xref-connect.html to skip list
+2022-11-11 11:43:39,301 - asyncio - INFO - Ignoring connect.exe because fileype is not allowed
+2022-11-11 11:43:39,301 - asyncio - INFO - Adding connect.exe to skip list

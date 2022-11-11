@@ -1,11 +1,123 @@
-2022-11-10 19:06:19,946 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:06:24,968 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:06:29,972 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:06:34,988 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:06:40,004 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:06:45,010 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:06:50,017 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:06:55,033 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:07:00,038 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:07:05,047 - root - INFO - No new files will check in 5 seconds
-2022-11-10 19:07:10,061 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:34:58,777 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:03,818 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:08,820 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:13,827 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:18,839 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:23,845 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:28,854 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:33,861 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:38,877 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:43,893 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:47,535 - root - ERROR - Fatal Error
+2022-11-11 09:35:47,536 - root - DEBUG - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\send.py", line 238, in main
+    else:
+KeyboardInterrupt
+
+2022-11-11 09:35:47,536 - root - INFO - Will Attempt Reconection in 5 seconds
+2022-11-11 09:35:50,544 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:35:55,558 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:36:00,571 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:36:05,574 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:36:10,585 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:10,585 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:10,666 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:10,697 - root - DEBUG - Connection active
+2022-11-11 09:36:10,715 - root - INFO - Moved \09-36-06.csv' to long term storage
+2022-11-11 09:36:10,732 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:10,733 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:10,826 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:10,867 - root - DEBUG - Connection active
+2022-11-11 09:36:10,894 - root - INFO - Moved \09-36-07.csv' to long term storage
+2022-11-11 09:36:10,929 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:10,932 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:11,028 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:11,067 - root - DEBUG - Connection active
+2022-11-11 09:36:11,105 - root - INFO - Moved \09-36-08.csv' to long term storage
+2022-11-11 09:36:11,141 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:11,144 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:11,235 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:11,278 - root - DEBUG - Connection active
+2022-11-11 09:36:11,297 - root - INFO - Moved \09-36-09.csv' to long term storage
+2022-11-11 09:36:11,323 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:11,325 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:11,384 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:11,429 - root - DEBUG - Connection active
+2022-11-11 09:36:11,455 - root - INFO - Moved \09-36-10.csv' to long term storage
+2022-11-11 09:36:11,477 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:36:16,500 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:16,501 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:16,519 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:16,536 - root - DEBUG - Connection active
+2022-11-11 09:36:16,540 - root - INFO - Moved \09-36-11.csv' to long term storage
+2022-11-11 09:36:16,556 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:16,557 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:16,623 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:16,658 - root - DEBUG - Connection active
+2022-11-11 09:36:16,681 - root - INFO - Moved \09-36-12.csv' to long term storage
+2022-11-11 09:36:16,701 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:16,703 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:16,730 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:16,754 - root - DEBUG - Connection active
+2022-11-11 09:36:16,767 - root - INFO - Moved \09-36-13.csv' to long term storage
+2022-11-11 09:36:16,780 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:16,785 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:16,820 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:16,840 - root - DEBUG - Connection active
+2022-11-11 09:36:16,845 - root - INFO - Moved \09-36-14.csv' to long term storage
+2022-11-11 09:36:16,860 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:16,864 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:16,932 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:16,959 - root - DEBUG - Connection active
+2022-11-11 09:36:16,976 - root - INFO - Moved \09-36-15.csv' to long term storage
+2022-11-11 09:36:17,004 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:17,006 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:17,060 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:17,103 - root - DEBUG - Connection active
+2022-11-11 09:36:17,123 - root - INFO - Moved \09-36-16.csv' to long term storage
+2022-11-11 09:36:17,151 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:36:17,982 - root - ERROR - Fatal Error
+2022-11-11 09:36:17,982 - root - DEBUG - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\send.py", line 239, in main
+    sleep(5)
+KeyboardInterrupt
+
+2022-11-11 09:36:17,983 - root - INFO - Will Attempt Reconection in 5 seconds
+2022-11-11 09:36:23,008 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:23,009 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:23,032 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:23,063 - root - DEBUG - Connection active
+2022-11-11 09:36:23,076 - root - INFO - Moved \09-36-17.csv' to long term storage
+2022-11-11 09:36:23,108 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:23,113 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:23,191 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:23,234 - root - DEBUG - Connection active
+2022-11-11 09:36:23,261 - root - INFO - Moved \09-36-19.csv' to long term storage
+2022-11-11 09:36:23,297 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:23,299 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:23,377 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:23,415 - root - DEBUG - Connection active
+2022-11-11 09:36:23,427 - root - INFO - Moved \09-36-20.csv' to long term storage
+2022-11-11 09:36:23,450 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:23,455 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:23,517 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:23,564 - root - DEBUG - Connection active
+2022-11-11 09:36:23,587 - root - INFO - Moved \09-36-21.csv' to long term storage
+2022-11-11 09:36:23,611 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:23,612 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:23,677 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:23,713 - root - DEBUG - Connection active
+2022-11-11 09:36:23,730 - root - INFO - Moved \09-36-22.csv' to long term storage
+2022-11-11 09:36:23,759 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 09:36:23,761 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 09:36:23,832 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 09:36:23,860 - root - DEBUG - Connection active
+2022-11-11 09:36:23,869 - root - INFO - Moved \09-36-23.csv' to long term storage
+2022-11-11 09:36:23,901 - root - INFO - No new files will check in 5 seconds
+2022-11-11 09:36:25,589 - root - ERROR - Fatal Error
+2022-11-11 09:36:25,590 - root - DEBUG - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\send.py", line 239, in main
+    sleep(5)
+KeyboardInterrupt
+
+2022-11-11 09:36:25,590 - root - INFO - Will Attempt Reconection in 5 seconds

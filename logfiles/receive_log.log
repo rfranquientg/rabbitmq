@@ -1,160 +1,69 @@
-2022-11-10 19:03:42,492 - root - DEBUG - Connection active
-2022-11-10 19:03:42,500 - root - INFO - Recieved 19-03-37.csv
-2022-11-10 19:03:42,509 - root - INFO - File 19-03-37.csv stored successfully
-2022-11-10 19:03:42,510 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:42,541 - root - DEBUG - Connection active
-2022-11-10 19:03:42,543 - root - INFO - Recieved 19-03-38.csv
-2022-11-10 19:03:42,553 - root - INFO - File 19-03-38.csv stored successfully
-2022-11-10 19:03:42,554 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:42,594 - root - DEBUG - Connection active
-2022-11-10 19:03:42,596 - root - INFO - Recieved 19-03-39.csv
-2022-11-10 19:03:42,608 - root - INFO - File 19-03-39.csv stored successfully
-2022-11-10 19:03:42,610 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:42,642 - root - DEBUG - Connection active
-2022-11-10 19:03:42,644 - root - INFO - Recieved 19-03-40.csv
-2022-11-10 19:03:42,652 - root - INFO - File 19-03-40.csv stored successfully
-2022-11-10 19:03:42,652 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:42,685 - root - DEBUG - Connection active
-2022-11-10 19:03:42,686 - root - INFO - Recieved 19-03-41.csv
-2022-11-10 19:03:42,691 - root - INFO - File 19-03-41.csv stored successfully
-2022-11-10 19:03:42,692 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:47,738 - root - DEBUG - Connection active
-2022-11-10 19:03:47,740 - root - INFO - Recieved 19-03-42.csv
-2022-11-10 19:03:47,749 - root - INFO - File 19-03-42.csv stored successfully
-2022-11-10 19:03:47,750 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:47,793 - root - DEBUG - Connection active
-2022-11-10 19:03:47,794 - root - INFO - Recieved 19-03-43.csv
-2022-11-10 19:03:47,804 - root - INFO - File 19-03-43.csv stored successfully
-2022-11-10 19:03:47,805 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:47,845 - root - DEBUG - Connection active
-2022-11-10 19:03:47,848 - root - INFO - Recieved 19-03-44.csv
-2022-11-10 19:03:47,856 - root - INFO - File 19-03-44.csv stored successfully
-2022-11-10 19:03:47,856 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:47,891 - root - DEBUG - Connection active
-2022-11-10 19:03:47,892 - root - INFO - Recieved 19-03-45.csv
-2022-11-10 19:03:47,905 - root - INFO - File 19-03-45.csv stored successfully
-2022-11-10 19:03:47,905 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:47,936 - root - DEBUG - Connection active
-2022-11-10 19:03:47,939 - root - INFO - Recieved 19-03-47.csv
-2022-11-10 19:03:47,946 - root - INFO - File 19-03-47.csv stored successfully
-2022-11-10 19:03:47,946 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:52,995 - root - DEBUG - Connection active
-2022-11-10 19:03:52,996 - root - INFO - Recieved 19-03-48.csv
-2022-11-10 19:03:53,250 - root - INFO - File 19-03-48.csv stored successfully
-2022-11-10 19:03:53,251 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:53,264 - root - DEBUG - Connection active
-2022-11-10 19:03:53,264 - root - INFO - Recieved 19-03-49.csv
-2022-11-10 19:03:53,273 - root - INFO - File 19-03-49.csv stored successfully
-2022-11-10 19:03:53,274 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:53,283 - root - DEBUG - Connection active
-2022-11-10 19:03:53,284 - root - INFO - Recieved 19-03-50.csv
-2022-11-10 19:03:53,292 - root - INFO - File 19-03-50.csv stored successfully
-2022-11-10 19:03:53,292 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:53,303 - root - DEBUG - Connection active
-2022-11-10 19:03:53,304 - root - INFO - Recieved 19-03-51.csv
-2022-11-10 19:03:53,309 - root - INFO - File 19-03-51.csv stored successfully
-2022-11-10 19:03:53,309 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:53,321 - root - DEBUG - Connection active
-2022-11-10 19:03:53,322 - root - INFO - Recieved 19-03-52.csv
-2022-11-10 19:03:53,327 - root - INFO - File 19-03-52.csv stored successfully
-2022-11-10 19:03:53,327 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:58,225 - root - DEBUG - Connection active
-2022-11-10 19:03:58,226 - root - INFO - Recieved 19-03-53.csv
-2022-11-10 19:03:58,232 - root - INFO - File 19-03-53.csv stored successfully
-2022-11-10 19:03:58,233 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:58,266 - root - DEBUG - Connection active
-2022-11-10 19:03:58,267 - root - INFO - Recieved 19-03-54.csv
-2022-11-10 19:03:58,275 - root - INFO - File 19-03-54.csv stored successfully
-2022-11-10 19:03:58,277 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:58,315 - root - DEBUG - Connection active
-2022-11-10 19:03:58,315 - root - INFO - Recieved 19-03-55.csv
-2022-11-10 19:03:58,326 - root - INFO - File 19-03-55.csv stored successfully
-2022-11-10 19:03:58,328 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:58,398 - root - DEBUG - Connection active
-2022-11-10 19:03:58,400 - root - INFO - Recieved 19-03-56.csv
-2022-11-10 19:03:58,409 - root - INFO - File 19-03-56.csv stored successfully
-2022-11-10 19:03:58,409 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:58,471 - root - DEBUG - Connection active
-2022-11-10 19:03:58,471 - root - INFO - Recieved 19-03-57.csv
-2022-11-10 19:03:58,483 - root - INFO - File 19-03-57.csv stored successfully
-2022-11-10 19:03:58,484 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:03:58,548 - root - DEBUG - Connection active
-2022-11-10 19:03:58,548 - root - INFO - Recieved 19-03-58.csv
-2022-11-10 19:03:58,555 - root - INFO - File 19-03-58.csv stored successfully
-2022-11-10 19:03:58,556 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:03,620 - root - DEBUG - Connection active
-2022-11-10 19:04:03,621 - root - INFO - Recieved 19-03-59.csv
-2022-11-10 19:04:03,631 - root - INFO - File 19-03-59.csv stored successfully
-2022-11-10 19:04:03,631 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:03,668 - root - DEBUG - Connection active
-2022-11-10 19:04:03,670 - root - INFO - Recieved 19-04-00.csv
-2022-11-10 19:04:03,679 - root - INFO - File 19-04-00.csv stored successfully
-2022-11-10 19:04:03,680 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:03,727 - root - DEBUG - Connection active
-2022-11-10 19:04:03,728 - root - INFO - Recieved 19-04-01.csv
-2022-11-10 19:04:03,741 - root - INFO - File 19-04-01.csv stored successfully
-2022-11-10 19:04:03,742 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:03,819 - root - DEBUG - Connection active
-2022-11-10 19:04:03,820 - root - INFO - Recieved 19-04-02.csv
-2022-11-10 19:04:03,825 - root - INFO - File 19-04-02.csv stored successfully
-2022-11-10 19:04:03,826 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:03,858 - root - DEBUG - Connection active
-2022-11-10 19:04:03,859 - root - INFO - Recieved 19-04-03.csv
-2022-11-10 19:04:03,868 - root - INFO - File 19-04-03.csv stored successfully
-2022-11-10 19:04:03,869 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:08,920 - root - DEBUG - Connection active
-2022-11-10 19:04:08,921 - root - INFO - Recieved 19-04-04.csv
-2022-11-10 19:04:08,929 - root - INFO - File 19-04-04.csv stored successfully
-2022-11-10 19:04:08,930 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:08,969 - root - DEBUG - Connection active
-2022-11-10 19:04:08,970 - root - INFO - Recieved 19-04-05.csv
-2022-11-10 19:04:08,977 - root - INFO - File 19-04-05.csv stored successfully
-2022-11-10 19:04:08,977 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:09,023 - root - DEBUG - Connection active
-2022-11-10 19:04:09,024 - root - INFO - Recieved 19-04-06.csv
-2022-11-10 19:04:09,031 - root - INFO - File 19-04-06.csv stored successfully
-2022-11-10 19:04:09,031 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:09,067 - root - DEBUG - Connection active
-2022-11-10 19:04:09,068 - root - INFO - Recieved 19-04-07.csv
-2022-11-10 19:04:09,079 - root - INFO - File 19-04-07.csv stored successfully
-2022-11-10 19:04:09,079 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:09,118 - root - DEBUG - Connection active
-2022-11-10 19:04:09,120 - root - INFO - Recieved 19-04-08.csv
-2022-11-10 19:04:09,128 - root - INFO - File 19-04-08.csv stored successfully
-2022-11-10 19:04:09,128 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:14,185 - root - DEBUG - Connection active
-2022-11-10 19:04:14,185 - root - INFO - Recieved 19-04-09.csv
-2022-11-10 19:04:14,197 - root - INFO - File 19-04-09.csv stored successfully
-2022-11-10 19:04:14,198 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:14,231 - root - DEBUG - Connection active
-2022-11-10 19:04:14,232 - root - INFO - Recieved 19-04-10.csv
-2022-11-10 19:04:14,241 - root - INFO - File 19-04-10.csv stored successfully
-2022-11-10 19:04:14,242 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:14,276 - root - DEBUG - Connection active
-2022-11-10 19:04:14,278 - root - INFO - Recieved 19-04-11.csv
-2022-11-10 19:04:14,295 - root - INFO - File 19-04-11.csv stored successfully
-2022-11-10 19:04:14,298 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:14,403 - root - DEBUG - Connection active
-2022-11-10 19:04:14,406 - root - INFO - Recieved 19-04-12.csv
-2022-11-10 19:04:14,419 - root - INFO - File 19-04-12.csv stored successfully
-2022-11-10 19:04:14,422 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:14,467 - root - DEBUG - Connection active
-2022-11-10 19:04:14,468 - root - INFO - Recieved 19-04-13.csv
-2022-11-10 19:04:14,474 - root - INFO - File 19-04-13.csv stored successfully
-2022-11-10 19:04:14,476 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:19,542 - root - DEBUG - Connection active
-2022-11-10 19:04:19,542 - root - INFO - Recieved 19-04-14.csv
-2022-11-10 19:04:19,554 - root - INFO - File 19-04-14.csv stored successfully
-2022-11-10 19:04:19,555 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:19,606 - root - DEBUG - Connection active
-2022-11-10 19:04:19,606 - root - INFO - Recieved 19-04-15.csv
-2022-11-10 19:04:19,617 - root - INFO - File 19-04-15.csv stored successfully
-2022-11-10 19:04:19,618 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:19,675 - root - DEBUG - Connection active
-2022-11-10 19:04:19,677 - root - INFO - Recieved 19-04-16.csv
-2022-11-10 19:04:19,687 - root - INFO - File 19-04-16.csv stored successfully
-2022-11-10 19:04:19,687 - root - INFO -  [*] Waiting for messages.
-2022-11-10 19:04:19,737 - root - DEBUG - Connection active
-2022-11-10 19:04:19,737 - root - INFO - Recieved 19-04-17.csv
-2022-11-10 19:04:19,747 - root - INFO - File 19-04-17.csv stored successfully
-2022-11-10 19:04:19,749 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:10,786 - root - DEBUG - Connection active
+2022-11-11 09:36:10,806 - root - INFO - Recieved 09-36-06.csv
+2022-11-11 09:36:10,827 - root - INFO - File 09-36-06.csv stored successfully
+2022-11-11 09:36:10,829 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:10,943 - root - DEBUG - Connection active
+2022-11-11 09:36:10,947 - root - INFO - Recieved 09-36-07.csv
+2022-11-11 09:36:10,989 - root - INFO - File 09-36-07.csv stored successfully
+2022-11-11 09:36:10,994 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:11,152 - root - DEBUG - Connection active
+2022-11-11 09:36:11,154 - root - INFO - Recieved 09-36-08.csv
+2022-11-11 09:36:11,178 - root - INFO - File 09-36-08.csv stored successfully
+2022-11-11 09:36:11,187 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:11,331 - root - DEBUG - Connection active
+2022-11-11 09:36:11,339 - root - INFO - Recieved 09-36-09.csv
+2022-11-11 09:36:11,355 - root - INFO - File 09-36-09.csv stored successfully
+2022-11-11 09:36:11,358 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:11,509 - root - DEBUG - Connection active
+2022-11-11 09:36:11,511 - root - INFO - Recieved 09-36-10.csv
+2022-11-11 09:36:11,533 - root - INFO - File 09-36-10.csv stored successfully
+2022-11-11 09:36:11,535 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:16,569 - root - DEBUG - Connection active
+2022-11-11 09:36:16,570 - root - INFO - Recieved 09-36-11.csv
+2022-11-11 09:36:16,588 - root - INFO - File 09-36-11.csv stored successfully
+2022-11-11 09:36:16,591 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:16,707 - root - DEBUG - Connection active
+2022-11-11 09:36:16,708 - root - INFO - Recieved 09-36-12.csv
+2022-11-11 09:36:16,720 - root - INFO - File 09-36-12.csv stored successfully
+2022-11-11 09:36:16,721 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:16,790 - root - DEBUG - Connection active
+2022-11-11 09:36:16,790 - root - INFO - Recieved 09-36-13.csv
+2022-11-11 09:36:16,801 - root - INFO - File 09-36-13.csv stored successfully
+2022-11-11 09:36:16,801 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:16,875 - root - DEBUG - Connection active
+2022-11-11 09:36:16,876 - root - INFO - Recieved 09-36-14.csv
+2022-11-11 09:36:16,893 - root - INFO - File 09-36-14.csv stored successfully
+2022-11-11 09:36:16,899 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:17,011 - root - DEBUG - Connection active
+2022-11-11 09:36:17,015 - root - INFO - Recieved 09-36-15.csv
+2022-11-11 09:36:17,031 - root - INFO - File 09-36-15.csv stored successfully
+2022-11-11 09:36:17,038 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:17,154 - root - DEBUG - Connection active
+2022-11-11 09:36:17,157 - root - INFO - Recieved 09-36-16.csv
+2022-11-11 09:36:17,167 - root - INFO - File 09-36-16.csv stored successfully
+2022-11-11 09:36:17,168 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:23,140 - root - DEBUG - Connection active
+2022-11-11 09:36:23,145 - root - INFO - Recieved 09-36-17.csv
+2022-11-11 09:36:23,164 - root - INFO - File 09-36-17.csv stored successfully
+2022-11-11 09:36:23,167 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:23,303 - root - DEBUG - Connection active
+2022-11-11 09:36:23,307 - root - INFO - Recieved 09-36-19.csv
+2022-11-11 09:36:23,340 - root - INFO - File 09-36-19.csv stored successfully
+2022-11-11 09:36:23,349 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:23,462 - root - DEBUG - Connection active
+2022-11-11 09:36:23,462 - root - INFO - Recieved 09-36-20.csv
+2022-11-11 09:36:23,481 - root - INFO - File 09-36-20.csv stored successfully
+2022-11-11 09:36:23,483 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:23,616 - root - DEBUG - Connection active
+2022-11-11 09:36:23,617 - root - INFO - Recieved 09-36-21.csv
+2022-11-11 09:36:23,641 - root - INFO - File 09-36-21.csv stored successfully
+2022-11-11 09:36:23,645 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:23,775 - root - DEBUG - Connection active
+2022-11-11 09:36:23,776 - root - INFO - Recieved 09-36-22.csv
+2022-11-11 09:36:23,797 - root - INFO - File 09-36-22.csv stored successfully
+2022-11-11 09:36:23,799 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:23,908 - root - DEBUG - Connection active
+2022-11-11 09:36:23,909 - root - INFO - Recieved 09-36-23.csv
+2022-11-11 09:36:23,924 - root - INFO - File 09-36-23.csv stored successfully
+2022-11-11 09:36:23,925 - root - INFO -  [*] Waiting for messages.
+2022-11-11 09:36:33,935 - root - ERROR - Unknown Connection Failure, network might be down..
