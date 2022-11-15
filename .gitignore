@@ -1,2 +1,8 @@
 # ignore ALL .log files
 *.log
+rabbitMQ/
+logfiles/
+
+
+
+
