@@ -1,0 +1,404 @@
+2022-11-11 14:57:37,721 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:57:37,726 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:57:37,756 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:57:37,761 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-11 14:57:37,770 - root - DEBUG - Connection active
+2022-11-11 14:57:37,770 - root - INFO - Recieved 12-47-56.csv
+2022-11-11 14:57:37,779 - root - INFO - File 12-47-56.csv stored successfully
+2022-11-11 14:57:37,780 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,791 - root - DEBUG - Connection active
+2022-11-11 14:57:37,792 - root - INFO - Recieved 12-47-57.csv
+2022-11-11 14:57:37,797 - root - INFO - File 12-47-57.csv stored successfully
+2022-11-11 14:57:37,797 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,809 - root - DEBUG - Connection active
+2022-11-11 14:57:37,809 - root - INFO - Recieved 12-47-58.csv
+2022-11-11 14:57:37,814 - root - INFO - File 12-47-58.csv stored successfully
+2022-11-11 14:57:37,815 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,828 - root - DEBUG - Connection active
+2022-11-11 14:57:37,828 - root - INFO - Recieved 12-47-59.csv
+2022-11-11 14:57:37,835 - root - INFO - File 12-47-59.csv stored successfully
+2022-11-11 14:57:37,836 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,846 - root - DEBUG - Connection active
+2022-11-11 14:57:37,846 - root - INFO - Recieved 12-48-00.csv
+2022-11-11 14:57:37,854 - root - INFO - File 12-48-00.csv stored successfully
+2022-11-11 14:57:37,855 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,863 - root - DEBUG - Connection active
+2022-11-11 14:57:37,864 - root - INFO - Recieved 12-48-01.csv
+2022-11-11 14:57:37,873 - root - INFO - File 12-48-01.csv stored successfully
+2022-11-11 14:57:37,873 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,884 - root - DEBUG - Connection active
+2022-11-11 14:57:37,885 - root - INFO - Recieved 12-48-02.csv
+2022-11-11 14:57:37,891 - root - INFO - File 12-48-02.csv stored successfully
+2022-11-11 14:57:37,892 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,902 - root - DEBUG - Connection active
+2022-11-11 14:57:37,903 - root - INFO - Recieved 12-48-03.csv
+2022-11-11 14:57:37,908 - root - INFO - File 12-48-03.csv stored successfully
+2022-11-11 14:57:37,909 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,920 - root - DEBUG - Connection active
+2022-11-11 14:57:37,921 - root - INFO - Recieved 12-48-04.csv
+2022-11-11 14:57:37,926 - root - INFO - File 12-48-04.csv stored successfully
+2022-11-11 14:57:37,926 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,938 - root - DEBUG - Connection active
+2022-11-11 14:57:37,939 - root - INFO - Recieved 12-48-05.csv
+2022-11-11 14:57:37,944 - root - INFO - File 12-48-05.csv stored successfully
+2022-11-11 14:57:37,944 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,959 - root - DEBUG - Connection active
+2022-11-11 14:57:37,959 - root - INFO - Recieved 12-48-07.csv
+2022-11-11 14:57:37,964 - root - INFO - File 12-48-07.csv stored successfully
+2022-11-11 14:57:37,965 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:37,980 - root - DEBUG - Connection active
+2022-11-11 14:57:37,981 - root - INFO - Recieved 12-48-08.csv
+2022-11-11 14:57:37,988 - root - INFO - File 12-48-08.csv stored successfully
+2022-11-11 14:57:37,990 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,005 - root - DEBUG - Connection active
+2022-11-11 14:57:38,007 - root - INFO - Recieved 12-48-09.csv
+2022-11-11 14:57:38,013 - root - INFO - File 12-48-09.csv stored successfully
+2022-11-11 14:57:38,013 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,028 - root - DEBUG - Connection active
+2022-11-11 14:57:38,028 - root - INFO - Recieved 12-48-10.csv
+2022-11-11 14:57:38,038 - root - INFO - File 12-48-10.csv stored successfully
+2022-11-11 14:57:38,039 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,048 - root - DEBUG - Connection active
+2022-11-11 14:57:38,049 - root - INFO - Recieved 12-48-11.csv
+2022-11-11 14:57:38,058 - root - INFO - File 12-48-11.csv stored successfully
+2022-11-11 14:57:38,059 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,075 - root - DEBUG - Connection active
+2022-11-11 14:57:38,075 - root - INFO - Recieved 12-48-12.csv
+2022-11-11 14:57:38,088 - root - INFO - File 12-48-12.csv stored successfully
+2022-11-11 14:57:38,090 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,102 - root - DEBUG - Connection active
+2022-11-11 14:57:38,104 - root - INFO - Recieved 12-48-13.csv
+2022-11-11 14:57:38,110 - root - INFO - File 12-48-13.csv stored successfully
+2022-11-11 14:57:38,110 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,129 - root - DEBUG - Connection active
+2022-11-11 14:57:38,130 - root - INFO - Recieved 12-48-14.csv
+2022-11-11 14:57:38,139 - root - INFO - File 12-48-14.csv stored successfully
+2022-11-11 14:57:38,139 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,155 - root - DEBUG - Connection active
+2022-11-11 14:57:38,156 - root - INFO - Recieved 12-48-15.csv
+2022-11-11 14:57:38,165 - root - INFO - File 12-48-15.csv stored successfully
+2022-11-11 14:57:38,166 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,182 - root - DEBUG - Connection active
+2022-11-11 14:57:38,183 - root - INFO - Recieved 12-48-16.csv
+2022-11-11 14:57:38,195 - root - INFO - File 12-48-16.csv stored successfully
+2022-11-11 14:57:38,195 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,212 - root - DEBUG - Connection active
+2022-11-11 14:57:38,213 - root - INFO - Recieved 12-48-17.csv
+2022-11-11 14:57:38,222 - root - INFO - File 12-48-17.csv stored successfully
+2022-11-11 14:57:38,224 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,239 - root - DEBUG - Connection active
+2022-11-11 14:57:38,240 - root - INFO - Recieved 12-48-18.csv
+2022-11-11 14:57:38,246 - root - INFO - File 12-48-18.csv stored successfully
+2022-11-11 14:57:38,246 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,262 - root - DEBUG - Connection active
+2022-11-11 14:57:38,263 - root - INFO - Recieved 12-48-19.csv
+2022-11-11 14:57:38,273 - root - INFO - File 12-48-19.csv stored successfully
+2022-11-11 14:57:38,275 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,291 - root - DEBUG - Connection active
+2022-11-11 14:57:38,292 - root - INFO - Recieved 12-48-20.csv
+2022-11-11 14:57:38,297 - root - INFO - File 12-48-20.csv stored successfully
+2022-11-11 14:57:38,297 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,310 - root - DEBUG - Connection active
+2022-11-11 14:57:38,311 - root - INFO - Recieved 12-48-21.csv
+2022-11-11 14:57:38,317 - root - INFO - File 12-48-21.csv stored successfully
+2022-11-11 14:57:38,318 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,330 - root - DEBUG - Connection active
+2022-11-11 14:57:38,331 - root - INFO - Recieved 12-48-22.csv
+2022-11-11 14:57:38,340 - root - INFO - File 12-48-22.csv stored successfully
+2022-11-11 14:57:38,340 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,348 - root - DEBUG - Connection active
+2022-11-11 14:57:38,349 - root - INFO - Recieved 12-48-23.csv
+2022-11-11 14:57:38,358 - root - INFO - File 12-48-23.csv stored successfully
+2022-11-11 14:57:38,359 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,371 - root - DEBUG - Connection active
+2022-11-11 14:57:38,372 - root - INFO - Recieved 12-48-24.csv
+2022-11-11 14:57:38,380 - root - INFO - File 12-48-24.csv stored successfully
+2022-11-11 14:57:38,380 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,395 - root - DEBUG - Connection active
+2022-11-11 14:57:38,396 - root - INFO - Recieved 12-48-25.csv
+2022-11-11 14:57:38,404 - root - INFO - File 12-48-25.csv stored successfully
+2022-11-11 14:57:38,406 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:38,420 - root - DEBUG - Connection active
+2022-11-11 14:57:38,422 - root - INFO - Recieved 12-48-26.csv
+2022-11-11 14:57:38,429 - root - INFO - File 12-48-26.csv stored successfully
+2022-11-11 14:57:38,429 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:46,236 - root - DEBUG - Connection active
+2022-11-11 14:57:46,236 - root - INFO - Recieved 14-57-45.csv
+2022-11-11 14:57:46,244 - root - INFO - File 14-57-45.csv stored successfully
+2022-11-11 14:57:46,245 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:47,150 - root - DEBUG - Connection active
+2022-11-11 14:57:47,151 - root - INFO - Recieved 14-57-46.csv
+2022-11-11 14:57:47,157 - root - INFO - File 14-57-46.csv stored successfully
+2022-11-11 14:57:47,159 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:51,294 - root - DEBUG - Connection active
+2022-11-11 14:57:51,295 - root - INFO - Recieved 14-57-47.csv
+2022-11-11 14:57:51,308 - root - INFO - File 14-57-47.csv stored successfully
+2022-11-11 14:57:51,308 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:51,341 - root - DEBUG - Connection active
+2022-11-11 14:57:51,341 - root - INFO - Recieved 14-57-48.csv
+2022-11-11 14:57:51,351 - root - INFO - File 14-57-48.csv stored successfully
+2022-11-11 14:57:51,352 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:51,390 - root - DEBUG - Connection active
+2022-11-11 14:57:51,391 - root - INFO - Recieved 14-57-49.csv
+2022-11-11 14:57:51,400 - root - INFO - File 14-57-49.csv stored successfully
+2022-11-11 14:57:51,402 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:51,440 - root - DEBUG - Connection active
+2022-11-11 14:57:51,441 - root - INFO - Recieved 14-57-51.csv
+2022-11-11 14:57:51,448 - root - INFO - File 14-57-51.csv stored successfully
+2022-11-11 14:57:51,449 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:52,213 - root - DEBUG - Connection active
+2022-11-11 14:57:52,214 - root - INFO - Recieved 14-57-52.csv
+2022-11-11 14:57:52,222 - root - INFO - File 14-57-52.csv stored successfully
+2022-11-11 14:57:52,222 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:56,510 - root - DEBUG - Connection active
+2022-11-11 14:57:56,512 - root - INFO - Recieved 14-57-53.csv
+2022-11-11 14:57:56,522 - root - INFO - File 14-57-53.csv stored successfully
+2022-11-11 14:57:56,524 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:56,561 - root - DEBUG - Connection active
+2022-11-11 14:57:56,562 - root - INFO - Recieved 14-57-54.csv
+2022-11-11 14:57:56,570 - root - INFO - File 14-57-54.csv stored successfully
+2022-11-11 14:57:56,572 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:56,614 - root - DEBUG - Connection active
+2022-11-11 14:57:56,615 - root - INFO - Recieved 14-57-55.csv
+2022-11-11 14:57:56,627 - root - INFO - File 14-57-55.csv stored successfully
+2022-11-11 14:57:56,628 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:56,665 - root - DEBUG - Connection active
+2022-11-11 14:57:56,665 - root - INFO - Recieved 14-57-56.csv
+2022-11-11 14:57:56,674 - root - INFO - File 14-57-56.csv stored successfully
+2022-11-11 14:57:56,675 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:57:57,262 - root - DEBUG - Connection active
+2022-11-11 14:57:57,263 - root - INFO - Recieved 14-57-57.csv
+2022-11-11 14:57:57,270 - root - INFO - File 14-57-57.csv stored successfully
+2022-11-11 14:57:57,271 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:01,724 - root - DEBUG - Connection active
+2022-11-11 14:58:01,726 - root - INFO - Recieved 14-57-58.csv
+2022-11-11 14:58:01,733 - root - INFO - File 14-57-58.csv stored successfully
+2022-11-11 14:58:01,734 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:01,781 - root - DEBUG - Connection active
+2022-11-11 14:58:01,782 - root - INFO - Recieved 14-57-59.csv
+2022-11-11 14:58:01,790 - root - INFO - File 14-57-59.csv stored successfully
+2022-11-11 14:58:01,791 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:01,826 - root - DEBUG - Connection active
+2022-11-11 14:58:01,827 - root - INFO - Recieved 14-58-00.csv
+2022-11-11 14:58:01,837 - root - INFO - File 14-58-00.csv stored successfully
+2022-11-11 14:58:01,838 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:01,879 - root - DEBUG - Connection active
+2022-11-11 14:58:01,880 - root - INFO - Recieved 14-58-01.csv
+2022-11-11 14:58:01,885 - root - INFO - File 14-58-01.csv stored successfully
+2022-11-11 14:58:01,885 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:06,933 - root - DEBUG - Connection active
+2022-11-11 14:58:06,934 - root - INFO - Recieved 14-58-02.csv
+2022-11-11 14:58:06,940 - root - INFO - File 14-58-02.csv stored successfully
+2022-11-11 14:58:06,941 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:06,981 - root - DEBUG - Connection active
+2022-11-11 14:58:06,983 - root - INFO - Recieved 14-58-03.csv
+2022-11-11 14:58:06,990 - root - INFO - File 14-58-03.csv stored successfully
+2022-11-11 14:58:06,991 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:07,030 - root - DEBUG - Connection active
+2022-11-11 14:58:07,031 - root - INFO - Recieved 14-58-04.csv
+2022-11-11 14:58:07,040 - root - INFO - File 14-58-04.csv stored successfully
+2022-11-11 14:58:07,040 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:07,078 - root - DEBUG - Connection active
+2022-11-11 14:58:07,083 - root - INFO - Recieved 14-58-05.csv
+2022-11-11 14:58:07,092 - root - INFO - File 14-58-05.csv stored successfully
+2022-11-11 14:58:07,093 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:07,138 - root - DEBUG - Connection active
+2022-11-11 14:58:07,138 - root - INFO - Recieved 14-58-06.csv
+2022-11-11 14:58:07,146 - root - INFO - File 14-58-06.csv stored successfully
+2022-11-11 14:58:07,149 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:12,213 - root - DEBUG - Connection active
+2022-11-11 14:58:12,214 - root - INFO - Recieved 14-58-07.csv
+2022-11-11 14:58:12,225 - root - INFO - File 14-58-07.csv stored successfully
+2022-11-11 14:58:12,227 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:12,268 - root - DEBUG - Connection active
+2022-11-11 14:58:12,271 - root - INFO - Recieved 14-58-08.csv
+2022-11-11 14:58:12,281 - root - INFO - File 14-58-08.csv stored successfully
+2022-11-11 14:58:12,282 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:12,331 - root - DEBUG - Connection active
+2022-11-11 14:58:12,332 - root - INFO - Recieved 14-58-09.csv
+2022-11-11 14:58:12,346 - root - INFO - File 14-58-09.csv stored successfully
+2022-11-11 14:58:12,347 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:12,374 - root - DEBUG - Connection active
+2022-11-11 14:58:12,377 - root - INFO - Recieved 14-58-09.csv
+2022-11-11 14:58:12,380 - root - ERROR - Unknown Connection Failure, network might be down..
+2022-11-11 14:58:12,409 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 126, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 851, in process_data_events
+    self._dispatch_channel_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 567, in _dispatch_channel_events
+    impl_channel._get_cookie()._dispatch_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1510, in _dispatch_events
+    consumer_info.on_message_callback(self, evt.method,
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 117, in callback
+    decodeFile(body)
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 107, in decodeFile
+    f.write(base64.b64decode(messageDict["Data"]))
+  File "C:\Users\rfranqui\Miniconda3\lib\base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "C:\Users\rfranqui\Miniconda3\lib\base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+
+2022-11-11 14:58:12,411 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:58:12,412 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:58:12,447 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:58:12,447 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:58:12,448 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:58:12,478 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:58:12,480 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-11 14:58:17,536 - root - DEBUG - Connection active
+2022-11-11 14:58:17,538 - root - INFO - Recieved 14-58-12.csv
+2022-11-11 14:58:17,549 - root - INFO - File 14-58-12.csv stored successfully
+2022-11-11 14:58:17,550 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:17,598 - root - DEBUG - Connection active
+2022-11-11 14:58:17,599 - root - INFO - Recieved 14-58-13.csv
+2022-11-11 14:58:17,614 - root - INFO - File 14-58-13.csv stored successfully
+2022-11-11 14:58:17,614 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:17,659 - root - DEBUG - Connection active
+2022-11-11 14:58:17,661 - root - INFO - Recieved 14-58-14.csv
+2022-11-11 14:58:17,670 - root - INFO - File 14-58-14.csv stored successfully
+2022-11-11 14:58:17,671 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:17,716 - root - DEBUG - Connection active
+2022-11-11 14:58:17,717 - root - INFO - Recieved 14-58-15.csv
+2022-11-11 14:58:17,730 - root - INFO - File 14-58-15.csv stored successfully
+2022-11-11 14:58:17,732 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:17,785 - root - DEBUG - Connection active
+2022-11-11 14:58:17,785 - root - INFO - Recieved 14-58-16.csv
+2022-11-11 14:58:17,797 - root - INFO - File 14-58-16.csv stored successfully
+2022-11-11 14:58:17,798 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:22,873 - root - DEBUG - Connection active
+2022-11-11 14:58:22,873 - root - INFO - Recieved 14-58-17.csv
+2022-11-11 14:58:22,885 - root - INFO - File 14-58-17.csv stored successfully
+2022-11-11 14:58:22,886 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:22,930 - root - DEBUG - Connection active
+2022-11-11 14:58:22,932 - root - INFO - Recieved 14-58-18.csv
+2022-11-11 14:58:22,945 - root - INFO - File 14-58-18.csv stored successfully
+2022-11-11 14:58:22,947 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:23,005 - root - DEBUG - Connection active
+2022-11-11 14:58:23,005 - root - INFO - Recieved 14-58-19.csv
+2022-11-11 14:58:23,019 - root - INFO - File 14-58-19.csv stored successfully
+2022-11-11 14:58:23,021 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:23,066 - root - DEBUG - Connection active
+2022-11-11 14:58:23,068 - root - INFO - Recieved 14-58-20.csv
+2022-11-11 14:58:23,078 - root - INFO - File 14-58-20.csv stored successfully
+2022-11-11 14:58:23,079 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:23,138 - root - DEBUG - Connection active
+2022-11-11 14:58:23,139 - root - INFO - Recieved 14-58-21.csv
+2022-11-11 14:58:23,149 - root - INFO - File 14-58-21.csv stored successfully
+2022-11-11 14:58:23,150 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:23,196 - root - DEBUG - Connection active
+2022-11-11 14:58:23,197 - root - INFO - Recieved 14-58-21.csv
+2022-11-11 14:58:23,203 - root - ERROR - Unknown Connection Failure, network might be down..
+2022-11-11 14:58:23,204 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 126, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 851, in process_data_events
+    self._dispatch_channel_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 567, in _dispatch_channel_events
+    impl_channel._get_cookie()._dispatch_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1510, in _dispatch_events
+    consumer_info.on_message_callback(self, evt.method,
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 117, in callback
+    decodeFile(body)
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 107, in decodeFile
+    f.write(base64.b64decode(messageDict["Data"]))
+  File "C:\Users\rfranqui\Miniconda3\lib\base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "C:\Users\rfranqui\Miniconda3\lib\base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+
+2022-11-11 14:58:23,205 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:58:23,205 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:58:23,225 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:58:23,227 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:58:23,227 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:58:23,241 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:58:23,246 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-11 14:58:28,297 - root - DEBUG - Connection active
+2022-11-11 14:58:28,299 - root - INFO - Recieved 14-58-24.csv
+2022-11-11 14:58:28,310 - root - INFO - File 14-58-24.csv stored successfully
+2022-11-11 14:58:28,311 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:28,404 - root - DEBUG - Connection active
+2022-11-11 14:58:28,405 - root - INFO - Recieved 14-58-26.csv
+2022-11-11 14:58:28,408 - root - ERROR - Unknown Connection Failure, network might be down..
+2022-11-11 14:58:28,409 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 126, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 851, in process_data_events
+    self._dispatch_channel_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 567, in _dispatch_channel_events
+    impl_channel._get_cookie()._dispatch_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1510, in _dispatch_events
+    consumer_info.on_message_callback(self, evt.method,
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 117, in callback
+    decodeFile(body)
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 107, in decodeFile
+    f.write(base64.b64decode(messageDict["Data"]))
+  File "C:\Users\rfranqui\Miniconda3\lib\base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "C:\Users\rfranqui\Miniconda3\lib\base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+
+2022-11-11 14:58:28,410 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:58:28,410 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:58:28,433 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:58:28,435 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:58:28,435 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:58:28,459 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:58:28,462 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C
+2022-11-11 14:58:33,568 - root - DEBUG - Connection active
+2022-11-11 14:58:33,569 - root - INFO - Recieved 14-58-30.csv
+2022-11-11 14:58:33,580 - root - INFO - File 14-58-30.csv stored successfully
+2022-11-11 14:58:33,580 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:33,684 - root - DEBUG - Connection active
+2022-11-11 14:58:33,685 - root - INFO - Recieved 14-58-32.csv
+2022-11-11 14:58:33,697 - root - INFO - File 14-58-32.csv stored successfully
+2022-11-11 14:58:33,698 - root - INFO -  [*] Waiting for messages.
+2022-11-11 14:58:33,759 - root - DEBUG - Connection active
+2022-11-11 14:58:33,762 - root - INFO - Recieved 14-58-32.csv
+2022-11-11 14:58:33,766 - root - ERROR - Unknown Connection Failure, network might be down..
+2022-11-11 14:58:33,767 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 126, in main
+    channel.start_consuming()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1883, in start_consuming
+    self._process_data_events(time_limit=None)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 2044, in _process_data_events
+    self.connection.process_data_events(time_limit=time_limit)
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 851, in process_data_events
+    self._dispatch_channel_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 567, in _dispatch_channel_events
+    impl_channel._get_cookie()._dispatch_events()
+  File "C:\Users\rfranqui\Miniconda3\lib\site-packages\pika\adapters\blocking_connection.py", line 1510, in _dispatch_events
+    consumer_info.on_message_callback(self, evt.method,
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 117, in callback
+    decodeFile(body)
+  File "C:\Users\rfranqui\OneDrive - Entegris\Documents\P\Projects\RabbitMQ\src\recieve.py", line 107, in decodeFile
+    f.write(base64.b64decode(messageDict["Data"]))
+  File "C:\Users\rfranqui\Miniconda3\lib\base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "C:\Users\rfranqui\Miniconda3\lib\base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+
+2022-11-11 14:58:33,767 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:58:33,768 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:58:33,787 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:58:33,789 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 14:58:33,789 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 14:58:33,809 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 14:58:33,814 - root - INFO -  [*] Waiting for messages. To exit press CTRL+C

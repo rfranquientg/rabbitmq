@@ -1,6 +1,6 @@
 configuration:
-  nrows: 100
-  number_of_files : 100
+  nrows: 1000000
+  number_of_files : 1
   target_directory: C:\test_dir\source\
   log_file_name: generator.log
   delay : 1

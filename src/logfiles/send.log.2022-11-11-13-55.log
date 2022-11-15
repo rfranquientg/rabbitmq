@@ -1,0 +1,18 @@
+2022-11-11 13:54:21,885 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 13:54:21,888 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 13:54:51,838 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 13:54:51,838 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 13:54:51,841 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 13:54:51,841 - root - ERROR - Incorrect path in source or storage directories, please correct and restart program
+2022-11-11 13:54:56,855 - root - INFO - Moved \rolando.txt' to long term storage
+2022-11-11 13:54:56,951 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 13:54:56,953 - root - ERROR - Incorrect path in source or storage directories, please correct and restart program
+2022-11-11 13:55:01,972 - root - INFO - Moved \rolando.txt' to long term storage
+2022-11-11 13:55:40,778 - asyncio - INFO - Ignoring dont_parse.docx because fileype is not allowed
+2022-11-11 13:55:40,778 - asyncio - INFO - Adding dont_parse.docx to skip list
+2022-11-11 13:55:40,779 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 13:55:40,780 - root - ERROR - Incorrect path in source or storage directories, please correct and restart program
+2022-11-11 13:55:45,800 - root - INFO - Moved \rolando.txt' to long term storage
+2022-11-11 13:55:45,811 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 13:55:45,812 - root - ERROR - Incorrect path in source or storage directories, please correct and restart program
+2022-11-11 13:55:50,840 - root - INFO - Moved \rolando.txt' to long term storage

@@ -1,0 +1,4 @@
+2022-11-11 14:58:38,938 - root - DEBUG - Connection active
+2022-11-11 14:58:38,947 - root - INFO - Recieved 14-58-37.csv
+2022-11-11 14:58:38,956 - root - INFO - File 14-58-37.csv stored successfully
+2022-11-11 14:58:38,957 - root - INFO -  [*] Waiting for messages.

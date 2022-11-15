@@ -1,0 +1,12 @@
+2022-11-11 15:13:59,723 - root - INFO - Archival, and Source Directories are valid, proceeding to next step
+2022-11-11 15:13:59,728 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 15:13:59,729 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 15:13:59,758 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 15:13:59,767 - root - DEBUG - Connection active
+2022-11-11 15:14:00,641 - root - INFO - Moved \15-13-46.csv' to long term storage
+2022-11-11 15:14:31,330 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:14:36,341 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:14:41,356 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:14:46,374 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:14:51,392 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:14:56,405 - root - INFO - No new files will check in 5 seconds

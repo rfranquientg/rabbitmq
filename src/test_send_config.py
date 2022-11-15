@@ -12,7 +12,7 @@ dir2 = r"\\DESKTOP-ROY\rabbitmq_target\machine1\lab1\test.txt"
 def test_getFiles():
     output = getFiles(sourceDir)
     print(output)
-    assert output == ['test_dirs\\source\\mike.txt', 'test_dirs\\source\\rolando.txt'], "Expected Files are not there"
+    assert output == ['test_dirs\\source\\mike.txt'], "Expected Files are not there"
 
 def test_checkDirectory_valid():
     assert checkDirectory(sourceDir, archiveDir) == True, "Valid Directories not being accepted"

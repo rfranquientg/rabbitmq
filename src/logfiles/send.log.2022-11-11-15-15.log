@@ -1,0 +1,10 @@
+2022-11-11 15:15:01,419 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:15:06,443 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:15:11,455 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:15:16,457 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:15:21,465 - root - INFO - No new files will check in 5 seconds
+2022-11-11 15:15:26,471 - root - INFO - Initiating Connection to RabbitMQ Instance
+2022-11-11 15:15:26,472 - root - INFO - Attempting Devmode Connection to RabbitMQ
+2022-11-11 15:15:26,489 - root - INFO - Connection to RabbitMQ sucessful
+2022-11-11 15:15:26,498 - root - DEBUG - Connection active
+2022-11-11 15:15:27,379 - root - INFO - Moved \15-15-15.csv' to long term storage
